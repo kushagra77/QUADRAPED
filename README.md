@@ -1,2 +1,2 @@
 # QUADRAPED
-CREATErLABS project building a little puppy robot
+CREATErLABS project building a little kitty robot
