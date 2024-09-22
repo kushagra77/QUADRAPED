@@ -56,6 +56,12 @@ public:
 
         back_right_upper_servo = new Servo(back_right_upper);
         back_right_lower_servo = new Servo(back_right_lower);
+
+        position_publisher_ = this->create_publisher<quadruped_interfaces::msg::Pos>("destination", 10);
+        
+        subscription_angles_ = this->create_subscription<quadruped_interfaces::msg::Pos>(
+            "joint_angles", 10, std::bind(&MotorConfig::angles_callback, this, std::placeholders::_1)
+        );
     }
 
     // void create()
@@ -120,30 +126,27 @@ public:
 
     void crawl_gait()
     {
-        std::vector<std::pair<float, float>> relative_positions = {
-            {0.1f, 0.2f}, {0.2f, 0.15f}, {0.3f, 0.1f}, {0.4f, 0.05f}
+        std::vector<std::vector<std::pair<double, double>>> relative_positions = {
+            { {2.0, 1.0}, {1.5, 1.2}, {0.5, 0.8}, {-0.5, 1.5} },
+            { {-2.0, 0.8}, {-1.5, 1.4}, {0.0, 1.0}, {0.5, 1.2} },
+            { {1.8, 1.1}, {1.2, 1.6}, {0.3, 0.9}, {-0.3, 1.4} },
+            { {-1.8, 0.9}, {-1.2, 1.3}, {0.2, 1.0}, {0.4, 1.5} },
+            { {2.0, 1.0}, {1.5, 1.2}, {0.5, 0.7}, {-0.5, 1.4} },
+            { {-2.0, 1.2}, {-1.5, 1.0}, {0.0, 1.1}, {0.6, 1.3} },
+            { {1.9, 1.0}, {1.4, 1.5}, {0.4, 0.6}, {-0.4, 1.6} },
+            { {-1.9, 0.7}, {-1.4, 1.2}, {0.1, 1.0}, {0.5, 1.4} } 
         };
 
-        for (const auto& position : relative_positions)
+        
+
+        for (const auto& gait_phase : relative_positions)
         {
-            auto [x, z] = position;
-            std::pair<float, float> angles1 = ik->calculate_angles(x, z);
-            std::pair<float, float> angles2 = ik->calculate_angles(x, z);
-            std::pair<float, float> angles3 = ik->calculate_angles(x, z);
-            std::pair<float, float> angles4 = ik->calculate_angles(x, z);
-
-            move_abs_angle(front_left_upper_servo, front_left_upper, angles1.first);
-            move_abs_angle(front_left_lower_servo, front_left_lower, angles1.second);
-
-            move_abs_angle(front_right_upper_servo, front_right_upper, angles2.first);
-            move_abs_angle(front_right_lower_servo, front_right_lower, angles2.second);
-
-            move_abs_angle(back_left_upper_servo, back_left_upper, angles3.first);
-            move_abs_angle(back_left_lower_servo, back_left_lower, angles3.second);
-
-            move_abs_angle(back_right_upper_servo, back_right_upper, angles4.first);
-            move_abs_angle(back_right_lower_servo, back_right_upper, angles4.second);
-
+            for (const auto& position : gait_phase) {
+                quadruped_interfaces::msg::Pos msg;
+                msg.x = position.first;
+                msg.z = position.second;
+                position_publisher_->publish(msg);
+            }
             rclcpp::sleep_for(std::chrono::milliseconds(500));
         }
     }
@@ -185,6 +188,36 @@ private:
             servo.goDegree(angle);
         }
     }
+
+    void gait_callback(const quadruped_interfaces::msg::Pos::SharedPtr msg) {
+        // Process angles from inverse kinematics node each time the invk publisher updates
+        double angle1 = msg->x;
+        double angle2 = msg->z;
+
+        if (leg_num == 0) {
+            move_abs_angle(front_left_upper_servo, front_left_upper, angle1);
+            move_abs_angle(front_left_lower_servo, front_left_lower, angle2);
+        } else if (leg_num == 1) {
+            move_abs_angle(front_right_upper_servo, front_right_upper, angle1);
+            move_abs_angle(front_right_lower_servo, front_right_lower, angle2);
+        } else if (leg_num == 2) {
+            move_abs_angle(back_left_upper_servo, back_left_upper, angle1);
+            move_abs_angle(back_left_lower_servo, back_left_lower, angle2);
+        } else if (leg_num == 3) {
+            move_abs_angle(back_right_upper_servo, back_right_upper, angle1);
+            move_abs_angle(back_right_lower_servo, back_right_upper, angle2);
+        }
+
+        leg_num++;
+        if (leg_num == 4) {
+            leg_num = 0;
+        }
+    }
+
+    rclcpp::Publisher<quadruped_interfaces::msg::Pos>::SharedPtr position_publisher_;
+    rclcpp::Subscription<quadruped_interfaces::msg::Pos>::SharedPtr subscription_;
+
+    int leg_num = 0;
 };
 
 int main(int argc, char **argv)

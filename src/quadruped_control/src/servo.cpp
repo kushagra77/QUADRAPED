@@ -18,7 +18,7 @@ Servo::Servo(uint8_t gp) {
 	gpioPWM(gp, ROTATE_0);
 }
 
-void Servo::goDegree(float degree){
+void Servo::goDegree(double degree){
 	if (degree > 180.0){
 		return;
 	}
@@ -26,9 +26,9 @@ void Servo::goDegree(float degree){
 		return;
 	}
 
-	int duty = (((float)(ROTATE_180 - ROTATE_0) / 180.0) * degree) + ROTATE_0;
+	int duty = (((double)(ROTATE_180 - ROTATE_0) / 180.0) * degree) + ROTATE_0;
 
-	printf("PWM for %f deg is %d duty\n", degree, duty);
+	// printf("PWM for %f deg is %d duty\n", degree, duty);
 
 	gpioPWM(xGP, duty);
 }

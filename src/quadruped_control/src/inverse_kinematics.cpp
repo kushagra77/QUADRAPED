@@ -54,7 +54,7 @@ private:
             auto message = quadruped_interfaces::msg::Pos();
             message.data = new_coords;
             publisher_->publish(message);
-            new_position_received_ = false;  // Reset the flag
+            new_position_received_ = false;
         }
     }
 
