@@ -1,0 +1,190 @@
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:[m[K In constructor ‘[01m[KMotorConfig::MotorConfig()[m[K’:
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:43:30:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::array<std::array<int, 4>, 2>[m[K’ and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+   43 |                 {12, 8, 0, 4}[01;31m[K}[m[K;
+      |                              [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+                 from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:1[m[K:
+[01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::array<std::array<int, 4>, 2>& std::array<std::array<int, 4>, 2>::operator=(const std::array<std::array<int, 4>, 2>&)[m[K’
+   95 |     struct [01;36m[Karray[m[K
+      |            [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::array<std::array<int, 4>, 2>&[m[K’
+[01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::array<std::array<int, 4>, 2>& std::array<std::array<int, 4>, 2>::operator=(std::array<std::array<int, 4>, 2>&&)[m[K’
+[01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::array<std::array<int, 4>, 2>&&[m[K’
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:48:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfront_left_upper_servo[m[K’ was not declared in this scope; did you mean ‘[01m[Kfront_left_upper[m[K’?
+   48 |         [01;31m[Kfront_left_upper_servo[m[K = new Servo(front_left_upper);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kfront_left_upper[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:49:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfront_left_lower_servo[m[K’ was not declared in this scope; did you mean ‘[01m[Kfront_left_lower[m[K’?
+   49 |         [01;31m[Kfront_left_lower_servo[m[K = new Servo(front_left_lower);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kfront_left_lower[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfront_right_upper_servo[m[K’ was not declared in this scope; did you mean ‘[01m[Kfront_right_upper[m[K’?
+   51 |         [01;31m[Kfront_right_upper_servo[m[K = new Servo(front_right_upper);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kfront_right_upper[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:52:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfront_right_lower_servo[m[K’ was not declared in this scope; did you mean ‘[01m[Kfront_right_lower[m[K’?
+   52 |         [01;31m[Kfront_right_lower_servo[m[K = new Servo(front_right_lower);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kfront_right_lower[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:54:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kback_left_upper_servo[m[K’ was not declared in this scope; did you mean ‘[01m[Kback_left_upper[m[K’?
+   54 |         [01;31m[Kback_left_upper_servo[m[K = new Servo(back_left_upper);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kback_left_upper[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:55:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kback_left_lower_servo[m[K’ was not declared in this scope; did you mean ‘[01m[Kback_left_lower[m[K’?
+   55 |         [01;31m[Kback_left_lower_servo[m[K = new Servo(back_left_lower);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kback_left_lower[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kback_right_upper_servo[m[K’ was not declared in this scope; did you mean ‘[01m[Kback_right_upper[m[K’?
+   57 |         [01;31m[Kback_right_upper_servo[m[K = new Servo(back_right_upper);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kback_right_upper[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:58:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kback_right_lower_servo[m[K’ was not declared in this scope; did you mean ‘[01m[Kback_right_lower[m[K’?
+   58 |         [01;31m[Kback_right_lower_servo[m[K = new Servo(back_right_lower);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kback_right_lower[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:60:129:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::vector<Servo>[m[K’ and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+   60 |         right_leg_servo_list = {front_right_upper_servo, front_right_lower_servo, back_right_upper_servo, back_right_lower_servo[01;31m[K}[m[K;
+      |                                                                                                                                 [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = Servo; _Alloc = std::allocator<Servo>][m[K’
+  198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::vector<Servo>&[m[K’
+  199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+      |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = Servo; _Alloc = std::allocator<Servo>][m[K’
+  709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<Servo>&&[m[K’
+  709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+      |                 [01;36m[K~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = Servo; _Alloc = std::allocator<Servo>][m[K’
+  730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::initializer_list<Servo>[m[K’
+  730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:61:125:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::vector<Servo>[m[K’ and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+   61 |         left_leg_servos_list = {front_left_upper_servo, front_left_lower_servo, back_left_upper_servo, back_left_lower_servo[01;31m[K}[m[K;
+      |                                                                                                                             [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = Servo; _Alloc = std::allocator<Servo>][m[K’
+  198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::vector<Servo>&[m[K’
+  199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+      |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = Servo; _Alloc = std::allocator<Servo>][m[K’
+  709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<Servo>&&[m[K’
+  709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+      |                 [01;36m[K~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = Servo; _Alloc = std::allocator<Servo>][m[K’
+  730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::initializer_list<Servo>[m[K’
+  730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:63:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kupper_servos[m[K’ was not declared in this scope
+   63 |         [01;31m[Kupper_servos[m[K = {front_left_upper_servo, front_right_upper_servo, back_left_upper_servo, back_right_upper_servo};
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:64:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klower_servos[m[K’ was not declared in this scope
+   64 |         [01;31m[Klower_servos[m[K = {front_left_lower_servo, front_right_lower_servo, back_left_lower_servo, back_right_lower_servo};
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:68:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_angles_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_[m[K’?
+   68 |         [01;31m[Ksubscription_angles_[m[K = this->create_subscription<quadruped_interfaces::msg::Pos>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Ksubscription_[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:69:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kangles_callback[m[K’ is not a member of ‘[01m[KMotorConfig[m[K’
+   69 |             "joint_angles", 10, std::bind(&MotorConfig::[01;31m[Kangles_callback[m[K, this, std::placeholders::_1)
+      |                                                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:[m[K In member function ‘[01m[Kvoid MotorConfig::gait_callback(quadruped_interfaces::msg::Pos_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:223:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kupper_servos[m[K’ was not declared in this scope
+  223 |         move_abs_angle([01;31m[Kupper_servos[m[K[leg_num/2], angle1);
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:224:24:[m[K [01;31m[Kerror: [m[K‘[01m[Klower_servos[m[K’ was not declared in this scope
+  224 |         move_abs_angle([01;31m[Klower_servos[m[K[leg_num/2], angle2);
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:71[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+                 from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:1[m[K:
+/usr/include/c++/11/bits/predefined_ops.h: In instantiation of ‘[01m[Kbool __gnu_cxx::__ops::_Iter_equals_val<_Value>::operator()(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<Servo*, std::vector<Servo> >; _Value = const Servo][m[K’:
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:2069:14:[m[K   required from ‘[01m[K_RandomAccessIterator std::__find_if(_RandomAccessIterator, _RandomAccessIterator, _Predicate, std::random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<Servo*, std::vector<Servo> >; _Predicate = __gnu_cxx::__ops::_Iter_equals_val<const Servo>][m[K’
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:2114:23:[m[K   required from ‘[01m[K_Iterator std::__find_if(_Iterator, _Iterator, _Predicate) [with _Iterator = __gnu_cxx::__normal_iterator<Servo*, std::vector<Servo> >; _Predicate = __gnu_cxx::__ops::_Iter_equals_val<const Servo>][m[K’
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3884:28:[m[K   required from ‘[01m[K_IIter std::find(_IIter, _IIter, const _Tp&) [with _IIter = __gnu_cxx::__normal_iterator<Servo*, std::vector<Servo> >; _Tp = Servo][m[K’
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:110:22:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/predefined_ops.h:270:24:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[KServo[m[K’ and ‘[01m[Kconst Servo[m[K’)
+  270 |         { return [01;31m[K*__it == _M_value[m[K; }
+      |                  [01;31m[K~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+                 from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1155:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)[m[K’
+ 1155 |     [01;36m[Koperator[m[K==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1155:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:71[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+                 from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/predefined_ops.h:270:24:[m[K [01;36m[Knote: [m[K  ‘[01m[KServo[m[K’ is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_IteratorL, _Container>[m[K’
+  270 |         { return [01;36m[K*__it == _M_value[m[K; }
+      |                  [01;36m[K~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+                 from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1163:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)[m[K’
+ 1163 |     [01;36m[Koperator[m[K==(const __normal_iterator<_Iterator, _Container>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1163:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:71[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+                 from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/predefined_ops.h:270:24:[m[K [01;36m[Knote: [m[K  ‘[01m[KServo[m[K’ is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’
+  270 |         { return [01;36m[K*__it == _M_value[m[K; }
+      |                  [01;36m[K~~~~~~^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/motor_config.dir/build.make:76: CMakeFiles/motor_config.dir/src/motor_config.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/motor_config.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

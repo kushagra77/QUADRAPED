@@ -1,0 +1,5 @@
+[31mCMake Error at cmake_install.cmake:54 (file):
+  file INSTALL cannot set permissions on "/opt/pigpio/cgi": Operation not
+  permitted.
+
+[0m

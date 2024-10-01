@@ -1,0 +1,16 @@
+/home/jonnydang2004/QUADRAPED/build/pigpio/CMakeFiles/pigpio.dir
+/home/jonnydang2004/QUADRAPED/build/pigpio/CMakeFiles/pigpiod_if.dir
+/home/jonnydang2004/QUADRAPED/build/pigpio/CMakeFiles/pigpiod_if2.dir
+/home/jonnydang2004/QUADRAPED/build/pigpio/CMakeFiles/x_pigpio.dir
+/home/jonnydang2004/QUADRAPED/build/pigpio/CMakeFiles/x_pigpiod_if.dir
+/home/jonnydang2004/QUADRAPED/build/pigpio/CMakeFiles/x_pigpiod_if2.dir
+/home/jonnydang2004/QUADRAPED/build/pigpio/CMakeFiles/pigpiod.dir
+/home/jonnydang2004/QUADRAPED/build/pigpio/CMakeFiles/pigs.dir
+/home/jonnydang2004/QUADRAPED/build/pigpio/CMakeFiles/pig2vcd.dir
+/home/jonnydang2004/QUADRAPED/build/pigpio/CMakeFiles/uninstall.dir
+/home/jonnydang2004/QUADRAPED/build/pigpio/CMakeFiles/edit_cache.dir
+/home/jonnydang2004/QUADRAPED/build/pigpio/CMakeFiles/rebuild_cache.dir
+/home/jonnydang2004/QUADRAPED/build/pigpio/CMakeFiles/list_install_components.dir
+/home/jonnydang2004/QUADRAPED/build/pigpio/CMakeFiles/install.dir
+/home/jonnydang2004/QUADRAPED/build/pigpio/CMakeFiles/install/local.dir
+/home/jonnydang2004/QUADRAPED/build/pigpio/CMakeFiles/install/strip.dir

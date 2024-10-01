@@ -1,0 +1,24 @@
+[0.084s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_interfaces -- -j4 -l4
+[0.439s] [  2%] Built target quadruped_interfaces__rosidl_generator_type_description
+[0.495s] [  2%] Built target ament_cmake_python_copy_quadruped_interfaces
+[0.601s] [  5%] Built target quadruped_interfaces__cpp
+[0.686s] [ 20%] Built target quadruped_interfaces__rosidl_generator_c
+[0.933s] [ 32%] Built target quadruped_interfaces__rosidl_typesupport_introspection_cpp
+[0.939s] [ 38%] Built target quadruped_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.949s] [ 47%] Built target quadruped_interfaces__rosidl_typesupport_cpp
+[1.156s] [ 55%] Built target quadruped_interfaces__rosidl_typesupport_fastrtps_c
+[1.169s] [ 64%] Built target quadruped_interfaces__rosidl_typesupport_introspection_c
+[1.183s] [ 73%] Built target quadruped_interfaces__rosidl_typesupport_c
+[1.398s] [ 73%] Built target quadruped_interfaces
+[1.723s] [ 76%] Built target quadruped_interfaces__py
+[2.049s] [ 82%] Built target quadruped_interfaces__rosidl_generator_py
+[2.332s] [ 88%] Built target quadruped_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.348s] [ 94%] Built target quadruped_interfaces__rosidl_typesupport_c__pyext
+[2.385s] [100%] Built target quadruped_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.226s] running egg_info
+[3.228s] writing quadruped_interfaces.egg-info/PKG-INFO
+[3.229s] writing dependency_links to quadruped_interfaces.egg-info/dependency_links.txt
+[3.229s] writing top-level names to quadruped_interfaces.egg-info/top_level.txt
+[3.236s] reading manifest file 'quadruped_interfaces.egg-info/SOURCES.txt'
+[3.244s] writing manifest file 'quadruped_interfaces.egg-info/SOURCES.txt'
+[3.365s] [100%] Built target ament_cmake_python_build_quadruped_interfaces_egg

@@ -1,0 +1,29 @@
+[0.064s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/pigpio': /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/pigpio -- -j4 -l4
+[0.299s] [35m[1mConsolidate compiler generated dependencies of target pigpiod_if[0m
+[0.361s] [35m[1mConsolidate compiler generated dependencies of target pigpiod_if2[0m
+[0.361s] [35m[1mConsolidate compiler generated dependencies of target pigpio[0m
+[0.431s] [35m[1mConsolidate compiler generated dependencies of target pigs[0m
+[0.534s] [ 13%] Built target pigpiod_if2
+[0.534s] [ 26%] Built target pigpiod_if
+[0.564s] [ 39%] Built target pigs
+[0.581s] [35m[1mConsolidate compiler generated dependencies of target pig2vcd[0m
+[0.602s] [35m[1mConsolidate compiler generated dependencies of target x_pigpiod_if2[0m
+[0.615s] [ 52%] Built target pigpio
+[0.615s] [35m[1mConsolidate compiler generated dependencies of target x_pigpiod_if[0m
+[0.653s] [35m[1mConsolidate compiler generated dependencies of target x_pigpio[0m
+[0.658s] [ 65%] Built target pig2vcd
+[0.678s] [ 73%] Built target x_pigpiod_if
+[0.683s] [ 82%] Built target x_pigpiod_if2
+[0.709s] [ 91%] Built target x_pigpio
+[0.722s] [35m[1mConsolidate compiler generated dependencies of target pigpiod[0m
+[0.789s] [100%] Built target pigpiod
+[0.936s] Invoked command in '/home/jonnydang2004/QUADRAPED/build/pigpio' returned '0': /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/pigpio -- -j4 -l4
+[1.391s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/pigpio': /usr/bin/cmake --install /home/jonnydang2004/QUADRAPED/build/pigpio
+[1.431s] -- Install configuration: ""
+[1.434s] -- Up-to-date: /opt/pigpio/cgi
+[1.441s] [31mCMake Error at cmake_install.cmake:54 (file):
+[1.441s]   file INSTALL cannot set permissions on "/opt/pigpio/cgi": Operation not
+[1.442s]   permitted.
+[1.442s] 
+[1.445s] [0m
+[1.455s] Invoked command in '/home/jonnydang2004/QUADRAPED/build/pigpio' returned '1': /usr/bin/cmake --install /home/jonnydang2004/QUADRAPED/build/pigpio

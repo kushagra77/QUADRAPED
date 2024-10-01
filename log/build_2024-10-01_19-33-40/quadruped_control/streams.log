@@ -1,0 +1,645 @@
+[0.324s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4
+[0.422s] [35m[1mConsolidate compiler generated dependencies of target motor_config[0m
+[0.474s] [ 50%] Built target inverse_kinematics
+[0.514s] [ 75%] [32mBuilding CXX object CMakeFiles/motor_config.dir/src/motor_config.cpp.o[0m
+[9.513s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:[m[K In constructor ‘[01m[KMotorConfig::MotorConfig()[m[K’:
+[9.513s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:20:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KServo::Servo()[m[K’
+[9.513s]    20 |     : Node("motor_config"), pwm_max(2400), pwm_min(370[01;31m[K)[m[K
+[9.514s]       |                                                       [01;31m[K^[m[K
+[9.514s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.514s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.514s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.514s]       |     [01;36m[K^~~~~[m[K
+[9.515s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.515s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(const Servo&)[m[K’
+[9.515s]     5 | class [01;36m[KServo[m[K {
+[9.515s]       |       [01;36m[K^~~~~[m[K
+[9.515s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.515s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(Servo&&)[m[K’
+[9.516s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.516s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:20:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KServo::Servo()[m[K’
+[9.516s]    20 |     : Node("motor_config"), pwm_max(2400), pwm_min(370[01;31m[K)[m[K
+[9.516s]       |                                                       [01;31m[K^[m[K
+[9.516s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.517s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.517s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.517s]       |     [01;36m[K^~~~~[m[K
+[9.517s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.517s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(const Servo&)[m[K’
+[9.518s]     5 | class [01;36m[KServo[m[K {
+[9.518s]       |       [01;36m[K^~~~~[m[K
+[9.518s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.518s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(Servo&&)[m[K’
+[9.518s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.518s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:20:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KServo::Servo()[m[K’
+[9.519s]    20 |     : Node("motor_config"), pwm_max(2400), pwm_min(370[01;31m[K)[m[K
+[9.519s]       |                                                       [01;31m[K^[m[K
+[9.519s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.519s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.519s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.520s]       |     [01;36m[K^~~~~[m[K
+[9.520s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.522s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(const Servo&)[m[K’
+[9.522s]     5 | class [01;36m[KServo[m[K {
+[9.523s]       |       [01;36m[K^~~~~[m[K
+[9.523s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.523s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(Servo&&)[m[K’
+[9.523s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.523s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:20:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KServo::Servo()[m[K’
+[9.523s]    20 |     : Node("motor_config"), pwm_max(2400), pwm_min(370[01;31m[K)[m[K
+[9.524s]       |                                                       [01;31m[K^[m[K
+[9.524s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.524s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.524s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.524s]       |     [01;36m[K^~~~~[m[K
+[9.525s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.525s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(const Servo&)[m[K’
+[9.525s]     5 | class [01;36m[KServo[m[K {
+[9.525s]       |       [01;36m[K^~~~~[m[K
+[9.526s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.526s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(Servo&&)[m[K’
+[9.526s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.526s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:20:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KServo::Servo()[m[K’
+[9.526s]    20 |     : Node("motor_config"), pwm_max(2400), pwm_min(370[01;31m[K)[m[K
+[9.527s]       |                                                       [01;31m[K^[m[K
+[9.527s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.527s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.527s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.528s]       |     [01;36m[K^~~~~[m[K
+[9.528s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.528s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(const Servo&)[m[K’
+[9.528s]     5 | class [01;36m[KServo[m[K {
+[9.528s]       |       [01;36m[K^~~~~[m[K
+[9.529s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.529s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(Servo&&)[m[K’
+[9.529s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.529s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:20:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KServo::Servo()[m[K’
+[9.530s]    20 |     : Node("motor_config"), pwm_max(2400), pwm_min(370[01;31m[K)[m[K
+[9.530s]       |                                                       [01;31m[K^[m[K
+[9.530s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.530s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.531s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.531s]       |     [01;36m[K^~~~~[m[K
+[9.531s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.531s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(const Servo&)[m[K’
+[9.531s]     5 | class [01;36m[KServo[m[K {
+[9.531s]       |       [01;36m[K^~~~~[m[K
+[9.532s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.532s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(Servo&&)[m[K’
+[9.532s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.532s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:20:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KServo::Servo()[m[K’
+[9.532s]    20 |     : Node("motor_config"), pwm_max(2400), pwm_min(370[01;31m[K)[m[K
+[9.533s]       |                                                       [01;31m[K^[m[K
+[9.533s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.533s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.534s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.534s]       |     [01;36m[K^~~~~[m[K
+[9.534s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.535s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(const Servo&)[m[K’
+[9.535s]     5 | class [01;36m[KServo[m[K {
+[9.535s]       |       [01;36m[K^~~~~[m[K
+[9.535s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.536s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(Servo&&)[m[K’
+[9.536s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.536s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:20:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KServo::Servo()[m[K’
+[9.536s]    20 |     : Node("motor_config"), pwm_max(2400), pwm_min(370[01;31m[K)[m[K
+[9.537s]       |                                                       [01;31m[K^[m[K
+[9.537s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.537s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.538s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.538s]       |     [01;36m[K^~~~~[m[K
+[9.538s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.539s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(const Servo&)[m[K’
+[9.539s]     5 | class [01;36m[KServo[m[K {
+[9.539s]       |       [01;36m[K^~~~~[m[K
+[9.539s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.540s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(Servo&&)[m[K’
+[9.540s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.561s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:43:30:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::array<std::array<int, 4>, 2>[m[K’ and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[9.561s]    43 |                 {12, 8, 0, 4}[01;31m[K}[m[K;
+[9.561s]       |                              [01;31m[K^[m[K
+[9.561s] In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[9.562s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[9.562s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[9.562s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+[9.562s]                  from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:1[m[K:
+[9.562s] [01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::array<std::array<int, 4>, 2>& std::array<std::array<int, 4>, 2>::operator=(const std::array<std::array<int, 4>, 2>&)[m[K’
+[9.562s]    95 |     struct [01;36m[Karray[m[K
+[9.563s]       |            [01;36m[K^~~~~[m[K
+[9.563s] [01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::array<std::array<int, 4>, 2>&[m[K’
+[9.563s] [01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::array<std::array<int, 4>, 2>& std::array<std::array<int, 4>, 2>::operator=(std::array<std::array<int, 4>, 2>&&)[m[K’
+[9.563s] [01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::array<std::array<int, 4>, 2>&&[m[K’
+[9.563s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:48:60:[m[K [01;31m[Kerror: [m[Kambiguous overload for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KServo[m[K’ and ‘[01m[KServo*[m[K’)
+[9.563s]    48 |         front_left_upper_servo = new Servo(front_left_upper[01;31m[K)[m[K;
+[9.564s]       |                                                            [01;31m[K^[m[K
+[9.564s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.564s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo& Servo::operator=(const Servo&)[m[K’ (near match)
+[9.565s]     5 | class [01;36m[KServo[m[K {
+[9.567s]       |       [01;36m[K^~~~~[m[K
+[9.567s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.568s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:48:34:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kconst Servo&[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.572s]    48 |         front_left_upper_servo = [01;31m[Knew Servo(front_left_upper)[m[K;
+[9.572s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.572s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.573s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KServo::Servo(uint8_t)[m[K’ (near match)
+[9.573s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.573s]       |     [01;36m[K^~~~~[m[K
+[9.573s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.573s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:48:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.573s]    48 |         front_left_upper_servo = [01;31m[Knew Servo(front_left_upper)[m[K;
+[9.574s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.574s]       |                                  [01;31m[K|[m[K
+[9.574s]       |                                  [01;31m[KServo*[m[K
+[9.574s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:48:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.574s]    48 |         front_left_upper_servo = [01;31m[Knew Servo(front_left_upper)[m[K;
+[9.574s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.575s]       |                                  [01;31m[K|[m[K
+[9.575s]       |                                  [01;31m[KServo*[m[K
+[9.575s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.575s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.577s]     7 |     Servo([01;36m[Kuint8_t gp[m[K);
+[9.577s]       |           [01;36m[K~~~~~~~~^~[m[K
+[9.578s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo& Servo::operator=(Servo&&)[m[K’ (near match)
+[9.578s]     5 | class [01;36m[KServo[m[K {
+[9.578s]       |       [01;36m[K^~~~~[m[K
+[9.578s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.579s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:48:34:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KServo*[m[K’ to ‘[01m[KServo&&[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.579s]    48 |         front_left_upper_servo = [01;31m[Knew Servo(front_left_upper)[m[K;
+[9.579s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.579s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.579s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KServo::Servo(uint8_t)[m[K’ (near match)
+[9.579s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.580s]       |     [01;36m[K^~~~~[m[K
+[9.580s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.580s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:48:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.580s]    48 |         front_left_upper_servo = [01;31m[Knew Servo(front_left_upper)[m[K;
+[9.580s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.580s]       |                                  [01;31m[K|[m[K
+[9.580s]       |                                  [01;31m[KServo*[m[K
+[9.581s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:48:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.581s]    48 |         front_left_upper_servo = [01;31m[Knew Servo(front_left_upper)[m[K;
+[9.581s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.582s]       |                                  [01;31m[K|[m[K
+[9.582s]       |                                  [01;31m[KServo*[m[K
+[9.582s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.582s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.582s]     7 |     Servo([01;36m[Kuint8_t gp[m[K);
+[9.582s]       |           [01;36m[K~~~~~~~~^~[m[K
+[9.583s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:49:60:[m[K [01;31m[Kerror: [m[Kambiguous overload for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KServo[m[K’ and ‘[01m[KServo*[m[K’)
+[9.583s]    49 |         front_left_lower_servo = new Servo(front_left_lower[01;31m[K)[m[K;
+[9.583s]       |                                                            [01;31m[K^[m[K
+[9.583s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.584s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo& Servo::operator=(const Servo&)[m[K’ (near match)
+[9.584s]     5 | class [01;36m[KServo[m[K {
+[9.585s]       |       [01;36m[K^~~~~[m[K
+[9.585s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.585s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:49:34:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kconst Servo&[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.585s]    49 |         front_left_lower_servo = [01;31m[Knew Servo(front_left_lower)[m[K;
+[9.586s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.586s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.586s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KServo::Servo(uint8_t)[m[K’ (near match)
+[9.586s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.587s]       |     [01;36m[K^~~~~[m[K
+[9.587s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.588s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:49:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.592s]    49 |         front_left_lower_servo = [01;31m[Knew Servo(front_left_lower)[m[K;
+[9.592s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.593s]       |                                  [01;31m[K|[m[K
+[9.593s]       |                                  [01;31m[KServo*[m[K
+[9.593s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:49:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.593s]    49 |         front_left_lower_servo = [01;31m[Knew Servo(front_left_lower)[m[K;
+[9.593s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.593s]       |                                  [01;31m[K|[m[K
+[9.594s]       |                                  [01;31m[KServo*[m[K
+[9.594s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.594s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.594s]     7 |     Servo([01;36m[Kuint8_t gp[m[K);
+[9.594s]       |           [01;36m[K~~~~~~~~^~[m[K
+[9.594s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo& Servo::operator=(Servo&&)[m[K’ (near match)
+[9.594s]     5 | class [01;36m[KServo[m[K {
+[9.595s]       |       [01;36m[K^~~~~[m[K
+[9.595s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.595s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:49:34:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KServo*[m[K’ to ‘[01m[KServo&&[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.595s]    49 |         front_left_lower_servo = [01;31m[Knew Servo(front_left_lower)[m[K;
+[9.595s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.595s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.596s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KServo::Servo(uint8_t)[m[K’ (near match)
+[9.596s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.596s]       |     [01;36m[K^~~~~[m[K
+[9.596s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.596s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:49:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.596s]    49 |         front_left_lower_servo = [01;31m[Knew Servo(front_left_lower)[m[K;
+[9.596s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.597s]       |                                  [01;31m[K|[m[K
+[9.597s]       |                                  [01;31m[KServo*[m[K
+[9.597s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:49:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.597s]    49 |         front_left_lower_servo = [01;31m[Knew Servo(front_left_lower)[m[K;
+[9.598s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.598s]       |                                  [01;31m[K|[m[K
+[9.598s]       |                                  [01;31m[KServo*[m[K
+[9.598s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.598s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.598s]     7 |     Servo([01;36m[Kuint8_t gp[m[K);
+[9.599s]       |           [01;36m[K~~~~~~~~^~[m[K
+[9.599s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:51:62:[m[K [01;31m[Kerror: [m[Kambiguous overload for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KServo[m[K’ and ‘[01m[KServo*[m[K’)
+[9.599s]    51 |         front_right_upper_servo = new Servo(front_right_upper[01;31m[K)[m[K;
+[9.599s]       |                                                              [01;31m[K^[m[K
+[9.599s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.600s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo& Servo::operator=(const Servo&)[m[K’ (near match)
+[9.600s]     5 | class [01;36m[KServo[m[K {
+[9.600s]       |       [01;36m[K^~~~~[m[K
+[9.600s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.600s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:51:35:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kconst Servo&[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.600s]    51 |         front_right_upper_servo = [01;31m[Knew Servo(front_right_upper)[m[K;
+[9.601s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.601s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.601s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KServo::Servo(uint8_t)[m[K’ (near match)
+[9.602s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.602s]       |     [01;36m[K^~~~~[m[K
+[9.602s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.602s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:51:35:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.602s]    51 |         front_right_upper_servo = [01;31m[Knew Servo(front_right_upper)[m[K;
+[9.603s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.603s]       |                                   [01;31m[K|[m[K
+[9.603s]       |                                   [01;31m[KServo*[m[K
+[9.603s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:51:35:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.603s]    51 |         front_right_upper_servo = [01;31m[Knew Servo(front_right_upper)[m[K;
+[9.604s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.604s]       |                                   [01;31m[K|[m[K
+[9.604s]       |                                   [01;31m[KServo*[m[K
+[9.604s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.604s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.607s]     7 |     Servo([01;36m[Kuint8_t gp[m[K);
+[9.607s]       |           [01;36m[K~~~~~~~~^~[m[K
+[9.607s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo& Servo::operator=(Servo&&)[m[K’ (near match)
+[9.607s]     5 | class [01;36m[KServo[m[K {
+[9.607s]       |       [01;36m[K^~~~~[m[K
+[9.608s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.608s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:51:35:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KServo*[m[K’ to ‘[01m[KServo&&[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.608s]    51 |         front_right_upper_servo = [01;31m[Knew Servo(front_right_upper)[m[K;
+[9.608s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.608s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.608s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KServo::Servo(uint8_t)[m[K’ (near match)
+[9.609s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.609s]       |     [01;36m[K^~~~~[m[K
+[9.609s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.609s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:51:35:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.609s]    51 |         front_right_upper_servo = [01;31m[Knew Servo(front_right_upper)[m[K;
+[9.610s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.610s]       |                                   [01;31m[K|[m[K
+[9.610s]       |                                   [01;31m[KServo*[m[K
+[9.610s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:51:35:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.610s]    51 |         front_right_upper_servo = [01;31m[Knew Servo(front_right_upper)[m[K;
+[9.611s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.611s]       |                                   [01;31m[K|[m[K
+[9.611s]       |                                   [01;31m[KServo*[m[K
+[9.611s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.611s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.611s]     7 |     Servo([01;36m[Kuint8_t gp[m[K);
+[9.612s]       |           [01;36m[K~~~~~~~~^~[m[K
+[9.612s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:52:62:[m[K [01;31m[Kerror: [m[Kambiguous overload for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KServo[m[K’ and ‘[01m[KServo*[m[K’)
+[9.612s]    52 |         front_right_lower_servo = new Servo(front_right_lower[01;31m[K)[m[K;
+[9.612s]       |                                                              [01;31m[K^[m[K
+[9.612s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.613s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo& Servo::operator=(const Servo&)[m[K’ (near match)
+[9.613s]     5 | class [01;36m[KServo[m[K {
+[9.613s]       |       [01;36m[K^~~~~[m[K
+[9.613s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.613s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:52:35:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kconst Servo&[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.614s]    52 |         front_right_lower_servo = [01;31m[Knew Servo(front_right_lower)[m[K;
+[9.614s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.614s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.614s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KServo::Servo(uint8_t)[m[K’ (near match)
+[9.614s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.614s]       |     [01;36m[K^~~~~[m[K
+[9.614s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.615s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:52:35:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.615s]    52 |         front_right_lower_servo = [01;31m[Knew Servo(front_right_lower)[m[K;
+[9.615s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.615s]       |                                   [01;31m[K|[m[K
+[9.615s]       |                                   [01;31m[KServo*[m[K
+[9.615s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:52:35:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.616s]    52 |         front_right_lower_servo = [01;31m[Knew Servo(front_right_lower)[m[K;
+[9.616s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.616s]       |                                   [01;31m[K|[m[K
+[9.617s]       |                                   [01;31m[KServo*[m[K
+[9.618s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.618s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.619s]     7 |     Servo([01;36m[Kuint8_t gp[m[K);
+[9.619s]       |           [01;36m[K~~~~~~~~^~[m[K
+[9.619s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo& Servo::operator=(Servo&&)[m[K’ (near match)
+[9.620s]     5 | class [01;36m[KServo[m[K {
+[9.620s]       |       [01;36m[K^~~~~[m[K
+[9.620s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.620s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:52:35:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KServo*[m[K’ to ‘[01m[KServo&&[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.621s]    52 |         front_right_lower_servo = [01;31m[Knew Servo(front_right_lower)[m[K;
+[9.621s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.621s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.621s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KServo::Servo(uint8_t)[m[K’ (near match)
+[9.621s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.622s]       |     [01;36m[K^~~~~[m[K
+[9.622s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.622s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:52:35:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.622s]    52 |         front_right_lower_servo = [01;31m[Knew Servo(front_right_lower)[m[K;
+[9.623s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.623s]       |                                   [01;31m[K|[m[K
+[9.623s]       |                                   [01;31m[KServo*[m[K
+[9.623s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:52:35:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.623s]    52 |         front_right_lower_servo = [01;31m[Knew Servo(front_right_lower)[m[K;
+[9.624s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.624s]       |                                   [01;31m[K|[m[K
+[9.624s]       |                                   [01;31m[KServo*[m[K
+[9.624s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.624s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.625s]     7 |     Servo([01;36m[Kuint8_t gp[m[K);
+[9.625s]       |           [01;36m[K~~~~~~~~^~[m[K
+[9.625s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:54:58:[m[K [01;31m[Kerror: [m[Kambiguous overload for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KServo[m[K’ and ‘[01m[KServo*[m[K’)
+[9.625s]    54 |         back_left_upper_servo = new Servo(back_left_upper[01;31m[K)[m[K;
+[9.625s]       |                                                          [01;31m[K^[m[K
+[9.626s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.626s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo& Servo::operator=(const Servo&)[m[K’ (near match)
+[9.626s]     5 | class [01;36m[KServo[m[K {
+[9.626s]       |       [01;36m[K^~~~~[m[K
+[9.627s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.627s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:54:33:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kconst Servo&[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.628s]    54 |         back_left_upper_servo = [01;31m[Knew Servo(back_left_upper)[m[K;
+[9.628s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.628s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.628s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KServo::Servo(uint8_t)[m[K’ (near match)
+[9.629s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.629s]       |     [01;36m[K^~~~~[m[K
+[9.631s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.631s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:54:33:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.631s]    54 |         back_left_upper_servo = [01;31m[Knew Servo(back_left_upper)[m[K;
+[9.631s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.632s]       |                                 [01;31m[K|[m[K
+[9.632s]       |                                 [01;31m[KServo*[m[K
+[9.635s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:54:33:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.636s]    54 |         back_left_upper_servo = [01;31m[Knew Servo(back_left_upper)[m[K;
+[9.636s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.637s]       |                                 [01;31m[K|[m[K
+[9.637s]       |                                 [01;31m[KServo*[m[K
+[9.637s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.638s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.638s]     7 |     Servo([01;36m[Kuint8_t gp[m[K);
+[9.639s]       |           [01;36m[K~~~~~~~~^~[m[K
+[9.639s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo& Servo::operator=(Servo&&)[m[K’ (near match)
+[9.639s]     5 | class [01;36m[KServo[m[K {
+[9.640s]       |       [01;36m[K^~~~~[m[K
+[9.640s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.640s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:54:33:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KServo*[m[K’ to ‘[01m[KServo&&[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.641s]    54 |         back_left_upper_servo = [01;31m[Knew Servo(back_left_upper)[m[K;
+[9.641s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.641s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.641s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KServo::Servo(uint8_t)[m[K’ (near match)
+[9.643s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.643s]       |     [01;36m[K^~~~~[m[K
+[9.646s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.646s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:54:33:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.647s]    54 |         back_left_upper_servo = [01;31m[Knew Servo(back_left_upper)[m[K;
+[9.647s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.647s]       |                                 [01;31m[K|[m[K
+[9.648s]       |                                 [01;31m[KServo*[m[K
+[9.651s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:54:33:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.651s]    54 |         back_left_upper_servo = [01;31m[Knew Servo(back_left_upper)[m[K;
+[9.651s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.652s]       |                                 [01;31m[K|[m[K
+[9.652s]       |                                 [01;31m[KServo*[m[K
+[9.652s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.652s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.652s]     7 |     Servo([01;36m[Kuint8_t gp[m[K);
+[9.653s]       |           [01;36m[K~~~~~~~~^~[m[K
+[9.653s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:55:58:[m[K [01;31m[Kerror: [m[Kambiguous overload for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KServo[m[K’ and ‘[01m[KServo*[m[K’)
+[9.653s]    55 |         back_left_lower_servo = new Servo(back_left_lower[01;31m[K)[m[K;
+[9.653s]       |                                                          [01;31m[K^[m[K
+[9.653s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.654s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo& Servo::operator=(const Servo&)[m[K’ (near match)
+[9.654s]     5 | class [01;36m[KServo[m[K {
+[9.654s]       |       [01;36m[K^~~~~[m[K
+[9.654s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.654s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:55:33:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kconst Servo&[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.655s]    55 |         back_left_lower_servo = [01;31m[Knew Servo(back_left_lower)[m[K;
+[9.655s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.655s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.655s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KServo::Servo(uint8_t)[m[K’ (near match)
+[9.655s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.655s]       |     [01;36m[K^~~~~[m[K
+[9.656s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.656s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:55:33:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.656s]    55 |         back_left_lower_servo = [01;31m[Knew Servo(back_left_lower)[m[K;
+[9.656s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.657s]       |                                 [01;31m[K|[m[K
+[9.657s]       |                                 [01;31m[KServo*[m[K
+[9.657s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:55:33:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.657s]    55 |         back_left_lower_servo = [01;31m[Knew Servo(back_left_lower)[m[K;
+[9.657s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.658s]       |                                 [01;31m[K|[m[K
+[9.658s]       |                                 [01;31m[KServo*[m[K
+[9.658s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.658s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.658s]     7 |     Servo([01;36m[Kuint8_t gp[m[K);
+[9.659s]       |           [01;36m[K~~~~~~~~^~[m[K
+[9.659s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo& Servo::operator=(Servo&&)[m[K’ (near match)
+[9.659s]     5 | class [01;36m[KServo[m[K {
+[9.659s]       |       [01;36m[K^~~~~[m[K
+[9.659s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.660s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:55:33:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KServo*[m[K’ to ‘[01m[KServo&&[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.660s]    55 |         back_left_lower_servo = [01;31m[Knew Servo(back_left_lower)[m[K;
+[9.660s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.660s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.660s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KServo::Servo(uint8_t)[m[K’ (near match)
+[9.660s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.661s]       |     [01;36m[K^~~~~[m[K
+[9.661s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.661s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:55:33:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.661s]    55 |         back_left_lower_servo = [01;31m[Knew Servo(back_left_lower)[m[K;
+[9.661s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.662s]       |                                 [01;31m[K|[m[K
+[9.662s]       |                                 [01;31m[KServo*[m[K
+[9.663s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:55:33:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.663s]    55 |         back_left_lower_servo = [01;31m[Knew Servo(back_left_lower)[m[K;
+[9.663s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.663s]       |                                 [01;31m[K|[m[K
+[9.663s]       |                                 [01;31m[KServo*[m[K
+[9.663s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.664s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.664s]     7 |     Servo([01;36m[Kuint8_t gp[m[K);
+[9.664s]       |           [01;36m[K~~~~~~~~^~[m[K
+[9.664s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:57:60:[m[K [01;31m[Kerror: [m[Kambiguous overload for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KServo[m[K’ and ‘[01m[KServo*[m[K’)
+[9.664s]    57 |         back_right_upper_servo = new Servo(back_right_upper[01;31m[K)[m[K;
+[9.664s]       |                                                            [01;31m[K^[m[K
+[9.665s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.665s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo& Servo::operator=(const Servo&)[m[K’ (near match)
+[9.665s]     5 | class [01;36m[KServo[m[K {
+[9.665s]       |       [01;36m[K^~~~~[m[K
+[9.665s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.666s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:57:34:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kconst Servo&[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.666s]    57 |         back_right_upper_servo = [01;31m[Knew Servo(back_right_upper)[m[K;
+[9.668s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.669s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.669s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KServo::Servo(uint8_t)[m[K’ (near match)
+[9.670s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.670s]       |     [01;36m[K^~~~~[m[K
+[9.670s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.670s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:57:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.670s]    57 |         back_right_upper_servo = [01;31m[Knew Servo(back_right_upper)[m[K;
+[9.670s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.671s]       |                                  [01;31m[K|[m[K
+[9.671s]       |                                  [01;31m[KServo*[m[K
+[9.671s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:57:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.671s]    57 |         back_right_upper_servo = [01;31m[Knew Servo(back_right_upper)[m[K;
+[9.671s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.671s]       |                                  [01;31m[K|[m[K
+[9.672s]       |                                  [01;31m[KServo*[m[K
+[9.672s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.672s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.672s]     7 |     Servo([01;36m[Kuint8_t gp[m[K);
+[9.672s]       |           [01;36m[K~~~~~~~~^~[m[K
+[9.672s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo& Servo::operator=(Servo&&)[m[K’ (near match)
+[9.673s]     5 | class [01;36m[KServo[m[K {
+[9.673s]       |       [01;36m[K^~~~~[m[K
+[9.673s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.673s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:57:34:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KServo*[m[K’ to ‘[01m[KServo&&[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.673s]    57 |         back_right_upper_servo = [01;31m[Knew Servo(back_right_upper)[m[K;
+[9.673s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.674s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.674s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KServo::Servo(uint8_t)[m[K’ (near match)
+[9.674s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.675s]       |     [01;36m[K^~~~~[m[K
+[9.675s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.675s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:57:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.675s]    57 |         back_right_upper_servo = [01;31m[Knew Servo(back_right_upper)[m[K;
+[9.676s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.676s]       |                                  [01;31m[K|[m[K
+[9.677s]       |                                  [01;31m[KServo*[m[K
+[9.677s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:57:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.678s]    57 |         back_right_upper_servo = [01;31m[Knew Servo(back_right_upper)[m[K;
+[9.679s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.679s]       |                                  [01;31m[K|[m[K
+[9.679s]       |                                  [01;31m[KServo*[m[K
+[9.679s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.679s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.680s]     7 |     Servo([01;36m[Kuint8_t gp[m[K);
+[9.680s]       |           [01;36m[K~~~~~~~~^~[m[K
+[9.680s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:58:60:[m[K [01;31m[Kerror: [m[Kambiguous overload for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KServo[m[K’ and ‘[01m[KServo*[m[K’)
+[9.680s]    58 |         back_right_lower_servo = new Servo(back_right_lower[01;31m[K)[m[K;
+[9.680s]       |                                                            [01;31m[K^[m[K
+[9.681s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.681s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo& Servo::operator=(const Servo&)[m[K’ (near match)
+[9.681s]     5 | class [01;36m[KServo[m[K {
+[9.681s]       |       [01;36m[K^~~~~[m[K
+[9.681s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.681s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:58:34:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kconst Servo&[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.682s]    58 |         back_right_lower_servo = [01;31m[Knew Servo(back_right_lower)[m[K;
+[9.682s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.682s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.682s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KServo::Servo(uint8_t)[m[K’ (near match)
+[9.682s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.685s]       |     [01;36m[K^~~~~[m[K
+[9.685s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.687s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:58:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.688s]    58 |         back_right_lower_servo = [01;31m[Knew Servo(back_right_lower)[m[K;
+[9.690s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.690s]       |                                  [01;31m[K|[m[K
+[9.691s]       |                                  [01;31m[KServo*[m[K
+[9.691s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:58:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.691s]    58 |         back_right_lower_servo = [01;31m[Knew Servo(back_right_lower)[m[K;
+[9.692s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.692s]       |                                  [01;31m[K|[m[K
+[9.692s]       |                                  [01;31m[KServo*[m[K
+[9.692s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.693s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.693s]     7 |     Servo([01;36m[Kuint8_t gp[m[K);
+[9.693s]       |           [01;36m[K~~~~~~~~^~[m[K
+[9.693s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo& Servo::operator=(Servo&&)[m[K’ (near match)
+[9.693s]     5 | class [01;36m[KServo[m[K {
+[9.693s]       |       [01;36m[K^~~~~[m[K
+[9.693s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:5:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.694s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:58:34:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KServo*[m[K’ to ‘[01m[KServo&&[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.694s]    58 |         back_right_lower_servo = [01;31m[Knew Servo(back_right_lower)[m[K;
+[9.694s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.694s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.694s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KServo::Servo(uint8_t)[m[K’ (near match)
+[9.694s]     7 |     [01;36m[KServo[m[K(uint8_t gp);
+[9.695s]       |     [01;36m[K^~~~~[m[K
+[9.695s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.695s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:58:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.695s]    58 |         back_right_lower_servo = [01;31m[Knew Servo(back_right_lower)[m[K;
+[9.695s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.695s]       |                                  [01;31m[K|[m[K
+[9.696s]       |                                  [01;31m[KServo*[m[K
+[9.696s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:58:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KServo*[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.696s]    58 |         back_right_lower_servo = [01;31m[Knew Servo(back_right_lower)[m[K;
+[9.696s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.696s]       |                                  [01;31m[K|[m[K
+[9.696s]       |                                  [01;31m[KServo*[m[K
+[9.696s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[9.697s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:7:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KServo::Servo(uint8_t)[m[K’
+[9.697s]     7 |     Servo([01;36m[Kuint8_t gp[m[K);
+[9.697s]       |           [01;36m[K~~~~~~~~^~[m[K
+[9.697s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:63:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kupper_servos[m[K’ was not declared in this scope
+[9.697s]    63 |         [01;31m[Kupper_servos[m[K = {front_left_upper_servo, front_right_upper_servo, back_left_upper_servo, back_right_upper_servo};
+[9.697s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[9.698s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:64:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klower_servos[m[K’ was not declared in this scope
+[9.698s]    64 |         [01;31m[Klower_servos[m[K = {front_left_lower_servo, front_right_lower_servo, back_left_lower_servo, back_right_lower_servo};
+[9.698s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[9.698s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:68:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_angles_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_[m[K’?
+[9.698s]    68 |         [01;31m[Ksubscription_angles_[m[K = this->create_subscription<quadruped_interfaces::msg::Pos>(
+[9.698s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[9.699s]       |         [32m[Ksubscription_[m[K
+[9.704s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:69:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kangles_callback[m[K’ is not a member of ‘[01m[KMotorConfig[m[K’
+[9.705s]    69 |             "joint_angles", 10, std::bind(&MotorConfig::[01;31m[Kangles_callback[m[K, this, std::placeholders::_1)
+[9.705s]       |                                                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[9.759s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:[m[K In member function ‘[01m[Kvoid MotorConfig::gait_callback(quadruped_interfaces::msg::Pos_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.760s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:228:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kupper_servos[m[K’ was not declared in this scope
+[9.760s]   228 |         move_abs_angle([01;31m[Kupper_servos[m[K[leg_num/2], angle1);
+[9.760s]       |                        [01;31m[K^~~~~~~~~~~~[m[K
+[9.783s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:229:24:[m[K [01;31m[Kerror: [m[K‘[01m[Klower_servos[m[K’ was not declared in this scope
+[9.783s]   229 |         move_abs_angle([01;31m[Klower_servos[m[K[leg_num/2], angle2);
+[9.783s]       |                        [01;31m[K^~~~~~~~~~~~[m[K
+[11.634s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:71[m[K,
+[11.634s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[11.634s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+[11.635s]                  from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:1[m[K:
+[11.635s] /usr/include/c++/11/bits/predefined_ops.h: In instantiation of ‘[01m[Kbool __gnu_cxx::__ops::_Iter_equals_val<_Value>::operator()(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<Servo*, std::vector<Servo> >; _Value = const Servo][m[K’:
+[11.635s] [01m[K/usr/include/c++/11/bits/stl_algobase.h:2069:14:[m[K   required from ‘[01m[K_RandomAccessIterator std::__find_if(_RandomAccessIterator, _RandomAccessIterator, _Predicate, std::random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<Servo*, std::vector<Servo> >; _Predicate = __gnu_cxx::__ops::_Iter_equals_val<const Servo>][m[K’
+[11.635s] [01m[K/usr/include/c++/11/bits/stl_algobase.h:2114:23:[m[K   required from ‘[01m[K_Iterator std::__find_if(_Iterator, _Iterator, _Predicate) [with _Iterator = __gnu_cxx::__normal_iterator<Servo*, std::vector<Servo> >; _Predicate = __gnu_cxx::__ops::_Iter_equals_val<const Servo>][m[K’
+[11.635s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3884:28:[m[K   required from ‘[01m[K_IIter std::find(_IIter, _IIter, const _Tp&) [with _IIter = __gnu_cxx::__normal_iterator<Servo*, std::vector<Servo> >; _Tp = Servo][m[K’
+[11.635s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:110:22:[m[K   required from here
+[11.636s] [01m[K/usr/include/c++/11/bits/predefined_ops.h:270:24:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[KServo[m[K’ and ‘[01m[Kconst Servo[m[K’)
+[11.636s]   270 |         { return [01;31m[K*__it == _M_value[m[K; }
+[11.636s]       |                  [01;31m[K~~~~~~^~~~~~~~~~~[m[K
+[11.636s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[11.636s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[11.636s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+[11.637s]                  from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:1[m[K:
+[11.637s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1155:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)[m[K’
+[11.637s]  1155 |     [01;36m[Koperator[m[K==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+[11.637s]       |     [01;36m[K^~~~~~~~[m[K
+[11.637s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1155:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.638s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:71[m[K,
+[11.638s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[11.638s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+[11.638s]                  from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:1[m[K:
+[11.638s] [01m[K/usr/include/c++/11/bits/predefined_ops.h:270:24:[m[K [01;36m[Knote: [m[K  ‘[01m[KServo[m[K’ is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_IteratorL, _Container>[m[K’
+[11.639s]   270 |         { return [01;36m[K*__it == _M_value[m[K; }
+[11.639s]       |                  [01;36m[K~~~~~~^~~~~~~~~~~[m[K
+[11.639s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[11.639s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[11.639s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+[11.639s]                  from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:1[m[K:
+[11.640s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1163:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)[m[K’
+[11.640s]  1163 |     [01;36m[Koperator[m[K==(const __normal_iterator<_Iterator, _Container>& __lhs,
+[11.640s]       |     [01;36m[K^~~~~~~~[m[K
+[11.640s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1163:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.640s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:71[m[K,
+[11.640s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[11.640s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+[11.641s]                  from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:1[m[K:
+[11.641s] [01m[K/usr/include/c++/11/bits/predefined_ops.h:270:24:[m[K [01;36m[Knote: [m[K  ‘[01m[KServo[m[K’ is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’
+[11.641s]   270 |         { return [01;36m[K*__it == _M_value[m[K; }
+[11.641s]       |                  [01;36m[K~~~~~~^~~~~~~~~~~[m[K
+[12.364s] gmake[2]: *** [CMakeFiles/motor_config.dir/build.make:76: CMakeFiles/motor_config.dir/src/motor_config.cpp.o] Error 1
+[12.364s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/motor_config.dir/all] Error 2
+[12.364s] gmake: *** [Makefile:146: all] Error 2
+[12.368s] Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control' returned '2': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4

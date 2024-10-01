@@ -5,6 +5,20 @@
 #define ROTATE_0 700  // Rotate to 0° position
 #define ROTATE_180 2300
 
+
+Servo::Servo() {
+    xGP = 0;
+
+    if (gpioInitialise() < 0) {
+		printf("pigpio initialization failed\n");
+		return;
+	}
+
+	gpioSetMode(xGP, PI_OUTPUT);
+	gpioSetPWMrange(xGP, 20000);
+	gpioPWM(xGP, ROTATE_0);
+}
+
 Servo::Servo(uint8_t gp) {
 	xGP = gp;
 

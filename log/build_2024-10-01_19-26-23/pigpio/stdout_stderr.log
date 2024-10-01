@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target pigpiod_if[0m
+[35m[1mConsolidate compiler generated dependencies of target pigpiod_if2[0m
+[35m[1mConsolidate compiler generated dependencies of target pigpio[0m
+[35m[1mConsolidate compiler generated dependencies of target pigs[0m
+[ 13%] Built target pigpiod_if2
+[ 26%] Built target pigpiod_if
+[ 39%] Built target pigs
+[35m[1mConsolidate compiler generated dependencies of target pig2vcd[0m
+[35m[1mConsolidate compiler generated dependencies of target x_pigpiod_if2[0m
+[ 52%] Built target pigpio
+[35m[1mConsolidate compiler generated dependencies of target x_pigpiod_if[0m
+[35m[1mConsolidate compiler generated dependencies of target x_pigpio[0m
+[ 65%] Built target pig2vcd
+[ 73%] Built target x_pigpiod_if
+[ 82%] Built target x_pigpiod_if2
+[ 91%] Built target x_pigpio
+[35m[1mConsolidate compiler generated dependencies of target pigpiod[0m
+[100%] Built target pigpiod
+-- Install configuration: ""
+-- Up-to-date: /opt/pigpio/cgi
+[31mCMake Error at cmake_install.cmake:54 (file):
+  file INSTALL cannot set permissions on "/opt/pigpio/cgi": Operation not
+  permitted.
+
+[0m

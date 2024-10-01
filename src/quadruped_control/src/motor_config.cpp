@@ -4,7 +4,7 @@
 #include <array>
 #include <iostream>
 #include "quadruped_interfaces/msg/pos.hpp"
-#include "servo.h"
+#include "Servo.h"
 #include <pigpio.h>
 // Then manually modify servo values using PWM.
 // Use the changeDutyCycle feature
@@ -39,23 +39,22 @@ public:
         back_right_upper = 1;
         back_right_lower = 0;
 
-        pins = {{13, 9, 1, 5},
-                {12, 8, 0, 4}};
+        pins = {{{13, 9, 1, 5}, {12, 8, 0, 4}}};
 
         // right_leg_servo_list = {front_right_upper, front_right_lower, back_right_upper, back_right_lower};
         // left_leg_servos_list = {front_left_upper, front_left_lower, back_left_upper, back_left_lower};
 
-        front_left_upper_servo = new Servo(front_left_upper);
-        front_left_lower_servo = new Servo(front_left_lower);
+        front_left_upper_servo = Servo(front_left_upper);
+        front_left_lower_servo = Servo(front_left_lower);
 
-        front_right_upper_servo = new Servo(front_right_upper);
-        front_right_lower_servo = new Servo(front_right_lower);
+        front_right_upper_servo = Servo(front_right_upper);
+        front_right_lower_servo = Servo(front_right_lower);
 
-        back_left_upper_servo = new Servo(back_left_upper);
-        back_left_lower_servo = new Servo(back_left_lower);
+        back_left_upper_servo = Servo(back_left_upper);
+        back_left_lower_servo = Servo(back_left_lower);
 
-        back_right_upper_servo = new Servo(back_right_upper);
-        back_right_lower_servo = new Servo(back_right_lower);
+        back_right_upper_servo = Servo(back_right_upper);
+        back_right_lower_servo = Servo(back_right_lower);
 
         right_leg_servo_list = {front_right_upper_servo, front_right_lower_servo, back_right_upper_servo, back_right_lower_servo};
         left_leg_servos_list = {front_left_upper_servo, front_left_lower_servo, back_left_upper_servo, back_left_lower_servo};
@@ -65,8 +64,8 @@ public:
 
         position_publisher_ = this->create_publisher<quadruped_interfaces::msg::Pos>("destination", 10);
         
-        subscription_angles_ = this->create_subscription<quadruped_interfaces::msg::Pos>(
-            "joint_angles", 10, std::bind(&MotorConfig::angles_callback, this, std::placeholders::_1)
+        subscription_ = this->create_subscription<quadruped_interfaces::msg::Pos>(
+            "joint_angles", 10, std::bind(&MotorConfig::gait_callback, this, std::placeholders::_1)
         );
         
     }
@@ -172,10 +171,19 @@ private:
     int back_left_upper, back_left_lower;
     int back_right_upper, back_right_lower;
 
+    Servo front_left_upper_servo, front_left_lower_servo;
+    Servo front_right_upper_servo, front_right_lower_servo;
+    Servo back_left_upper_servo, back_left_lower_servo;
+    Servo back_right_upper_servo, back_right_lower_servo;
+
     std::array<std::array<int, 4>, 2> pins;
+   // = {{{13, 9, 1, 5}, {12, 8, 0, 4}}};
 
     std::vector<Servo> right_leg_servo_list;
     std::vector<Servo> left_leg_servos_list;
+
+    std::vector<Servo> upper_servos;
+    std::vector<Servo> lower_servos;
 
     std::vector<std::vector<std::pair<double, double>>> relative_positions;
     rclcpp::TimerBase::SharedPtr timer_;

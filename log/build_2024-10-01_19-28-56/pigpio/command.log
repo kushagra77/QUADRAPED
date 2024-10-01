@@ -1,0 +1,4 @@
+Invoking command in '/home/jonnydang2004/QUADRAPED/build/pigpio': /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/pigpio -- -j4 -l4
+Invoked command in '/home/jonnydang2004/QUADRAPED/build/pigpio' returned '0': /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/pigpio -- -j4 -l4
+Invoking command in '/home/jonnydang2004/QUADRAPED/build/pigpio': /usr/bin/cmake --install /home/jonnydang2004/QUADRAPED/build/pigpio
+Invoked command in '/home/jonnydang2004/QUADRAPED/build/pigpio' returned '1': /usr/bin/cmake --install /home/jonnydang2004/QUADRAPED/build/pigpio

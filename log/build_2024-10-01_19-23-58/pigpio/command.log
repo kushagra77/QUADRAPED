@@ -1,0 +1,3 @@
+Invoking command in '/home/jonnydang2004/QUADRAPED/build/pigpio': /usr/bin/cmake /home/jonnydang2004/QUADRAPED/pigpio-74 -DCMAKE_INSTALL_PREFIX=/home/jonnydang2004/QUADRAPED/install/pigpio
+Invoked command in '/home/jonnydang2004/QUADRAPED/build/pigpio' returned '0': /usr/bin/cmake /home/jonnydang2004/QUADRAPED/pigpio-74 -DCMAKE_INSTALL_PREFIX=/home/jonnydang2004/QUADRAPED/install/pigpio
+Invoking command in '/home/jonnydang2004/QUADRAPED/build/pigpio': /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/pigpio -- -j4 -l4

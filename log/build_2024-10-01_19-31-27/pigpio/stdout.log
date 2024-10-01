@@ -1,0 +1,11 @@
+[ 13%] Built target pigpio
+[ 26%] Built target pigs
+[ 39%] Built target pigpiod_if
+[ 52%] Built target pigpiod_if2
+[ 60%] Built target x_pigpio
+[ 73%] Built target pig2vcd
+[ 82%] Built target pigpiod
+[ 91%] Built target x_pigpiod_if
+[100%] Built target x_pigpiod_if2
+-- Install configuration: ""
+-- Up-to-date: /opt/pigpio/cgi

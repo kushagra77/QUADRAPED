@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -Wall -pthread -rdynamic CMakeFiles/pigpiod.dir/pigpiod.c.o -o pigpiod  -L. -lrt -lpigpio 

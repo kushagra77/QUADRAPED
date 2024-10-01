@@ -1,0 +1,50 @@
+[0.052s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/pigpio': /usr/bin/cmake /home/jonnydang2004/QUADRAPED/pigpio-74 -DCMAKE_INSTALL_PREFIX=/home/jonnydang2004/QUADRAPED/install/pigpio
+[0.570s] -- The C compiler identification is GNU 11.4.0
+[2.186s] -- The CXX compiler identification is GNU 11.4.0
+[3.682s] -- Detecting C compiler ABI info
+[4.833s] -- Detecting C compiler ABI info - done
+[4.932s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.934s] -- Detecting C compile features
+[4.940s] -- Detecting C compile features - done
+[4.958s] -- Detecting CXX compiler ABI info
+[5.675s] -- Detecting CXX compiler ABI info - done
+[5.700s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.701s] -- Detecting CXX compile features
+[5.704s] -- Detecting CXX compile features - done
+[6.047s] -- Configuring done
+[6.156s] -- Generating done
+[6.177s] -- Build files have been written to: /home/jonnydang2004/QUADRAPED/build/pigpio
+[6.210s] Invoked command in '/home/jonnydang2004/QUADRAPED/build/pigpio' returned '0': /usr/bin/cmake /home/jonnydang2004/QUADRAPED/pigpio-74 -DCMAKE_INSTALL_PREFIX=/home/jonnydang2004/QUADRAPED/install/pigpio
+[6.211s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/pigpio': /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/pigpio -- -j4 -l4
+[6.496s] [  4%] [32mBuilding C object CMakeFiles/pigpio.dir/pigpio.c.o[0m
+[6.509s] [  8%] [32mBuilding C object CMakeFiles/pigs.dir/pigs.c.o[0m
+[6.563s] [ 13%] [32mBuilding C object CMakeFiles/pigpiod_if2.dir/pigpiod_if2.c.o[0m
+[6.588s] [ 17%] [32mBuilding C object CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o[0m
+[7.392s] [ 21%] [32mBuilding C object CMakeFiles/pigs.dir/command.c.o[0m
+[8.726s] [ 26%] [32m[1mLinking C executable pigs[0m
+[9.317s] [ 26%] Built target pigs
+[9.390s] [ 30%] [32mBuilding C object CMakeFiles/pigpiod_if.dir/command.c.o[0m
+[9.956s] [ 34%] [32mBuilding C object CMakeFiles/pig2vcd.dir/pig2vcd.c.o[0m
+[10.462s] [ 39%] [32mBuilding C object CMakeFiles/pig2vcd.dir/command.c.o[0m
+[10.797s] [ 43%] [32m[1mLinking C shared library libpigpiod_if.so[0m
+[11.833s] [ 43%] Built target pigpiod_if
+[12.059s] [ 47%] [32mBuilding C object CMakeFiles/x_pigpiod_if.dir/x_pigpiod_if.c.o[0m
+[12.277s] [ 52%] [32m[1mLinking C executable pig2vcd[0m
+[12.743s] [ 56%] [32mBuilding C object CMakeFiles/pigpiod_if2.dir/command.c.o[0m
+[12.987s] [ 56%] Built target pig2vcd
+[13.092s] [ 60%] [32mBuilding C object CMakeFiles/pigpio.dir/command.c.o[0m
+[13.917s] [ 65%] [32m[1mLinking C shared library libpigpiod_if2.so[0m
+[14.038s] [ 69%] [32m[1mLinking C executable x_pigpiod_if[0m
+[14.433s] [ 69%] Built target pigpiod_if2
+[14.463s] [ 69%] Built target x_pigpiod_if
+[14.508s] [ 73%] [32mBuilding C object CMakeFiles/x_pigpiod_if2.dir/x_pigpiod_if2.c.o[0m
+[15.579s] [ 78%] [32m[1mLinking C executable x_pigpiod_if2[0m
+[16.259s] [ 78%] Built target x_pigpiod_if2
+[23.496s] [ 82%] [32m[1mLinking C shared library libpigpio.so[0m
+[23.780s] [ 82%] Built target pigpio
+[23.868s] [ 86%] [32mBuilding C object CMakeFiles/x_pigpio.dir/x_pigpio.c.o[0m
+[23.879s] [ 91%] [32mBuilding C object CMakeFiles/pigpiod.dir/pigpiod.c.o[0m
+[24.420s] [ 95%] [32m[1mLinking C executable pigpiod[0m
+[24.863s] [ 95%] Built target pigpiod
+[25.193s] [100%] [32m[1mLinking C executable x_pigpio[0m
+[25.476s] [100%] Built target x_pigpio

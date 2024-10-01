@@ -74,8 +74,8 @@ private:
     // Need a method which computes the relative position of each servo/leg?
 
     pos getCoords(pos destination) {
-        static constexpr double link1 = 6.4; // Need to double check with current model what the leg lengths actually are
-        static constexpr double link2 = 5.9;
+        static constexpr double link1 = 11; // Need to double check with current model what the leg lengths actually are
+        static constexpr double link2 = 14;
 
         double x = destination.x;
         double z = destination.z;
