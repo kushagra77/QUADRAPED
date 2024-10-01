@@ -4,7 +4,7 @@
 #include <array>
 #include <iostream>
 #include "quadruped_interfaces/msg/pos.hpp"
-#include "Servo.h"
+#include "servo.h"
 #include <pigpio.h>
 // Then manually modify servo values using PWM.
 // Use the changeDutyCycle feature
@@ -68,6 +68,7 @@ public:
         subscription_angles_ = this->create_subscription<quadruped_interfaces::msg::Pos>(
             "joint_angles", 10, std::bind(&MotorConfig::angles_callback, this, std::placeholders::_1)
         );
+        
     }
 
     // void create()

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "quadruped_interfaces/msg/Pos",
+      "fields": [
+        {
+          "name": "x",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "z",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "quadruped_interfaces/msg/Pos",
+      "hash_string": "RIHS01_4dbbdd29bd187317881996dc4d3103d335b4b95997d168a89dcce2526c9b051c"
+    }
+  ]
+}

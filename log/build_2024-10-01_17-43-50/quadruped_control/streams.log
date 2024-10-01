@@ -1,0 +1,65 @@
+[0.344s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4
+[0.441s] [35m[1mConsolidate compiler generated dependencies of target inverse_kinematics[0m
+[0.497s] [ 25%] [32mBuilding CXX object CMakeFiles/motor_config.dir/src/motor_config.cpp.o[0m
+[0.509s] [ 50%] [32mBuilding CXX object CMakeFiles/inverse_kinematics.dir/src/inverse_kinematics.cpp.o[0m
+[1.660s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[1.660s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:3:10:[m[K [01;31m[Kfatal error: [m[Kpigpio.h: No such file or directory
+[1.660s]     3 | #include [01;31m[K<pigpio.h>[m[K  // Include pigpio library for Raspberry Pi
+[1.661s]       |          [01;31m[K^~~~~~~~~~[m[K
+[1.661s] compilation terminated.
+[1.667s] gmake[2]: *** [CMakeFiles/motor_config.dir/build.make:76: CMakeFiles/motor_config.dir/src/motor_config.cpp.o] Error 1
+[1.669s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/motor_config.dir/all] Error 2
+[1.673s] gmake[1]: *** Waiting for unfinished jobs....
+[9.428s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:[m[K In constructor ‘[01m[KInverseKinematics::InverseKinematics()[m[K’:
+[9.428s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:11:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KInverseKinematics::pos::pos()[m[K’
+[9.428s]    11 |     : Node("inverse_kinematics"[01;31m[K)[m[K
+[9.429s]       |                                [01;31m[K^[m[K
+[9.429s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:30:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KInverseKinematics::pos::pos(double, double)[m[K’
+[9.429s]    30 |         [01;36m[Kpos[m[K(double x, double z) : x(x), z(z) {}
+[9.429s]       |         [01;36m[K^~~[m[K
+[9.430s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:30:9:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[9.430s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:25:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr InverseKinematics::pos::pos(const InverseKinematics::pos&)[m[K’
+[9.430s]    25 |     struct [01;36m[Kpos[m[K
+[9.430s]       |            [01;36m[K^~~[m[K
+[9.430s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:25:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.431s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:25:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr InverseKinematics::pos::pos(InverseKinematics::pos&&)[m[K’
+[9.431s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:25:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.431s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:11:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KInverseKinematics::pos::pos()[m[K’
+[9.431s]    11 |     : Node("inverse_kinematics"[01;31m[K)[m[K
+[9.431s]       |                                [01;31m[K^[m[K
+[9.432s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:30:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KInverseKinematics::pos::pos(double, double)[m[K’
+[9.432s]    30 |         [01;36m[Kpos[m[K(double x, double z) : x(x), z(z) {}
+[9.432s]       |         [01;36m[K^~~[m[K
+[9.432s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:30:9:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[9.433s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:25:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr InverseKinematics::pos::pos(const InverseKinematics::pos&)[m[K’
+[9.433s]    25 |     struct [01;36m[Kpos[m[K
+[9.433s]       |            [01;36m[K^~~[m[K
+[9.433s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:25:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.434s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:25:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr InverseKinematics::pos::pos(InverseKinematics::pos&&)[m[K’
+[9.434s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:25:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.489s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:[m[K In member function ‘[01m[Kvoid InverseKinematics::topic_callback(quadruped_interfaces::msg::Pos_<std::allocator<void> >::SharedPtr) const[m[K’:
+[9.489s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:65:35:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst InverseKinematics::pos[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.489s]    65 |         dest_ = pos(msg->x, msg->z[01;31m[K)[m[K;  // Receive destination pos (x, z)
+[9.490s]       |                                   [01;31m[K^[m[K
+[9.490s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:25:12:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kconstexpr InverseKinematics::pos& InverseKinematics::pos::operator=(InverseKinematics::pos&&)[m[K’
+[9.490s]    25 |     struct [01;36m[Kpos[m[K
+[9.490s]       |            [01;36m[K^~~[m[K
+[9.491s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:66:39:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst InverseKinematics[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.491s]    66 |         new_coords = [01;31m[KinverseKinematics(dest_)[m[K;
+[9.491s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[9.491s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:72:9:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[KInverseKinematics::pos InverseKinematics::inverseKinematics(InverseKinematics::pos)[m[K’
+[9.491s]    72 |     pos [01;36m[KinverseKinematics[m[K(pos destination) {
+[9.492s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[9.496s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:66:45:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst InverseKinematics::pos[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.496s]    66 |         new_coords = inverseKinematics(dest_[01;31m[K)[m[K;
+[9.497s]       |                                             [01;31m[K^[m[K
+[9.498s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:25:12:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kconstexpr InverseKinematics::pos& InverseKinematics::pos::operator=(InverseKinematics::pos&&)[m[K’
+[9.498s]    25 |     struct [01;36m[Kpos[m[K
+[9.498s]       |            [01;36m[K^~~[m[K
+[9.499s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:67:32:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KInverseKinematics::new_position_received_[m[K’ in read-only object
+[9.499s]    67 |         [01;31m[Knew_position_received_ = true[m[K;
+[9.499s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[14.599s] gmake[2]: *** [CMakeFiles/inverse_kinematics.dir/build.make:76: CMakeFiles/inverse_kinematics.dir/src/inverse_kinematics.cpp.o] Error 1
+[14.602s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/inverse_kinematics.dir/all] Error 2
+[14.603s] gmake: *** [Makefile:146: all] Error 2
+[14.605s] Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control' returned '2': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4

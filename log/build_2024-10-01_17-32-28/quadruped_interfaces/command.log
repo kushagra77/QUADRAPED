@@ -1,0 +1,6 @@
+Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/jonnydang2004/QUADRAPED/src/quadruped_interfaces -DCMAKE_INSTALL_PREFIX=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces
+Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/jonnydang2004/QUADRAPED/src/quadruped_interfaces -DCMAKE_INSTALL_PREFIX=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces
+Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_interfaces -- -j4 -l4
+Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_interfaces -- -j4 -l4
+Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/jonnydang2004/QUADRAPED/build/quadruped_interfaces
+Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/jonnydang2004/QUADRAPED/build/quadruped_interfaces

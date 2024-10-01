@@ -1,0 +1,6 @@
+{
+  "package_name": "quadruped_interfaces",
+  "non_idl_tuples": [
+    "/home/jonnydang2004/QUADRAPED/src/quadruped_interfaces:msg/Pos.msg"
+  ]
+}

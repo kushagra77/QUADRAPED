@@ -1,0 +1,20 @@
+[0.366s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4
+[0.469s] [35m[1mConsolidate compiler generated dependencies of target inverse_kinematics[0m
+[0.517s] [ 25%] [32mBuilding CXX object CMakeFiles/motor_config.dir/src/motor_config.cpp.o[0m
+[0.559s] [ 50%] [32mBuilding CXX object CMakeFiles/inverse_kinematics.dir/src/inverse_kinematics.cpp.o[0m
+[1.829s] In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[1.829s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/servo.h:3:10:[m[K [01;31m[Kfatal error: [m[Kpigpio.h: No such file or directory
+[1.830s]     3 | #include [01;31m[K<pigpio.h>[m[K  // Include pigpio library for Raspberry Pi
+[1.831s]       |          [01;31m[K^~~~~~~~~~[m[K
+[1.831s] compilation terminated.
+[1.840s] gmake[2]: *** [CMakeFiles/motor_config.dir/build.make:76: CMakeFiles/motor_config.dir/src/motor_config.cpp.o] Error 1
+[1.840s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/motor_config.dir/all] Error 2
+[1.840s] gmake[1]: *** Waiting for unfinished jobs....
+[10.130s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:[m[K In member function ‘[01m[Kpos InverseKinematics::getCoords(pos)[m[K’:
+[10.130s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:83:39:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kbeta2[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[10.130s]    83 |         double theta1, theta2, beta1, [01;35m[Kbeta2[m[K;
+[10.131s]       |                                       [01;35m[K^~~~~[m[K
+[28.061s] [ 75%] [32m[1mLinking CXX executable inverse_kinematics[0m
+[31.792s] [ 75%] Built target inverse_kinematics
+[31.796s] gmake: *** [Makefile:146: all] Error 2
+[31.801s] Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control' returned '2': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4

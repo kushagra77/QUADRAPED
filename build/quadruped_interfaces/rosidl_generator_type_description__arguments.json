@@ -1,0 +1,7 @@
+{
+  "package_name": "quadruped_interfaces",
+  "output_dir": "/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces/rosidl_generator_type_description/quadruped_interfaces",
+  "idl_tuples": [
+    "/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces/rosidl_adapter/quadruped_interfaces:msg/Pos.idl"
+  ]
+}

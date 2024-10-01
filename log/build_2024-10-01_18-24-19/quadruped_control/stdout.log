@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target inverse_kinematics[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/motor_config.dir/src/motor_config.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/inverse_kinematics.dir/src/inverse_kinematics.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable inverse_kinematics[0m
+[ 75%] Built target inverse_kinematics

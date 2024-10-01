@@ -3,6 +3,8 @@
 #include <cmath>
 #include <math.h>
 
+
+
 // Both a publisher and subscriber, subscribes to a gait, publishes an angle which is subscribed by the servo
 class InverseKinematics : public rclcpp::Node
 {
@@ -27,25 +29,27 @@ public:
         double x = 0;
         double z = 0;
 
+        pos() : x(0), z(0) {}
+
         pos(double x, double z) : x(x), z(z) {}
 
-        pos& operator=(const pos& a) {
-            x = a.x;
-            z = a.z;
-            return *this;
-        }
+        // pos& operator=(const pos& a) {
+        //     x = a.x;
+        //     z = a.z;
+        //     return *this;
+        // }
 
-        pos operator+(const pos& a) const {
-            return pos(a.x+x, a.z+z);
-        }
+        // pos operator+(const pos& a) const {
+        //     return pos(a.x+x, a.z+z);
+        // }
 
-        pos operator-(const pos& a) const {
-            return pos(x-a.x, z-a.z);
-        }
+        // pos operator-(const pos& a) const {
+        //     return pos(x-a.x, z-a.z);
+        // }
 
-        bool operator==(const pos& a) const {
-            return (x == a.x && z == a.z);
-        }
+        // bool operator==(const pos& a) const {
+        //     return (x == a.x && z == a.z);
+        // }
     };
 
 private:
@@ -53,27 +57,28 @@ private:
     {
         if (new_position_received_) {
             auto message = quadruped_interfaces::msg::Pos();
-            message.data = new_coords;
+            message.x = new_coords.x;
+            message.z = new_coords.z;
             publisher_->publish(message);
             new_position_received_ = false;
         }
     }
 
-    void topic_callback(const quadruped_interfaces::msg::Pos::SharedPtr msg) const
+    void topic_callback(const quadruped_interfaces::msg::Pos::SharedPtr msg) // const
     {
         dest_ = pos(msg->x, msg->z);  // Receive destination pos (x, z)
-        new_coords = inverseKinematics(dest_);
+        new_coords = getCoords(dest_);
         new_position_received_ = true;
     }
 
     // Need a method which computes the relative position of each servo/leg?
 
-    pos inverseKinematics(pos destination) {
+    pos getCoords(pos destination) {
         static constexpr double link1 = 6.4; // Need to double check with current model what the leg lengths actually are
         static constexpr double link2 = 5.9;
 
-        double x = dest.x;
-        double z = dest.z;
+        double x = destination.x;
+        double z = destination.z;
         double r = sqrt(x*x + z*z);
         double theta1, theta2, beta1, beta2;
 
@@ -110,7 +115,7 @@ private:
 
         theta2 = acos((x * x + z * z - link1 * link1 - link2 * link2) / (2 * link1 * link2));
 
-        theta1 = (180/M_PI)*(atan(x/z) - atan((link2*sin(theta2))/(link1 + link2*cos(theta2)));
+        theta1 = (180/M_PI)*(atan(x/z) - atan((link2*sin(theta2))/(link1 + link2*cos(theta2))));
 
         theta2 *= (180/M_PI);
 
@@ -134,7 +139,7 @@ private:
         //     theta2 = (180/PI) * (atan(z/(sqrt(x*x + y*y))) + eha);
         // }
 
-        return pos(theta1, theta2)
+        return pos(theta1, theta2);
     }
 
     rclcpp::Subscription<quadruped_interfaces::msg::Pos>::SharedPtr subscription_;

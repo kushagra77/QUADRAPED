@@ -1,0 +1,231 @@
+[0.079s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/jonnydang2004/QUADRAPED/src/quadruped_interfaces -DCMAKE_INSTALL_PREFIX=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces
+[1.377s] -- The C compiler identification is GNU 11.4.0
+[3.281s] -- The CXX compiler identification is GNU 11.4.0
+[4.192s] -- Detecting C compiler ABI info
+[4.647s] -- Detecting C compiler ABI info - done
+[4.673s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.674s] -- Detecting C compile features
+[4.678s] -- Detecting C compile features - done
+[4.694s] -- Detecting CXX compiler ABI info
+[5.190s] -- Detecting CXX compiler ABI info - done
+[5.224s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.225s] -- Detecting CXX compile features
+[5.226s] -- Detecting CXX compile features - done
+[5.257s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[5.839s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[6.126s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.005s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.322s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[8.478s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[8.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.530s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.823s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[9.834s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[10.745s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.745s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.746s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.746s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.818s] -- Found PythonExtra: .so  
+[11.081s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[11.196s] -- Added test 'lint_cmake' to check CMake code style
+[11.211s] -- Added test 'xmllint' to check XML markup files
+[11.232s] -- Configuring done
+[11.452s] -- Generating done
+[11.467s] -- Build files have been written to: /home/jonnydang2004/QUADRAPED/build/quadruped_interfaces
+[11.481s] Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/jonnydang2004/QUADRAPED/src/quadruped_interfaces -DCMAKE_INSTALL_PREFIX=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces
+[11.488s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_interfaces -- -j4 -l4
+[11.691s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[11.911s] [  2%] Built target ament_cmake_python_copy_quadruped_interfaces
+[13.261s] [  2%] Built target quadruped_interfaces__rosidl_generator_type_description
+[13.308s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.349s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.898s] running egg_info
+[13.900s] creating quadruped_interfaces.egg-info
+[13.901s] writing quadruped_interfaces.egg-info/PKG-INFO
+[13.902s] writing dependency_links to quadruped_interfaces.egg-info/dependency_links.txt
+[13.903s] writing top-level names to quadruped_interfaces.egg-info/top_level.txt
+[13.905s] writing manifest file 'quadruped_interfaces.egg-info/SOURCES.txt'
+[13.934s] reading manifest file 'quadruped_interfaces.egg-info/SOURCES.txt'
+[13.936s] writing manifest file 'quadruped_interfaces.egg-info/SOURCES.txt'
+[14.026s] [  8%] Built target ament_cmake_python_build_quadruped_interfaces_egg
+[14.565s] [  8%] Built target quadruped_interfaces__cpp
+[14.695s] [ 11%] [32mBuilding C object CMakeFiles/quadruped_interfaces__rosidl_generator_c.dir/rosidl_generator_c/quadruped_interfaces/msg/detail/pos__functions.c.o[0m
+[14.699s] [ 14%] [32mBuilding C object CMakeFiles/quadruped_interfaces__rosidl_generator_c.dir/rosidl_generator_c/quadruped_interfaces/msg/detail/pos__description.c.o[0m
+[14.704s] [ 17%] [32mBuilding C object CMakeFiles/quadruped_interfaces__rosidl_generator_c.dir/rosidl_generator_c/quadruped_interfaces/msg/detail/pos__type_support.c.o[0m
+[15.410s] [ 20%] [32m[1mLinking C shared library libquadruped_interfaces__rosidl_generator_c.so[0m
+[15.891s] [ 20%] Built target quadruped_interfaces__rosidl_generator_c
+[15.992s] [ 23%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[16.044s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[16.050s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.050s] [ 32%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[18.332s] [ 35%] [32mBuilding CXX object CMakeFiles/quadruped_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadruped_interfaces/msg/pos__type_support.cpp.o[0m
+[18.621s] [ 38%] [32mBuilding CXX object CMakeFiles/quadruped_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadruped_interfaces/msg/detail/pos__type_support_c.cpp.o[0m
+[18.695s] [ 41%] [32mBuilding CXX object CMakeFiles/quadruped_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadruped_interfaces/msg/detail/pos__type_support.cpp.o[0m
+[19.019s] [ 44%] [32mBuilding CXX object CMakeFiles/quadruped_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadruped_interfaces/msg/detail/dds_fastrtps/pos__type_support.cpp.o[0m
+[25.521s] [ 47%] [32m[1mLinking CXX shared library libquadruped_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[25.908s] [ 50%] [32m[1mLinking CXX shared library libquadruped_interfaces__rosidl_typesupport_cpp.so[0m
+[26.387s] [ 52%] [32m[1mLinking CXX shared library libquadruped_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[27.145s] [ 55%] [32m[1mLinking CXX shared library libquadruped_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[27.304s] [ 55%] Built target quadruped_interfaces__rosidl_typesupport_cpp
+[27.367s] [ 55%] Built target quadruped_interfaces__rosidl_typesupport_introspection_cpp
+[27.381s] [ 58%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[27.391s] [ 58%] Built target quadruped_interfaces__rosidl_typesupport_fastrtps_c
+[27.457s] [ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[28.175s] [ 61%] Built target quadruped_interfaces__rosidl_typesupport_fastrtps_cpp
+[29.090s] [ 64%] [32mBuilding C object CMakeFiles/quadruped_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadruped_interfaces/msg/detail/pos__type_support.c.o[0m
+[29.119s] [ 67%] [32mBuilding CXX object CMakeFiles/quadruped_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadruped_interfaces/msg/pos__type_support.cpp.o[0m
+[29.221s] [ 70%] [32m[1mLinking C shared library libquadruped_interfaces__rosidl_typesupport_introspection_c.so[0m
+[29.277s] [ 73%] [32m[1mLinking CXX shared library libquadruped_interfaces__rosidl_typesupport_c.so[0m
+[29.613s] [ 73%] Built target quadruped_interfaces__rosidl_typesupport_introspection_c
+[29.712s] [ 73%] Built target quadruped_interfaces__rosidl_typesupport_c
+[29.776s] [ 73%] Built target quadruped_interfaces
+[29.839s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[31.334s] [ 76%] Built target quadruped_interfaces__py
+[31.405s] [ 79%] [32mBuilding C object CMakeFiles/quadruped_interfaces__rosidl_generator_py.dir/rosidl_generator_py/quadruped_interfaces/msg/_pos_s.c.o[0m
+[32.076s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/quadruped_interfaces/libquadruped_interfaces__rosidl_generator_py.so[0m
+[32.703s] [ 82%] Built target quadruped_interfaces__rosidl_generator_py
+[32.934s] [ 85%] [32mBuilding C object CMakeFiles/quadruped_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/quadruped_interfaces/_quadruped_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[32.960s] [ 88%] [32mBuilding C object CMakeFiles/quadruped_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/quadruped_interfaces/_quadruped_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[32.998s] [ 91%] [32mBuilding C object CMakeFiles/quadruped_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/quadruped_interfaces/_quadruped_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[34.123s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[34.188s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[34.382s] [100%] [32m[1mLinking C shared library rosidl_generator_py/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[35.159s] [100%] Built target quadruped_interfaces__rosidl_typesupport_introspection_c__pyext
+[35.207s] [100%] Built target quadruped_interfaces__rosidl_typesupport_c__pyext
+[35.223s] [100%] Built target quadruped_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[35.279s] Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_interfaces -- -j4 -l4
+[35.490s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/jonnydang2004/QUADRAPED/build/quadruped_interfaces
+[35.505s] -- Install configuration: ""
+[35.510s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/ament_index/resource_index/rosidl_interfaces/quadruped_interfaces
+[35.512s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/msg/Pos.json
+[35.512s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces
+[35.513s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg
+[35.514s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/pos.h
+[35.514s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/rosidl_generator_c__visibility_control.h
+[35.515s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail
+[35.515s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__functions.c
+[35.516s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__description.c
+[35.516s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__type_support.c
+[35.516s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__functions.h
+[35.516s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__type_support.h
+[35.517s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__struct.h
+[35.517s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/library_path.sh
+[35.518s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/library_path.dsv
+[35.518s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_generator_c.so
+[35.522s] -- Set runtime path of "/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_generator_c.so" to ""
+[35.522s] -- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces
+[35.523s] -- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg
+[35.523s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[35.524s] -- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail
+[35.524s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__rosidl_typesupport_fastrtps_c.h
+[35.525s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_fastrtps_c.so
+[35.525s] -- Set runtime path of "/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[35.526s] -- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces
+[35.526s] -- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg
+[35.526s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[35.526s] -- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail
+[35.527s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__rosidl_typesupport_introspection_c.h
+[35.527s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__type_support.c
+[35.528s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_introspection_c.so
+[35.528s] -- Set runtime path of "/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[35.528s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_c.so
+[35.529s] -- Set runtime path of "/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_c.so" to ""
+[35.529s] -- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces
+[35.530s] -- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg
+[35.530s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/pos.hpp
+[35.531s] -- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail
+[35.531s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__struct.hpp
+[35.532s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__builder.hpp
+[35.532s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__traits.hpp
+[35.533s] -- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces
+[35.533s] -- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg
+[35.533s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[35.534s] -- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail
+[35.534s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/dds_fastrtps
+[35.534s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__rosidl_typesupport_fastrtps_cpp.hpp
+[35.535s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[35.535s] -- Set runtime path of "/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[35.536s] -- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces
+[35.536s] -- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg
+[35.536s] -- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail
+[35.537s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__rosidl_typesupport_introspection_cpp.hpp
+[35.537s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__type_support.cpp
+[35.537s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_introspection_cpp.so
+[35.538s] -- Set runtime path of "/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[35.538s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_cpp.so
+[35.547s] -- Set runtime path of "/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_cpp.so" to ""
+[35.547s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/pythonpath.sh
+[35.548s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/pythonpath.dsv
+[35.548s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces-0.0.0-py3.10.egg-info
+[35.551s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[35.551s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[35.552s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[35.552s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[35.552s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces
+[35.552s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[35.554s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/libquadruped_interfaces__rosidl_generator_py.so
+[35.555s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[35.556s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg
+[35.557s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg/_pos_s.c
+[35.557s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg/_pos.py
+[35.558s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg/__init__.py
+[35.559s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/_quadruped_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[35.560s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[35.560s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/_quadruped_interfaces_s.ep.rosidl_typesupport_c.c
+[35.561s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/_quadruped_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[35.561s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/__init__.py
+[35.640s] Listing '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces'...
+[35.641s] Compiling '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/__init__.py'...
+[35.641s] Listing '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg'...
+[35.641s] Compiling '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg/__init__.py'...
+[35.641s] Compiling '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg/_pos.py'...
+[35.658s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[35.659s] -- Set runtime path of "/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[35.660s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[35.661s] -- Set runtime path of "/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[35.662s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[35.663s] -- Set runtime path of "/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[35.663s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_generator_py.so
+[35.664s] -- Set runtime path of "/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_generator_py.so" to ""
+[35.664s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/msg/Pos.idl
+[35.667s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/msg/Pos.msg
+[35.667s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/ament_index/resource_index/package_run_dependencies/quadruped_interfaces
+[35.669s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/ament_index/resource_index/parent_prefix_path/quadruped_interfaces
+[35.670s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/ament_prefix_path.sh
+[35.670s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/ament_prefix_path.dsv
+[35.671s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/path.sh
+[35.672s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/path.dsv
+[35.678s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/local_setup.bash
+[35.679s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/local_setup.sh
+[35.679s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/local_setup.zsh
+[35.679s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/local_setup.dsv
+[35.680s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/package.dsv
+[35.680s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/ament_index/resource_index/packages/quadruped_interfaces
+[35.680s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_generator_cExport.cmake
+[35.681s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_generator_cExport-noconfig.cmake
+[35.681s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[35.683s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[35.687s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[35.692s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[35.692s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_cExport.cmake
+[35.693s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[35.693s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_generator_cppExport.cmake
+[35.694s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[35.694s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[35.695s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[35.695s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[35.696s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_cppExport.cmake
+[35.696s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[35.697s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_generator_pyExport.cmake
+[35.697s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[35.698s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/rosidl_cmake-extras.cmake
+[35.698s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.699s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[35.699s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[35.700s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[35.702s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.705s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[35.705s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfacesConfig.cmake
+[35.705s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfacesConfig-version.cmake
+[35.706s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/package.xml
+[35.711s] Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/jonnydang2004/QUADRAPED/build/quadruped_interfaces

@@ -1,0 +1,8 @@
+setup.py
+quadruped_interfaces/__init__.py
+quadruped_interfaces.egg-info/PKG-INFO
+quadruped_interfaces.egg-info/SOURCES.txt
+quadruped_interfaces.egg-info/dependency_links.txt
+quadruped_interfaces.egg-info/top_level.txt
+quadruped_interfaces/msg/__init__.py
+quadruped_interfaces/msg/_pos.py
