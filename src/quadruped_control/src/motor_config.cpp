@@ -42,8 +42,8 @@ public:
         pins = {{13, 9, 1, 5},
                 {12, 8, 0, 4}};
 
-        right_leg_servo_list = {front_right_upper, front_right_lower, back_right_upper, back_right_lower};
-        left_leg_servos_list = {front_left_upper, front_left_lower, back_left_upper, back_left_lower};
+        // right_leg_servo_list = {front_right_upper, front_right_lower, back_right_upper, back_right_lower};
+        // left_leg_servos_list = {front_left_upper, front_left_lower, back_left_upper, back_left_lower};
 
         front_left_upper_servo = new Servo(front_left_upper);
         front_left_lower_servo = new Servo(front_left_lower);
@@ -56,6 +56,12 @@ public:
 
         back_right_upper_servo = new Servo(back_right_upper);
         back_right_lower_servo = new Servo(back_right_lower);
+
+        right_leg_servo_list = {front_right_upper_servo, front_right_lower_servo, back_right_upper_servo, back_right_lower_servo};
+        left_leg_servos_list = {front_left_upper_servo, front_left_lower_servo, back_left_upper_servo, back_left_lower_servo};
+
+        upper_servos = {front_left_upper_servo, front_right_upper_servo, back_left_upper_servo, back_right_upper_servo};
+        lower_servos = {front_left_lower_servo, front_right_lower_servo, back_left_lower_servo, back_right_lower_servo};
 
         position_publisher_ = this->create_publisher<quadruped_interfaces::msg::Pos>("destination", 10);
         
@@ -96,12 +102,16 @@ public:
         }
     }
 
-    void move_abs_angle(Servo servo, int servo_number, float angle)
+    void move_abs_angle(Servo servo, float angle)
     {
         // Corrects left leg movement to match the right leg
-        if (std::find(left_leg_servos_list.begin(), left_leg_servos_list.end(), servo_number) != left_leg_servos_list.end())
+        // if (std::find(left_leg_servos_list.begin(), left_leg_servos_list.end(), servo_number) != left_leg_servos_list.end())
+        if (std::find(left_leg_servos_list.begin(), left_leg_servos_list.end(), servo) != left_leg_servos_list.end())
         {
-            set_servo_angle(servo, 180 - angle);
+            // If directly downwards is 0, then we probably want to just use the negative rather than subtract from 180
+            // Motors spin counter clockwise, meaning that motors on the right are in the default direction
+            // and the motors on the left side need to be reversed
+            set_servo_angle(servo, -1 * angle);
         }
         else
         {
@@ -126,6 +136,7 @@ public:
 
     void crawl_gait()
     {
+        // Modify this to have 8 in each vector, 2 for each step.
         std::vector<std::vector<std::pair<double, double>>> relative_positions = {
             { {2.0, 1.0}, {1.5, 1.2}, {0.5, 0.8}, {-0.5, 1.5} },
             { {-2.0, 0.8}, {-1.5, 1.4}, {0.0, 1.0}, {0.5, 1.2} },
@@ -162,10 +173,10 @@ private:
 
     std::array<std::array<int, 4>, 2> pins;
 
-    std::vector<int> right_leg_servo_list;
-    std::vector<int> left_leg_servos_list;
+    std::vector<Servo> right_leg_servo_list;
+    std::vector<Servo> left_leg_servos_list;
 
-    std::vector<std::vector<std::pair<float, float>>> group_positions_;
+    std::vector<std::vector<std::pair<double, double>>> relative_positions;
     rclcpp::TimerBase::SharedPtr timer_;
 
     // void set_actuation_range(int servo, int range)
@@ -194,22 +205,25 @@ private:
         double angle1 = msg->x;
         double angle2 = msg->z;
 
-        if (leg_num == 0) {
-            move_abs_angle(front_left_upper_servo, front_left_upper, angle1);
-            move_abs_angle(front_left_lower_servo, front_left_lower, angle2);
-        } else if (leg_num == 1) {
-            move_abs_angle(front_right_upper_servo, front_right_upper, angle1);
-            move_abs_angle(front_right_lower_servo, front_right_lower, angle2);
-        } else if (leg_num == 2) {
-            move_abs_angle(back_left_upper_servo, back_left_upper, angle1);
-            move_abs_angle(back_left_lower_servo, back_left_lower, angle2);
-        } else if (leg_num == 3) {
-            move_abs_angle(back_right_upper_servo, back_right_upper, angle1);
-            move_abs_angle(back_right_lower_servo, back_right_upper, angle2);
-        }
+        // if (leg_num == 0) {
+        //     move_abs_angle(front_left_upper_servo, front_left_upper, angle1);
+        //     move_abs_angle(front_left_lower_servo, front_left_lower, angle2);
+        // } else if (leg_num == 1) {
+        //     move_abs_angle(front_right_upper_servo, front_right_upper, angle1);
+        //     move_abs_angle(front_right_lower_servo, front_right_lower, angle2);
+        // } else if (leg_num == 2) {
+        //     move_abs_angle(back_left_upper_servo, back_left_upper, angle1);
+        //     move_abs_angle(back_left_lower_servo, back_left_lower, angle2);
+        // } else if (leg_num == 3) {
+        //     move_abs_angle(back_right_upper_servo, back_right_upper, angle1);
+        //     move_abs_angle(back_right_lower_servo, back_right_upper, angle2);
+        // }
+
+        move_abs_angle(upper_servos[leg_num/2], angle1);
+        move_abs_angle(lower_servos[leg_num/2], angle2);
 
         leg_num++;
-        if (leg_num == 4) {
+        if (leg_num == 8) {
             leg_num = 0;
         }
     }

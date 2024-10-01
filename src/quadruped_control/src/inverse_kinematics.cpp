@@ -1,6 +1,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "quadruped_interfaces/msg/pos.hpp"
 #include <cmath>
+#include <math.h>
 
 // Both a publisher and subscriber, subscribes to a gait, publishes an angle which is subscribed by the servo
 class InverseKinematics : public rclcpp::Node
@@ -109,9 +110,9 @@ private:
 
         theta2 = acos((x * x + z * z - link1 * link1 - link2 * link2) / (2 * link1 * link2));
 
-        theta1 = (180/PI)*(atan(z/x) - atan((link2*sin(theta2))/(link1 + link2*cos(theta2)));
+        theta1 = (180/M_PI)*(atan(x/z) - atan((link2*sin(theta2))/(link1 + link2*cos(theta2)));
 
-        theta2 *= (180/PI);
+        theta2 *= (180/M_PI);
 
         // Other version for angle calculation based on video by Engineer M
         // double x = dest.x;
