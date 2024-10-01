@@ -14,15 +14,15 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(quadruped_interfaces REQUIRED)
 
-add_executable(invk src/inverse_kinematics.cpp)
-ament_target_dependencies(invk rclcpp quadruped_interfaces)
+add_executable(inverse_kinematics src/inverse_kinematics.cpp)
+ament_target_dependencies(inverse_kinematics rclcpp quadruped_interfaces)
 
-add_executable(quad_control src/motor_config.cpp)
-ament_target_dependencies(quad_control rclcpp quadruped_interfaces)
+add_executable(motor_config src/motor_config.cpp)
+ament_target_dependencies(motor_config rclcpp quadruped_interfaces)
 
 install(TARGETS
-  invk
-  quad_control
+  inverse_kinematics
+  motor_config
   DESTINATION lib/${PROJECT_NAME})
 
   #install launch directory
