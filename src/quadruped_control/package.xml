@@ -15,6 +15,11 @@
   <depend>rclcpp</depend>
   <depend>quadruped_interfaces</depend>
 
+  <!-- <launch>
+  <node pkg="quadruped_control" exec="motor_config" name="servos"/>
+  <node pkg="quadruped_control" exec="inverse_kinematics" name="inverse_kinematics"/>
+  </launch> -->
+
   <export>
     <build_type>ament_cmake</build_type>
   </export>
