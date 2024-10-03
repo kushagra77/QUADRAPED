@@ -1,0 +1,24 @@
+[0.469s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4
+[0.589s] [35m[1mConsolidate compiler generated dependencies of target inverse_kinematics[0m
+[0.605s] [35m[1mConsolidate compiler generated dependencies of target motor_config[0m
+[0.767s] [ 20%] [32mBuilding CXX object CMakeFiles/motor_config.dir/src/Servo.cpp.o[0m
+[0.780s] [ 40%] [32mBuilding CXX object CMakeFiles/motor_config.dir/src/motor_config.cpp.o[0m
+[0.819s] [ 80%] Built target inverse_kinematics
+[43.499s] [100%] [32m[1mLinking CXX executable motor_config[0m
+[48.502s] /usr/bin/ld: CMakeFiles/motor_config.dir/src/Servo.cpp.o: in function `Servo::Servo()':
+[48.503s] Servo.cpp:(.text+0x1f): undefined reference to `gpioInitialise'
+[48.503s] /usr/bin/ld: Servo.cpp:(.text+0x4d): undefined reference to `gpioSetMode'
+[48.504s] /usr/bin/ld: Servo.cpp:(.text+0x63): undefined reference to `gpioSetPWMrange'
+[48.504s] /usr/bin/ld: Servo.cpp:(.text+0x79): undefined reference to `gpioPWM'
+[48.505s] /usr/bin/ld: CMakeFiles/motor_config.dir/src/Servo.cpp.o: in function `Servo::Servo(unsigned char)':
+[48.505s] Servo.cpp:(.text+0xa7): undefined reference to `gpioInitialise'
+[48.506s] /usr/bin/ld: Servo.cpp:(.text+0xcf): undefined reference to `gpioSetMode'
+[48.506s] /usr/bin/ld: Servo.cpp:(.text+0xdf): undefined reference to `gpioSetPWMrange'
+[48.506s] /usr/bin/ld: Servo.cpp:(.text+0xef): undefined reference to `gpioPWM'
+[48.507s] /usr/bin/ld: CMakeFiles/motor_config.dir/src/Servo.cpp.o: in function `Servo::goDegree(double)':
+[48.507s] Servo.cpp:(.text+0x15b): undefined reference to `gpioPWM'
+[48.730s] collect2: error: ld returned 1 exit status
+[48.748s] gmake[2]: *** [CMakeFiles/motor_config.dir/build.make:190: motor_config] Error 1
+[48.760s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/motor_config.dir/all] Error 2
+[48.761s] gmake: *** [Makefile:146: all] Error 2
+[48.776s] Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control' returned '2': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4

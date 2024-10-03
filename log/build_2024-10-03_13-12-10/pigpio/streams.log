@@ -1,0 +1,5 @@
+[0.105s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/pigpio': /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/pigpio -- -j4 -l4
+[0.155s] [0mCMake Error: The source directory "/home/jonnydang2004/QUADRAPED/pigpio-74" does not exist.
+[0.156s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.157s] gmake: *** [Makefile:609: cmake_check_build_system] Error 1
+[0.163s] Invoked command in '/home/jonnydang2004/QUADRAPED/build/pigpio' returned '2': /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/pigpio -- -j4 -l4

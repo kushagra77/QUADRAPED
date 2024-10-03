@@ -1,0 +1,711 @@
+[0.000000] (-) TimerEvent: {}
+[0.001000] (quadruped_interfaces) JobQueued: {'identifier': 'quadruped_interfaces', 'dependencies': OrderedDict()}
+[0.001585] (quadruped_control) JobQueued: {'identifier': 'quadruped_control', 'dependencies': OrderedDict([('quadruped_interfaces', '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces')])}
+[0.001699] (quadruped_interfaces) JobStarted: {'identifier': 'quadruped_interfaces'}
+[0.027038] (quadruped_interfaces) JobProgress: {'identifier': 'quadruped_interfaces', 'progress': 'cmake'}
+[0.028299] (quadruped_interfaces) JobProgress: {'identifier': 'quadruped_interfaces', 'progress': 'build'}
+[0.030138] (quadruped_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jonnydang2004'), ('GIT_ASKPASS', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/jonnydang2004'), ('OLDPWD', '/home/jonnydang2004/QUADRAPED/pigpio-master'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('NVM_BIN', '/home/jonnydang2004/.nvm/versions/node/v18.19.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-52862bc7-e471-4775-bee1-905917ce8182.sock'), ('NVM_INC', '/home/jonnydang2004/.nvm/versions/node/v18.19.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('NVM_DIR', '/home/jonnydang2004/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'jonnydang2004'), ('NAME', 'DESKTOP-JO2E52O'), ('WSL_INTEROP', '/run/WSL/35851_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_colcon_cd_rott', '/opt/ros/iron/'), ('PATH', '/opt/ros/iron/bin:/home/jonnydang2004/.nvm/versions/node/v18.19.0/bin:/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/User/AppData/Roaming/npm:/opt/gradle/gradle-8.5/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f95bf93406.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces'), ('NVM_CD_FLAGS', ''), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.099022] (-) TimerEvent: {}
+[0.205083] (-) TimerEvent: {}
+[0.225513] (quadruped_interfaces) StdoutLine: {'line': b'[  2%] Built target quadruped_interfaces__rosidl_generator_type_description\n'}
+[0.305616] (-) TimerEvent: {}
+[0.306972] (quadruped_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_quadruped_interfaces\n'}
+[0.374925] (quadruped_interfaces) StdoutLine: {'line': b'[  5%] Built target quadruped_interfaces__cpp\n'}
+[0.409140] (-) TimerEvent: {}
+[0.435720] (quadruped_interfaces) StdoutLine: {'line': b'[ 20%] Built target quadruped_interfaces__rosidl_generator_c\n'}
+[0.512789] (-) TimerEvent: {}
+[0.616169] (-) TimerEvent: {}
+[0.731691] (-) TimerEvent: {}
+[0.732196] (quadruped_interfaces) StdoutLine: {'line': b'[ 29%] Built target quadruped_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.769729] (quadruped_interfaces) StdoutLine: {'line': b'[ 41%] Built target quadruped_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.789490] (quadruped_interfaces) StdoutLine: {'line': b'[ 47%] Built target quadruped_interfaces__rosidl_typesupport_cpp\n'}
+[0.831968] (-) TimerEvent: {}
+[0.910229] (quadruped_interfaces) StdoutLine: {'line': b'[ 55%] Built target quadruped_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.932114] (-) TimerEvent: {}
+[0.944977] (quadruped_interfaces) StdoutLine: {'line': b'[ 64%] Built target quadruped_interfaces__rosidl_typesupport_c\n'}
+[0.967816] (quadruped_interfaces) StdoutLine: {'line': b'[ 73%] Built target quadruped_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.032294] (-) TimerEvent: {}
+[1.092030] (quadruped_interfaces) StdoutLine: {'line': b'[ 73%] Built target quadruped_interfaces\n'}
+[1.133229] (-) TimerEvent: {}
+[1.238727] (-) TimerEvent: {}
+[1.307527] (quadruped_interfaces) StdoutLine: {'line': b'[ 76%] Built target quadruped_interfaces__py\n'}
+[1.339016] (-) TimerEvent: {}
+[1.449416] (-) TimerEvent: {}
+[1.560857] (-) TimerEvent: {}
+[1.658425] (quadruped_interfaces) StdoutLine: {'line': b'[ 82%] Built target quadruped_interfaces__rosidl_generator_py\n'}
+[1.661018] (-) TimerEvent: {}
+[1.761582] (-) TimerEvent: {}
+[1.862114] (-) TimerEvent: {}
+[1.902020] (quadruped_interfaces) StdoutLine: {'line': b'[ 88%] Built target quadruped_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.961161] (quadruped_interfaces) StdoutLine: {'line': b'[ 94%] Built target quadruped_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.962244] (-) TimerEvent: {}
+[2.024979] (quadruped_interfaces) StdoutLine: {'line': b'[100%] Built target quadruped_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.066247] (-) TimerEvent: {}
+[2.166906] (-) TimerEvent: {}
+[2.267637] (-) TimerEvent: {}
+[2.369379] (-) TimerEvent: {}
+[2.470208] (-) TimerEvent: {}
+[2.571073] (-) TimerEvent: {}
+[2.682743] (-) TimerEvent: {}
+[2.783340] (-) TimerEvent: {}
+[2.890862] (-) TimerEvent: {}
+[2.991510] (-) TimerEvent: {}
+[3.092254] (-) TimerEvent: {}
+[3.192886] (-) TimerEvent: {}
+[3.293651] (-) TimerEvent: {}
+[3.397215] (-) TimerEvent: {}
+[3.499882] (-) TimerEvent: {}
+[3.600681] (-) TimerEvent: {}
+[3.701262] (-) TimerEvent: {}
+[3.729697] (quadruped_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.736005] (quadruped_interfaces) StdoutLine: {'line': b'writing quadruped_interfaces.egg-info/PKG-INFO\n'}
+[3.736413] (quadruped_interfaces) StdoutLine: {'line': b'writing dependency_links to quadruped_interfaces.egg-info/dependency_links.txt\n'}
+[3.736677] (quadruped_interfaces) StdoutLine: {'line': b'writing top-level names to quadruped_interfaces.egg-info/top_level.txt\n'}
+[3.749808] (quadruped_interfaces) StdoutLine: {'line': b"reading manifest file 'quadruped_interfaces.egg-info/SOURCES.txt'\n"}
+[3.752295] (quadruped_interfaces) StdoutLine: {'line': b"writing manifest file 'quadruped_interfaces.egg-info/SOURCES.txt'\n"}
+[3.801502] (-) TimerEvent: {}
+[3.861060] (quadruped_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_quadruped_interfaces_egg\n'}
+[3.891935] (quadruped_interfaces) CommandEnded: {'returncode': 0}
+[3.901764] (-) TimerEvent: {}
+[4.002392] (-) TimerEvent: {}
+[4.103123] (-) TimerEvent: {}
+[4.129689] (quadruped_interfaces) JobProgress: {'identifier': 'quadruped_interfaces', 'progress': 'install'}
+[4.157883] (quadruped_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces'], 'cwd': '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jonnydang2004'), ('GIT_ASKPASS', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/jonnydang2004'), ('OLDPWD', '/home/jonnydang2004/QUADRAPED/pigpio-master'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('NVM_BIN', '/home/jonnydang2004/.nvm/versions/node/v18.19.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-52862bc7-e471-4775-bee1-905917ce8182.sock'), ('NVM_INC', '/home/jonnydang2004/.nvm/versions/node/v18.19.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('NVM_DIR', '/home/jonnydang2004/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'jonnydang2004'), ('NAME', 'DESKTOP-JO2E52O'), ('WSL_INTEROP', '/run/WSL/35851_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_colcon_cd_rott', '/opt/ros/iron/'), ('PATH', '/opt/ros/iron/bin:/home/jonnydang2004/.nvm/versions/node/v18.19.0/bin:/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/User/AppData/Roaming/npm:/opt/gradle/gradle-8.5/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f95bf93406.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces'), ('NVM_CD_FLAGS', ''), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[4.184014] (quadruped_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.184908] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/ament_index/resource_index/rosidl_interfaces/quadruped_interfaces\n'}
+[4.185273] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/msg/Pos.json\n'}
+[4.185567] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces\n'}
+[4.185908] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg\n'}
+[4.186203] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/pos.h\n'}
+[4.186486] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.187048] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail\n'}
+[4.187380] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__functions.c\n'}
+[4.187798] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__description.c\n'}
+[4.188110] (quadruped_interfaces) StdoutLine: {'line': b'-- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__type_support.c\n'}
+[4.188363] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__functions.h\n'}
+[4.188635] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__type_support.h\n'}
+[4.189016] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__struct.h\n'}
+[4.189323] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/library_path.sh\n'}
+[4.189555] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/library_path.dsv\n'}
+[4.189891] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_generator_c.so\n'}
+[4.190364] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces\n'}
+[4.190722] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg\n'}
+[4.191001] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.191420] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail\n'}
+[4.191704] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__rosidl_typesupport_fastrtps_c.h\n'}
+[4.192009] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.193514] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces\n'}
+[4.193918] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg\n'}
+[4.194411] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.194912] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail\n'}
+[4.195253] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__rosidl_typesupport_introspection_c.h\n'}
+[4.195492] (quadruped_interfaces) StdoutLine: {'line': b'-- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__type_support.c\n'}
+[4.195705] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.195932] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_c.so\n'}
+[4.196175] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces\n'}
+[4.196354] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg\n'}
+[4.197419] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/pos.hpp\n'}
+[4.197740] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail\n'}
+[4.197945] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__struct.hpp\n'}
+[4.198126] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__builder.hpp\n'}
+[4.198299] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__traits.hpp\n'}
+[4.198472] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces\n'}
+[4.198644] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg\n'}
+[4.198988] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.199184] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail\n'}
+[4.199435] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/dds_fastrtps\n'}
+[4.200537] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.201124] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.201581] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces\n'}
+[4.202345] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg\n'}
+[4.203866] (-) TimerEvent: {}
+[4.204354] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail\n'}
+[4.204740] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.204973] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__type_support.cpp\n'}
+[4.205169] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.205421] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.205616] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/pythonpath.sh\n'}
+[4.205789] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/pythonpath.dsv\n'}
+[4.205964] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces-0.0.0-py3.10.egg-info\n'}
+[4.206135] (quadruped_interfaces) StdoutLine: {'line': b'-- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.206407] (quadruped_interfaces) StdoutLine: {'line': b'-- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.206605] (quadruped_interfaces) StdoutLine: {'line': b'-- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.206782] (quadruped_interfaces) StdoutLine: {'line': b'-- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.206949] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces\n'}
+[4.207117] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.207357] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/libquadruped_interfaces__rosidl_generator_py.so\n'}
+[4.207542] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.207716] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg\n'}
+[4.207988] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg/_pos_s.c\n'}
+[4.208203] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg/_pos.py\n'}
+[4.208456] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg/__init__.py\n'}
+[4.208643] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/_quadruped_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.208859] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.209056] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/_quadruped_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[4.209276] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/_quadruped_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.209468] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/__init__.py\n'}
+[4.304156] (-) TimerEvent: {}
+[4.306708] (quadruped_interfaces) StdoutLine: {'line': b"Listing '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces'...\n"}
+[4.307233] (quadruped_interfaces) StdoutLine: {'line': b"Listing '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg'...\n"}
+[4.326989] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.330073] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.331734] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.332862] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_generator_py.so\n'}
+[4.334734] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/msg/Pos.idl\n'}
+[4.335172] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/msg/Pos.msg\n'}
+[4.335539] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/ament_index/resource_index/package_run_dependencies/quadruped_interfaces\n'}
+[4.336072] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/ament_index/resource_index/parent_prefix_path/quadruped_interfaces\n'}
+[4.336482] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/ament_prefix_path.sh\n'}
+[4.342279] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.343100] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/path.sh\n'}
+[4.343392] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/path.dsv\n'}
+[4.343745] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/local_setup.bash\n'}
+[4.343997] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/local_setup.sh\n'}
+[4.344242] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/local_setup.zsh\n'}
+[4.344535] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/local_setup.dsv\n'}
+[4.344785] (quadruped_interfaces) StdoutLine: {'line': b'-- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/package.dsv\n'}
+[4.345033] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/ament_index/resource_index/packages/quadruped_interfaces\n'}
+[4.345286] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.345579] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.345817] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.346045] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.346273] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.346633] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.346839] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.347025] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.347351] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.349763] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.350158] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.350491] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.350901] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.351378] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.351618] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.351812] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.351999] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.352263] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.352540] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.352734] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.352976] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.353440] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.353875] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.369046] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.369443] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfacesConfig.cmake\n'}
+[4.369752] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfacesConfig-version.cmake\n'}
+[4.370142] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/package.xml\n'}
+[4.370442] (quadruped_interfaces) CommandEnded: {'returncode': 0}
+[4.405477] (-) TimerEvent: {}
+[4.505926] (-) TimerEvent: {}
+[4.606575] (-) TimerEvent: {}
+[4.675141] (quadruped_interfaces) JobEnded: {'identifier': 'quadruped_interfaces', 'rc': 0}
+[4.676810] (quadruped_control) JobStarted: {'identifier': 'quadruped_control'}
+[4.706754] (-) TimerEvent: {}
+[4.807398] (-) TimerEvent: {}
+[4.908133] (-) TimerEvent: {}
+[5.008980] (-) TimerEvent: {}
+[5.109635] (-) TimerEvent: {}
+[5.144456] (quadruped_control) JobProgress: {'identifier': 'quadruped_control', 'progress': 'cmake'}
+[5.144649] (quadruped_control) JobProgress: {'identifier': 'quadruped_control', 'progress': 'build'}
+[5.144759] (quadruped_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jonnydang2004/QUADRAPED/build/quadruped_control', '--', '-j4', '-l4'], 'cwd': '/home/jonnydang2004/QUADRAPED/build/quadruped_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jonnydang2004'), ('GIT_ASKPASS', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/jonnydang2004'), ('OLDPWD', '/home/jonnydang2004/QUADRAPED/pigpio-master'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('NVM_BIN', '/home/jonnydang2004/.nvm/versions/node/v18.19.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-52862bc7-e471-4775-bee1-905917ce8182.sock'), ('NVM_INC', '/home/jonnydang2004/.nvm/versions/node/v18.19.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('NVM_DIR', '/home/jonnydang2004/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'jonnydang2004'), ('NAME', 'DESKTOP-JO2E52O'), ('WSL_INTEROP', '/run/WSL/35851_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_colcon_cd_rott', '/opt/ros/iron/'), ('PATH', '/opt/ros/iron/bin:/home/jonnydang2004/.nvm/versions/node/v18.19.0/bin:/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/User/AppData/Roaming/npm:/opt/gradle/gradle-8.5/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f95bf93406.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jonnydang2004/QUADRAPED/build/quadruped_control'), ('NVM_CD_FLAGS', ''), ('PYTHONPATH', '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron')]), 'shell': False}
+[5.209989] (-) TimerEvent: {}
+[5.265453] (quadruped_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target inverse_kinematics\x1b[0m\n'}
+[5.276761] (quadruped_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor_config\x1b[0m\n'}
+[5.316075] (-) TimerEvent: {}
+[5.419008] (-) TimerEvent: {}
+[5.444116] (quadruped_control) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/motor_config.dir/src/Servo.cpp.o\x1b[0m\n'}
+[5.456460] (quadruped_control) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/motor_config.dir/src/motor_config.cpp.o\x1b[0m\n'}
+[5.495899] (quadruped_control) StdoutLine: {'line': b'[ 80%] Built target inverse_kinematics\n'}
+[5.519154] (-) TimerEvent: {}
+[5.619643] (-) TimerEvent: {}
+[5.720162] (-) TimerEvent: {}
+[5.821053] (-) TimerEvent: {}
+[5.924618] (-) TimerEvent: {}
+[6.025254] (-) TimerEvent: {}
+[6.125863] (-) TimerEvent: {}
+[6.226517] (-) TimerEvent: {}
+[6.327098] (-) TimerEvent: {}
+[6.427767] (-) TimerEvent: {}
+[6.528363] (-) TimerEvent: {}
+[6.631392] (-) TimerEvent: {}
+[6.732068] (-) TimerEvent: {}
+[6.835221] (-) TimerEvent: {}
+[6.937376] (-) TimerEvent: {}
+[7.044853] (-) TimerEvent: {}
+[7.145435] (-) TimerEvent: {}
+[7.246076] (-) TimerEvent: {}
+[7.346669] (-) TimerEvent: {}
+[7.447367] (-) TimerEvent: {}
+[7.548234] (-) TimerEvent: {}
+[7.648936] (-) TimerEvent: {}
+[7.749576] (-) TimerEvent: {}
+[7.850198] (-) TimerEvent: {}
+[7.950941] (-) TimerEvent: {}
+[8.051659] (-) TimerEvent: {}
+[8.152436] (-) TimerEvent: {}
+[8.253167] (-) TimerEvent: {}
+[8.353902] (-) TimerEvent: {}
+[8.454645] (-) TimerEvent: {}
+[8.555402] (-) TimerEvent: {}
+[8.656082] (-) TimerEvent: {}
+[8.756731] (-) TimerEvent: {}
+[8.857422] (-) TimerEvent: {}
+[8.958014] (-) TimerEvent: {}
+[9.058680] (-) TimerEvent: {}
+[9.159437] (-) TimerEvent: {}
+[9.260154] (-) TimerEvent: {}
+[9.360966] (-) TimerEvent: {}
+[9.461635] (-) TimerEvent: {}
+[9.562340] (-) TimerEvent: {}
+[9.663100] (-) TimerEvent: {}
+[9.763797] (-) TimerEvent: {}
+[9.864558] (-) TimerEvent: {}
+[9.965338] (-) TimerEvent: {}
+[10.066091] (-) TimerEvent: {}
+[10.166921] (-) TimerEvent: {}
+[10.267770] (-) TimerEvent: {}
+[10.368519] (-) TimerEvent: {}
+[10.469278] (-) TimerEvent: {}
+[10.570088] (-) TimerEvent: {}
+[10.670684] (-) TimerEvent: {}
+[10.771373] (-) TimerEvent: {}
+[10.872112] (-) TimerEvent: {}
+[10.972851] (-) TimerEvent: {}
+[11.073642] (-) TimerEvent: {}
+[11.174450] (-) TimerEvent: {}
+[11.275209] (-) TimerEvent: {}
+[11.375963] (-) TimerEvent: {}
+[11.476674] (-) TimerEvent: {}
+[11.577525] (-) TimerEvent: {}
+[11.678179] (-) TimerEvent: {}
+[11.779022] (-) TimerEvent: {}
+[11.884952] (-) TimerEvent: {}
+[11.985577] (-) TimerEvent: {}
+[12.086348] (-) TimerEvent: {}
+[12.187006] (-) TimerEvent: {}
+[12.287759] (-) TimerEvent: {}
+[12.388535] (-) TimerEvent: {}
+[12.489236] (-) TimerEvent: {}
+[12.589949] (-) TimerEvent: {}
+[12.690640] (-) TimerEvent: {}
+[12.791310] (-) TimerEvent: {}
+[12.892154] (-) TimerEvent: {}
+[12.992801] (-) TimerEvent: {}
+[13.093782] (-) TimerEvent: {}
+[13.194360] (-) TimerEvent: {}
+[13.295007] (-) TimerEvent: {}
+[13.395758] (-) TimerEvent: {}
+[13.496522] (-) TimerEvent: {}
+[13.597246] (-) TimerEvent: {}
+[13.698069] (-) TimerEvent: {}
+[13.798806] (-) TimerEvent: {}
+[13.899500] (-) TimerEvent: {}
+[14.000161] (-) TimerEvent: {}
+[14.100887] (-) TimerEvent: {}
+[14.201607] (-) TimerEvent: {}
+[14.302297] (-) TimerEvent: {}
+[14.403186] (-) TimerEvent: {}
+[14.504027] (-) TimerEvent: {}
+[14.604935] (-) TimerEvent: {}
+[14.705601] (-) TimerEvent: {}
+[14.806496] (-) TimerEvent: {}
+[14.907354] (-) TimerEvent: {}
+[15.008116] (-) TimerEvent: {}
+[15.108930] (-) TimerEvent: {}
+[15.209574] (-) TimerEvent: {}
+[15.310225] (-) TimerEvent: {}
+[15.411017] (-) TimerEvent: {}
+[15.511962] (-) TimerEvent: {}
+[15.612960] (-) TimerEvent: {}
+[15.713637] (-) TimerEvent: {}
+[15.814294] (-) TimerEvent: {}
+[15.915116] (-) TimerEvent: {}
+[16.015920] (-) TimerEvent: {}
+[16.116831] (-) TimerEvent: {}
+[16.217752] (-) TimerEvent: {}
+[16.318523] (-) TimerEvent: {}
+[16.419420] (-) TimerEvent: {}
+[16.520175] (-) TimerEvent: {}
+[16.620837] (-) TimerEvent: {}
+[16.724925] (-) TimerEvent: {}
+[16.825736] (-) TimerEvent: {}
+[16.926465] (-) TimerEvent: {}
+[17.027229] (-) TimerEvent: {}
+[17.128131] (-) TimerEvent: {}
+[17.229053] (-) TimerEvent: {}
+[17.329871] (-) TimerEvent: {}
+[17.430610] (-) TimerEvent: {}
+[17.531252] (-) TimerEvent: {}
+[17.632034] (-) TimerEvent: {}
+[17.732807] (-) TimerEvent: {}
+[17.833587] (-) TimerEvent: {}
+[17.934334] (-) TimerEvent: {}
+[18.035072] (-) TimerEvent: {}
+[18.135720] (-) TimerEvent: {}
+[18.236537] (-) TimerEvent: {}
+[18.337543] (-) TimerEvent: {}
+[18.438374] (-) TimerEvent: {}
+[18.539149] (-) TimerEvent: {}
+[18.639938] (-) TimerEvent: {}
+[18.740721] (-) TimerEvent: {}
+[18.841460] (-) TimerEvent: {}
+[18.942231] (-) TimerEvent: {}
+[19.042970] (-) TimerEvent: {}
+[19.144038] (-) TimerEvent: {}
+[19.244759] (-) TimerEvent: {}
+[19.345469] (-) TimerEvent: {}
+[19.446193] (-) TimerEvent: {}
+[19.546916] (-) TimerEvent: {}
+[19.647550] (-) TimerEvent: {}
+[19.748285] (-) TimerEvent: {}
+[19.848991] (-) TimerEvent: {}
+[19.949691] (-) TimerEvent: {}
+[20.050552] (-) TimerEvent: {}
+[20.151369] (-) TimerEvent: {}
+[20.252134] (-) TimerEvent: {}
+[20.352908] (-) TimerEvent: {}
+[20.453667] (-) TimerEvent: {}
+[20.554441] (-) TimerEvent: {}
+[20.655243] (-) TimerEvent: {}
+[20.756172] (-) TimerEvent: {}
+[20.857079] (-) TimerEvent: {}
+[20.957962] (-) TimerEvent: {}
+[21.058808] (-) TimerEvent: {}
+[21.159484] (-) TimerEvent: {}
+[21.260225] (-) TimerEvent: {}
+[21.361258] (-) TimerEvent: {}
+[21.461976] (-) TimerEvent: {}
+[21.562706] (-) TimerEvent: {}
+[21.663504] (-) TimerEvent: {}
+[21.764557] (-) TimerEvent: {}
+[21.865331] (-) TimerEvent: {}
+[21.966143] (-) TimerEvent: {}
+[22.066904] (-) TimerEvent: {}
+[22.167768] (-) TimerEvent: {}
+[22.268595] (-) TimerEvent: {}
+[22.369438] (-) TimerEvent: {}
+[22.470194] (-) TimerEvent: {}
+[22.572595] (-) TimerEvent: {}
+[22.674131] (-) TimerEvent: {}
+[22.775184] (-) TimerEvent: {}
+[22.876485] (-) TimerEvent: {}
+[22.977390] (-) TimerEvent: {}
+[23.081929] (-) TimerEvent: {}
+[23.185149] (-) TimerEvent: {}
+[23.287583] (-) TimerEvent: {}
+[23.388649] (-) TimerEvent: {}
+[23.489561] (-) TimerEvent: {}
+[23.590505] (-) TimerEvent: {}
+[23.691368] (-) TimerEvent: {}
+[23.792362] (-) TimerEvent: {}
+[23.893157] (-) TimerEvent: {}
+[23.994175] (-) TimerEvent: {}
+[24.095045] (-) TimerEvent: {}
+[24.196053] (-) TimerEvent: {}
+[24.296976] (-) TimerEvent: {}
+[24.398208] (-) TimerEvent: {}
+[24.499390] (-) TimerEvent: {}
+[24.600361] (-) TimerEvent: {}
+[24.701364] (-) TimerEvent: {}
+[24.802225] (-) TimerEvent: {}
+[24.903156] (-) TimerEvent: {}
+[25.004195] (-) TimerEvent: {}
+[25.105243] (-) TimerEvent: {}
+[25.206244] (-) TimerEvent: {}
+[25.307356] (-) TimerEvent: {}
+[25.408414] (-) TimerEvent: {}
+[25.509658] (-) TimerEvent: {}
+[25.610769] (-) TimerEvent: {}
+[25.711641] (-) TimerEvent: {}
+[25.812718] (-) TimerEvent: {}
+[25.913614] (-) TimerEvent: {}
+[26.014480] (-) TimerEvent: {}
+[26.115231] (-) TimerEvent: {}
+[26.215987] (-) TimerEvent: {}
+[26.316738] (-) TimerEvent: {}
+[26.417495] (-) TimerEvent: {}
+[26.518365] (-) TimerEvent: {}
+[26.619229] (-) TimerEvent: {}
+[26.719859] (-) TimerEvent: {}
+[26.820696] (-) TimerEvent: {}
+[26.921446] (-) TimerEvent: {}
+[27.022087] (-) TimerEvent: {}
+[27.122804] (-) TimerEvent: {}
+[27.223583] (-) TimerEvent: {}
+[27.324404] (-) TimerEvent: {}
+[27.425197] (-) TimerEvent: {}
+[27.525949] (-) TimerEvent: {}
+[27.626693] (-) TimerEvent: {}
+[27.727459] (-) TimerEvent: {}
+[27.828137] (-) TimerEvent: {}
+[27.929121] (-) TimerEvent: {}
+[28.029910] (-) TimerEvent: {}
+[28.130537] (-) TimerEvent: {}
+[28.231185] (-) TimerEvent: {}
+[28.332102] (-) TimerEvent: {}
+[28.432852] (-) TimerEvent: {}
+[28.533565] (-) TimerEvent: {}
+[28.634351] (-) TimerEvent: {}
+[28.735175] (-) TimerEvent: {}
+[28.836006] (-) TimerEvent: {}
+[28.936810] (-) TimerEvent: {}
+[29.037697] (-) TimerEvent: {}
+[29.138490] (-) TimerEvent: {}
+[29.239242] (-) TimerEvent: {}
+[29.340032] (-) TimerEvent: {}
+[29.440759] (-) TimerEvent: {}
+[29.541513] (-) TimerEvent: {}
+[29.642264] (-) TimerEvent: {}
+[29.743092] (-) TimerEvent: {}
+[29.843885] (-) TimerEvent: {}
+[29.951298] (-) TimerEvent: {}
+[30.052125] (-) TimerEvent: {}
+[30.152898] (-) TimerEvent: {}
+[30.253727] (-) TimerEvent: {}
+[30.354540] (-) TimerEvent: {}
+[30.455235] (-) TimerEvent: {}
+[30.556032] (-) TimerEvent: {}
+[30.656768] (-) TimerEvent: {}
+[30.757433] (-) TimerEvent: {}
+[30.858139] (-) TimerEvent: {}
+[30.958965] (-) TimerEvent: {}
+[31.060383] (-) TimerEvent: {}
+[31.161232] (-) TimerEvent: {}
+[31.262752] (-) TimerEvent: {}
+[31.363466] (-) TimerEvent: {}
+[31.464173] (-) TimerEvent: {}
+[31.564867] (-) TimerEvent: {}
+[31.665617] (-) TimerEvent: {}
+[31.766380] (-) TimerEvent: {}
+[31.867059] (-) TimerEvent: {}
+[31.967698] (-) TimerEvent: {}
+[32.068392] (-) TimerEvent: {}
+[32.169388] (-) TimerEvent: {}
+[32.270409] (-) TimerEvent: {}
+[32.371397] (-) TimerEvent: {}
+[32.472374] (-) TimerEvent: {}
+[32.573288] (-) TimerEvent: {}
+[32.674456] (-) TimerEvent: {}
+[32.775507] (-) TimerEvent: {}
+[32.876484] (-) TimerEvent: {}
+[32.977393] (-) TimerEvent: {}
+[33.078308] (-) TimerEvent: {}
+[33.179694] (-) TimerEvent: {}
+[33.283850] (-) TimerEvent: {}
+[33.384619] (-) TimerEvent: {}
+[33.485371] (-) TimerEvent: {}
+[33.586090] (-) TimerEvent: {}
+[33.686738] (-) TimerEvent: {}
+[33.787362] (-) TimerEvent: {}
+[33.887998] (-) TimerEvent: {}
+[33.988976] (-) TimerEvent: {}
+[34.089839] (-) TimerEvent: {}
+[34.190550] (-) TimerEvent: {}
+[34.291272] (-) TimerEvent: {}
+[34.391877] (-) TimerEvent: {}
+[34.492569] (-) TimerEvent: {}
+[34.593539] (-) TimerEvent: {}
+[34.695141] (-) TimerEvent: {}
+[34.795859] (-) TimerEvent: {}
+[34.896619] (-) TimerEvent: {}
+[34.997359] (-) TimerEvent: {}
+[35.097967] (-) TimerEvent: {}
+[35.198779] (-) TimerEvent: {}
+[35.299618] (-) TimerEvent: {}
+[35.400291] (-) TimerEvent: {}
+[35.500946] (-) TimerEvent: {}
+[35.601728] (-) TimerEvent: {}
+[35.702469] (-) TimerEvent: {}
+[35.803320] (-) TimerEvent: {}
+[35.904073] (-) TimerEvent: {}
+[36.005025] (-) TimerEvent: {}
+[36.105854] (-) TimerEvent: {}
+[36.206943] (-) TimerEvent: {}
+[36.307666] (-) TimerEvent: {}
+[36.408466] (-) TimerEvent: {}
+[36.509229] (-) TimerEvent: {}
+[36.610702] (-) TimerEvent: {}
+[36.711414] (-) TimerEvent: {}
+[36.812247] (-) TimerEvent: {}
+[36.913024] (-) TimerEvent: {}
+[37.013850] (-) TimerEvent: {}
+[37.114580] (-) TimerEvent: {}
+[37.215236] (-) TimerEvent: {}
+[37.315833] (-) TimerEvent: {}
+[37.416489] (-) TimerEvent: {}
+[37.517209] (-) TimerEvent: {}
+[37.617889] (-) TimerEvent: {}
+[37.718696] (-) TimerEvent: {}
+[37.819424] (-) TimerEvent: {}
+[37.920300] (-) TimerEvent: {}
+[38.021194] (-) TimerEvent: {}
+[38.121987] (-) TimerEvent: {}
+[38.222724] (-) TimerEvent: {}
+[38.323458] (-) TimerEvent: {}
+[38.424167] (-) TimerEvent: {}
+[38.524883] (-) TimerEvent: {}
+[38.625689] (-) TimerEvent: {}
+[38.726508] (-) TimerEvent: {}
+[38.827317] (-) TimerEvent: {}
+[38.928024] (-) TimerEvent: {}
+[39.028685] (-) TimerEvent: {}
+[39.129390] (-) TimerEvent: {}
+[39.230153] (-) TimerEvent: {}
+[39.330929] (-) TimerEvent: {}
+[39.431643] (-) TimerEvent: {}
+[39.532635] (-) TimerEvent: {}
+[39.633361] (-) TimerEvent: {}
+[39.734178] (-) TimerEvent: {}
+[39.834948] (-) TimerEvent: {}
+[39.936057] (-) TimerEvent: {}
+[40.036714] (-) TimerEvent: {}
+[40.137319] (-) TimerEvent: {}
+[40.238039] (-) TimerEvent: {}
+[40.338781] (-) TimerEvent: {}
+[40.439585] (-) TimerEvent: {}
+[40.540422] (-) TimerEvent: {}
+[40.641119] (-) TimerEvent: {}
+[40.741881] (-) TimerEvent: {}
+[40.842636] (-) TimerEvent: {}
+[41.003609] (-) TimerEvent: {}
+[41.114024] (-) TimerEvent: {}
+[41.214589] (-) TimerEvent: {}
+[41.329059] (-) TimerEvent: {}
+[41.429666] (-) TimerEvent: {}
+[41.530310] (-) TimerEvent: {}
+[41.630900] (-) TimerEvent: {}
+[41.731669] (-) TimerEvent: {}
+[41.832286] (-) TimerEvent: {}
+[41.933043] (-) TimerEvent: {}
+[42.033799] (-) TimerEvent: {}
+[42.143439] (-) TimerEvent: {}
+[42.244094] (-) TimerEvent: {}
+[42.351567] (-) TimerEvent: {}
+[42.452334] (-) TimerEvent: {}
+[42.554920] (-) TimerEvent: {}
+[42.655641] (-) TimerEvent: {}
+[42.756370] (-) TimerEvent: {}
+[42.857191] (-) TimerEvent: {}
+[42.957917] (-) TimerEvent: {}
+[43.058605] (-) TimerEvent: {}
+[43.159387] (-) TimerEvent: {}
+[43.275305] (-) TimerEvent: {}
+[43.375967] (-) TimerEvent: {}
+[43.476637] (-) TimerEvent: {}
+[43.577300] (-) TimerEvent: {}
+[43.677934] (-) TimerEvent: {}
+[43.788696] (-) TimerEvent: {}
+[43.889930] (-) TimerEvent: {}
+[44.006596] (-) TimerEvent: {}
+[44.107230] (-) TimerEvent: {}
+[44.207905] (-) TimerEvent: {}
+[44.308503] (-) TimerEvent: {}
+[44.409164] (-) TimerEvent: {}
+[44.509778] (-) TimerEvent: {}
+[44.622985] (-) TimerEvent: {}
+[44.723777] (-) TimerEvent: {}
+[44.824551] (-) TimerEvent: {}
+[44.925399] (-) TimerEvent: {}
+[45.026432] (-) TimerEvent: {}
+[45.127373] (-) TimerEvent: {}
+[45.228549] (-) TimerEvent: {}
+[45.329241] (-) TimerEvent: {}
+[45.429894] (-) TimerEvent: {}
+[45.530478] (-) TimerEvent: {}
+[45.631040] (-) TimerEvent: {}
+[45.731634] (-) TimerEvent: {}
+[45.832175] (-) TimerEvent: {}
+[45.932673] (-) TimerEvent: {}
+[46.033279] (-) TimerEvent: {}
+[46.133846] (-) TimerEvent: {}
+[46.234473] (-) TimerEvent: {}
+[46.335117] (-) TimerEvent: {}
+[46.435796] (-) TimerEvent: {}
+[46.536521] (-) TimerEvent: {}
+[46.640748] (-) TimerEvent: {}
+[46.753413] (-) TimerEvent: {}
+[46.854130] (-) TimerEvent: {}
+[46.954782] (-) TimerEvent: {}
+[47.055545] (-) TimerEvent: {}
+[47.156282] (-) TimerEvent: {}
+[47.256927] (-) TimerEvent: {}
+[47.357566] (-) TimerEvent: {}
+[47.458504] (-) TimerEvent: {}
+[47.559488] (-) TimerEvent: {}
+[47.735742] (-) TimerEvent: {}
+[47.885352] (-) TimerEvent: {}
+[47.986810] (-) TimerEvent: {}
+[48.087648] (-) TimerEvent: {}
+[48.176057] (quadruped_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motor_config\x1b[0m\n'}
+[48.192121] (-) TimerEvent: {}
+[48.292875] (-) TimerEvent: {}
+[48.401661] (-) TimerEvent: {}
+[48.502355] (-) TimerEvent: {}
+[48.603032] (-) TimerEvent: {}
+[48.703822] (-) TimerEvent: {}
+[48.804601] (-) TimerEvent: {}
+[48.905346] (-) TimerEvent: {}
+[49.006119] (-) TimerEvent: {}
+[49.110332] (-) TimerEvent: {}
+[49.211014] (-) TimerEvent: {}
+[49.311704] (-) TimerEvent: {}
+[49.412524] (-) TimerEvent: {}
+[49.513311] (-) TimerEvent: {}
+[49.614040] (-) TimerEvent: {}
+[49.714653] (-) TimerEvent: {}
+[49.815286] (-) TimerEvent: {}
+[49.916007] (-) TimerEvent: {}
+[50.016849] (-) TimerEvent: {}
+[50.117558] (-) TimerEvent: {}
+[50.218307] (-) TimerEvent: {}
+[50.318950] (-) TimerEvent: {}
+[50.419551] (-) TimerEvent: {}
+[50.520281] (-) TimerEvent: {}
+[50.626507] (-) TimerEvent: {}
+[50.727180] (-) TimerEvent: {}
+[50.827924] (-) TimerEvent: {}
+[50.930258] (-) TimerEvent: {}
+[51.030890] (-) TimerEvent: {}
+[51.131580] (-) TimerEvent: {}
+[51.232178] (-) TimerEvent: {}
+[51.332889] (-) TimerEvent: {}
+[51.433760] (-) TimerEvent: {}
+[51.534775] (-) TimerEvent: {}
+[51.635440] (-) TimerEvent: {}
+[51.736221] (-) TimerEvent: {}
+[51.842289] (-) TimerEvent: {}
+[51.945988] (-) TimerEvent: {}
+[52.046816] (-) TimerEvent: {}
+[52.147499] (-) TimerEvent: {}
+[52.248197] (-) TimerEvent: {}
+[52.349010] (-) TimerEvent: {}
+[52.449704] (-) TimerEvent: {}
+[52.550311] (-) TimerEvent: {}
+[52.650980] (-) TimerEvent: {}
+[52.817916] (-) TimerEvent: {}
+[52.918622] (-) TimerEvent: {}
+[53.019448] (-) TimerEvent: {}
+[53.120190] (-) TimerEvent: {}
+[53.178592] (quadruped_control) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/motor_config.dir/src/Servo.cpp.o: in function `Servo::Servo()':\n"}
+[53.179428] (quadruped_control) StderrLine: {'line': b"Servo.cpp:(.text+0x1f): undefined reference to `gpioInitialise'\n"}
+[53.179942] (quadruped_control) StderrLine: {'line': b"/usr/bin/ld: Servo.cpp:(.text+0x4d): undefined reference to `gpioSetMode'\n"}
+[53.180486] (quadruped_control) StderrLine: {'line': b"/usr/bin/ld: Servo.cpp:(.text+0x63): undefined reference to `gpioSetPWMrange'\n"}
+[53.180970] (quadruped_control) StderrLine: {'line': b"/usr/bin/ld: Servo.cpp:(.text+0x79): undefined reference to `gpioPWM'\n"}
+[53.181764] (quadruped_control) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/motor_config.dir/src/Servo.cpp.o: in function `Servo::Servo(unsigned char)':\n"}
+[53.182094] (quadruped_control) StderrLine: {'line': b"Servo.cpp:(.text+0xa7): undefined reference to `gpioInitialise'\n"}
+[53.182505] (quadruped_control) StderrLine: {'line': b"/usr/bin/ld: Servo.cpp:(.text+0xcf): undefined reference to `gpioSetMode'\n"}
+[53.182833] (quadruped_control) StderrLine: {'line': b"/usr/bin/ld: Servo.cpp:(.text+0xdf): undefined reference to `gpioSetPWMrange'\n"}
+[53.183161] (quadruped_control) StderrLine: {'line': b"/usr/bin/ld: Servo.cpp:(.text+0xef): undefined reference to `gpioPWM'\n"}
+[53.183589] (quadruped_control) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/motor_config.dir/src/Servo.cpp.o: in function `Servo::goDegree(double)':\n"}
+[53.183948] (quadruped_control) StderrLine: {'line': b"Servo.cpp:(.text+0x15b): undefined reference to `gpioPWM'\n"}
+[53.226875] (-) TimerEvent: {}
+[53.327523] (-) TimerEvent: {}
+[53.407015] (quadruped_control) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[53.424985] (quadruped_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/motor_config.dir/build.make:190: motor_config] Error 1\n'}
+[53.436635] (quadruped_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/motor_config.dir/all] Error 2\n'}
+[53.437184] (-) TimerEvent: {}
+[53.437497] (quadruped_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[53.452254] (quadruped_control) CommandEnded: {'returncode': 2}
+[53.537606] (-) TimerEvent: {}
+[53.640812] (-) TimerEvent: {}
+[53.748926] (-) TimerEvent: {}
+[53.815057] (quadruped_control) JobEnded: {'identifier': 'quadruped_control', 'rc': 2}
+[53.819495] (-) EventReactorShutdown: {}

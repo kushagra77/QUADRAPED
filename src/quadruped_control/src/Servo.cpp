@@ -1,6 +1,7 @@
 #include "Servo.h"
 #include <pigpio.h>
 #include <stdio.h>
+// #include <WiringPi>
 
 #define ROTATE_0 700  // Rotate to 0° position
 #define ROTATE_180 2300
@@ -9,6 +10,8 @@
 Servo::Servo() {
     xGP = 0;
 
+    // wiringPiSetupGpio();
+    
     if (gpioInitialise() < 0) {
 		printf("pigpio initialization failed\n");
 		return;
