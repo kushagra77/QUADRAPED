@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/Servo/Servo.egg-info/PKG-INFO
+../../build/Servo/Servo.egg-info/SOURCES.txt
+../../build/Servo/Servo.egg-info/dependency_links.txt
+../../build/Servo/Servo.egg-info/entry_points.txt
+../../build/Servo/Servo.egg-info/requires.txt
+../../build/Servo/Servo.egg-info/top_level.txt
+../../build/Servo/Servo.egg-info/zip-safe
+resource/Servo
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -661,5 +661,5 @@ CMakeFiles/motor_config.dir/src/motor_config.cpp.o: \
  /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__struct.hpp \
  /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__builder.hpp \
  /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__traits.hpp \
- /home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.h \
+ /home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py \
  /usr/local/include/pigpio.h

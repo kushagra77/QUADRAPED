@@ -1,0 +1,377 @@
+[0.000000] (-) TimerEvent: {}
+[0.001140] (Servo) JobQueued: {'identifier': 'Servo', 'dependencies': OrderedDict()}
+[0.001301] (quadruped_interfaces) JobQueued: {'identifier': 'quadruped_interfaces', 'dependencies': OrderedDict()}
+[0.001420] (quadruped_control) JobQueued: {'identifier': 'quadruped_control', 'dependencies': OrderedDict([('quadruped_interfaces', '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces')])}
+[0.001580] (quadruped_interfaces) JobStarted: {'identifier': 'quadruped_interfaces'}
+[0.012719] (Servo) JobStarted: {'identifier': 'Servo'}
+[0.040689] (quadruped_interfaces) JobProgress: {'identifier': 'quadruped_interfaces', 'progress': 'cmake'}
+[0.044506] (quadruped_interfaces) JobProgress: {'identifier': 'quadruped_interfaces', 'progress': 'build'}
+[0.044666] (quadruped_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jonnydang2004'), ('GIT_ASKPASS', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/jonnydang2004'), ('OLDPWD', '/home/jonnydang2004/QUADRAPED/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('NVM_BIN', '/home/jonnydang2004/.nvm/versions/node/v18.19.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3704d4ce-09ef-49d1-af62-1043d1b400ed.sock'), ('NVM_INC', '/home/jonnydang2004/.nvm/versions/node/v18.19.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('NVM_DIR', '/home/jonnydang2004/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'jonnydang2004'), ('NAME', 'DESKTOP-JO2E52O'), ('WSL_INTEROP', '/run/WSL/5395_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_colcon_cd_rott', '/opt/ros/iron/'), ('PATH', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/home/jonnydang2004/.local/bin:/opt/ros/iron/bin:/home/jonnydang2004/.nvm/versions/node/v18.19.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/User/AppData/Roaming/npm:/snap/bin:/opt/gradle/gradle-8.5/bin:/opt/gradle/gradle-8.5/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f95bf93406.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.100312] (-) TimerEvent: {}
+[0.176945] (quadruped_interfaces) StdoutLine: {'line': b'[  2%] Built target quadruped_interfaces__rosidl_generator_type_description\n'}
+[0.200247] (-) TimerEvent: {}
+[0.210281] (quadruped_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_quadruped_interfaces\n'}
+[0.243870] (quadruped_interfaces) StdoutLine: {'line': b'[  5%] Built target quadruped_interfaces__cpp\n'}
+[0.250133] (quadruped_interfaces) StdoutLine: {'line': b'[ 20%] Built target quadruped_interfaces__rosidl_generator_c\n'}
+[0.300377] (-) TimerEvent: {}
+[0.305108] (quadruped_interfaces) StdoutLine: {'line': b'[ 29%] Built target quadruped_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.322992] (quadruped_interfaces) StdoutLine: {'line': b'[ 38%] Built target quadruped_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.330529] (quadruped_interfaces) StdoutLine: {'line': b'[ 47%] Built target quadruped_interfaces__rosidl_typesupport_cpp\n'}
+[0.371445] (quadruped_interfaces) StdoutLine: {'line': b'[ 55%] Built target quadruped_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.385061] (quadruped_interfaces) StdoutLine: {'line': b'[ 64%] Built target quadruped_interfaces__rosidl_typesupport_c\n'}
+[0.390374] (quadruped_interfaces) StdoutLine: {'line': b'[ 73%] Built target quadruped_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.400535] (-) TimerEvent: {}
+[0.432407] (quadruped_interfaces) StdoutLine: {'line': b'[ 73%] Built target quadruped_interfaces\n'}
+[0.478114] (quadruped_interfaces) StdoutLine: {'line': b'[ 76%] Built target quadruped_interfaces__py\n'}
+[0.500657] (-) TimerEvent: {}
+[0.534948] (quadruped_interfaces) StdoutLine: {'line': b'[ 82%] Built target quadruped_interfaces__rosidl_generator_py\n'}
+[0.589996] (quadruped_interfaces) StdoutLine: {'line': b'[ 88%] Built target quadruped_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.605152] (-) TimerEvent: {}
+[0.606473] (quadruped_interfaces) StdoutLine: {'line': b'[ 94%] Built target quadruped_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.646847] (quadruped_interfaces) StdoutLine: {'line': b'[100%] Built target quadruped_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.706168] (-) TimerEvent: {}
+[0.806650] (-) TimerEvent: {}
+[0.907166] (-) TimerEvent: {}
+[1.007569] (-) TimerEvent: {}
+[1.108429] (-) TimerEvent: {}
+[1.209605] (-) TimerEvent: {}
+[1.313607] (-) TimerEvent: {}
+[1.414079] (-) TimerEvent: {}
+[1.514581] (-) TimerEvent: {}
+[1.521270] (quadruped_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.524195] (quadruped_interfaces) StdoutLine: {'line': b'writing quadruped_interfaces.egg-info/PKG-INFO\n'}
+[1.524504] (quadruped_interfaces) StdoutLine: {'line': b'writing dependency_links to quadruped_interfaces.egg-info/dependency_links.txt\n'}
+[1.524683] (quadruped_interfaces) StdoutLine: {'line': b'writing top-level names to quadruped_interfaces.egg-info/top_level.txt\n'}
+[1.540690] (quadruped_interfaces) StdoutLine: {'line': b"reading manifest file 'quadruped_interfaces.egg-info/SOURCES.txt'\n"}
+[1.563525] (quadruped_interfaces) StdoutLine: {'line': b"writing manifest file 'quadruped_interfaces.egg-info/SOURCES.txt'\n"}
+[1.633167] (-) TimerEvent: {}
+[1.715299] (quadruped_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_quadruped_interfaces_egg\n'}
+[1.736384] (-) TimerEvent: {}
+[1.768851] (quadruped_interfaces) CommandEnded: {'returncode': 0}
+[1.837172] (-) TimerEvent: {}
+[1.938550] (-) TimerEvent: {}
+[2.039400] (-) TimerEvent: {}
+[2.139852] (-) TimerEvent: {}
+[2.235376] (quadruped_interfaces) JobProgress: {'identifier': 'quadruped_interfaces', 'progress': 'install'}
+[2.240026] (-) TimerEvent: {}
+[2.270567] (quadruped_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces'], 'cwd': '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jonnydang2004'), ('GIT_ASKPASS', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/jonnydang2004'), ('OLDPWD', '/home/jonnydang2004/QUADRAPED/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('NVM_BIN', '/home/jonnydang2004/.nvm/versions/node/v18.19.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3704d4ce-09ef-49d1-af62-1043d1b400ed.sock'), ('NVM_INC', '/home/jonnydang2004/.nvm/versions/node/v18.19.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('NVM_DIR', '/home/jonnydang2004/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'jonnydang2004'), ('NAME', 'DESKTOP-JO2E52O'), ('WSL_INTEROP', '/run/WSL/5395_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_colcon_cd_rott', '/opt/ros/iron/'), ('PATH', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/home/jonnydang2004/.local/bin:/opt/ros/iron/bin:/home/jonnydang2004/.nvm/versions/node/v18.19.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/User/AppData/Roaming/npm:/snap/bin:/opt/gradle/gradle-8.5/bin:/opt/gradle/gradle-8.5/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f95bf93406.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[2.311642] (quadruped_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.311956] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/ament_index/resource_index/rosidl_interfaces/quadruped_interfaces\n'}
+[2.312202] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/msg/Pos.json\n'}
+[2.312446] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces\n'}
+[2.312957] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg\n'}
+[2.313393] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/pos.h\n'}
+[2.313684] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.313938] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail\n'}
+[2.314250] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__functions.c\n'}
+[2.314501] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__description.c\n'}
+[2.314724] (quadruped_interfaces) StdoutLine: {'line': b'-- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__type_support.c\n'}
+[2.314958] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__functions.h\n'}
+[2.315248] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__type_support.h\n'}
+[2.315510] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__struct.h\n'}
+[2.315734] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/library_path.sh\n'}
+[2.315951] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/library_path.dsv\n'}
+[2.316242] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_generator_c.so\n'}
+[2.316438] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces\n'}
+[2.316612] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg\n'}
+[2.316845] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.317148] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail\n'}
+[2.317406] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__rosidl_typesupport_fastrtps_c.h\n'}
+[2.317648] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.317863] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces\n'}
+[2.318366] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg\n'}
+[2.319912] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.320211] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail\n'}
+[2.320450] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__rosidl_typesupport_introspection_c.h\n'}
+[2.328514] (quadruped_interfaces) StdoutLine: {'line': b'-- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__type_support.c\n'}
+[2.329663] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.332054] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_c.so\n'}
+[2.333265] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces\n'}
+[2.334013] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg\n'}
+[2.334975] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/pos.hpp\n'}
+[2.335650] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail\n'}
+[2.336358] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__struct.hpp\n'}
+[2.337482] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__builder.hpp\n'}
+[2.344258] (-) TimerEvent: {}
+[2.345625] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__traits.hpp\n'}
+[2.345935] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces\n'}
+[2.350961] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg\n'}
+[2.352634] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.352993] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail\n'}
+[2.353383] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/dds_fastrtps\n'}
+[2.353703] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.354371] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.368278] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces\n'}
+[2.369646] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg\n'}
+[2.370331] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail\n'}
+[2.370922] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.371528] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/include/quadruped_interfaces/quadruped_interfaces/msg/detail/pos__type_support.cpp\n'}
+[2.381461] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.384534] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.386241] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/pythonpath.sh\n'}
+[2.386939] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/pythonpath.dsv\n'}
+[2.387647] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces-0.0.0-py3.10.egg-info\n'}
+[2.388255] (quadruped_interfaces) StdoutLine: {'line': b'-- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.389073] (quadruped_interfaces) StdoutLine: {'line': b'-- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.390036] (quadruped_interfaces) StdoutLine: {'line': b'-- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.390714] (quadruped_interfaces) StdoutLine: {'line': b'-- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.391507] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces\n'}
+[2.392001] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.392353] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/libquadruped_interfaces__rosidl_generator_py.so\n'}
+[2.392979] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.393532] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg\n'}
+[2.393972] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg/_pos_s.c\n'}
+[2.394328] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg/_pos.py\n'}
+[2.394687] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg/__init__.py\n'}
+[2.395042] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/_quadruped_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.395411] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.395856] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/_quadruped_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.396188] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/_quadruped_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.396515] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/__init__.py\n'}
+[2.447621] (-) TimerEvent: {}
+[2.493184] (quadruped_interfaces) StdoutLine: {'line': b"Listing '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces'...\n"}
+[2.493563] (quadruped_interfaces) StdoutLine: {'line': b"Listing '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/msg'...\n"}
+[2.513499] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.513876] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.514095] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages/quadruped_interfaces/quadruped_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.514279] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/libquadruped_interfaces__rosidl_generator_py.so\n'}
+[2.514454] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/msg/Pos.idl\n'}
+[2.514633] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/msg/Pos.msg\n'}
+[2.515895] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/ament_index/resource_index/package_run_dependencies/quadruped_interfaces\n'}
+[2.516169] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/ament_index/resource_index/parent_prefix_path/quadruped_interfaces\n'}
+[2.516326] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/ament_prefix_path.sh\n'}
+[2.516481] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.521127] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/path.sh\n'}
+[2.521386] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/environment/path.dsv\n'}
+[2.521527] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/local_setup.bash\n'}
+[2.521653] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/local_setup.sh\n'}
+[2.521771] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/local_setup.zsh\n'}
+[2.521944] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/local_setup.dsv\n'}
+[2.522065] (quadruped_interfaces) StdoutLine: {'line': b'-- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/package.dsv\n'}
+[2.522193] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/ament_index/resource_index/packages/quadruped_interfaces\n'}
+[2.522325] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.522449] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.522689] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.524199] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.524500] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.524728] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.525000] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.525212] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.525396] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.525579] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.525762] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.525999] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.526170] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.526335] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.526498] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.526658] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.543572] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/export_quadruped_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.543719] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.544041] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.544269] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.544469] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.544689] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.545015] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.545196] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.545360] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfacesConfig.cmake\n'}
+[2.545526] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake/quadruped_interfacesConfig-version.cmake\n'}
+[2.546726] (quadruped_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/package.xml\n'}
+[2.547262] (quadruped_interfaces) CommandEnded: {'returncode': 0}
+[2.548068] (-) TimerEvent: {}
+[2.648757] (-) TimerEvent: {}
+[2.749246] (-) TimerEvent: {}
+[2.850153] (-) TimerEvent: {}
+[2.863494] (quadruped_interfaces) JobEnded: {'identifier': 'quadruped_interfaces', 'rc': 0}
+[2.865954] (quadruped_control) JobStarted: {'identifier': 'quadruped_control'}
+[2.950412] (-) TimerEvent: {}
+[3.051087] (-) TimerEvent: {}
+[3.151649] (-) TimerEvent: {}
+[3.236803] (quadruped_control) JobProgress: {'identifier': 'quadruped_control', 'progress': 'cmake'}
+[3.238574] (quadruped_control) JobProgress: {'identifier': 'quadruped_control', 'progress': 'build'}
+[3.239232] (quadruped_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jonnydang2004/QUADRAPED/build/quadruped_control', '--', '-j4', '-l4'], 'cwd': '/home/jonnydang2004/QUADRAPED/build/quadruped_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jonnydang2004'), ('GIT_ASKPASS', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/jonnydang2004'), ('OLDPWD', '/home/jonnydang2004/QUADRAPED/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('NVM_BIN', '/home/jonnydang2004/.nvm/versions/node/v18.19.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3704d4ce-09ef-49d1-af62-1043d1b400ed.sock'), ('NVM_INC', '/home/jonnydang2004/.nvm/versions/node/v18.19.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('NVM_DIR', '/home/jonnydang2004/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'jonnydang2004'), ('NAME', 'DESKTOP-JO2E52O'), ('WSL_INTEROP', '/run/WSL/5395_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_colcon_cd_rott', '/opt/ros/iron/'), ('PATH', '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/home/jonnydang2004/.local/bin:/opt/ros/iron/bin:/home/jonnydang2004/.nvm/versions/node/v18.19.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/User/AppData/Roaming/npm:/snap/bin:/opt/gradle/gradle-8.5/bin:/opt/gradle/gradle-8.5/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f95bf93406.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jonnydang2004/QUADRAPED/build/quadruped_control'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces')]), 'shell': False}
+[3.251838] (-) TimerEvent: {}
+[3.298019] (quadruped_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[3.352021] (-) TimerEvent: {}
+[3.432726] (Servo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/Servo', 'build', '--build-base', '/home/jonnydang2004/QUADRAPED/build/Servo/build', 'install', '--record', '/home/jonnydang2004/QUADRAPED/build/Servo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jonnydang2004/QUADRAPED/src/Servo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jonnydang2004', 'GIT_ASKPASS': '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/jonnydang2004', 'OLDPWD': '/home/jonnydang2004/QUADRAPED/src', 'TERM_PROGRAM_VERSION': '1.93.1', 'NVM_BIN': '/home/jonnydang2004/.nvm/versions/node/v18.19.0/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3704d4ce-09ef-49d1-af62-1043d1b400ed.sock', 'NVM_INC': '/home/jonnydang2004/.nvm/versions/node/v18.19.0/include/node', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'NVM_DIR': '/home/jonnydang2004/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'iron', 'LOGNAME': 'jonnydang2004', 'NAME': 'DESKTOP-JO2E52O', 'WSL_INTEROP': '/run/WSL/5395_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_colcon_cd_rott': '/opt/ros/iron/', 'PATH': '/home/jonnydang2004/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/home/jonnydang2004/.local/bin:/opt/ros/iron/bin:/home/jonnydang2004/.nvm/versions/node/v18.19.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/User/AppData/Roaming/npm:/snap/bin:/opt/gradle/gradle-8.5/bin:/opt/gradle/gradle-8.5/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f95bf93406.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jonnydang2004/QUADRAPED/build/Servo', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jonnydang2004/QUADRAPED/build/Servo/prefix_override:/home/jonnydang2004/QUADRAPED/install/Servo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[3.452228] (-) TimerEvent: {}
+[3.552661] (-) TimerEvent: {}
+[3.654864] (-) TimerEvent: {}
+[3.755376] (-) TimerEvent: {}
+[3.862865] (-) TimerEvent: {}
+[3.963975] (-) TimerEvent: {}
+[3.975380] (quadruped_control) StdoutLine: {'line': b'-- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[4.064185] (-) TimerEvent: {}
+[4.164771] (-) TimerEvent: {}
+[4.265352] (-) TimerEvent: {}
+[4.365847] (-) TimerEvent: {}
+[4.466301] (-) TimerEvent: {}
+[4.566824] (-) TimerEvent: {}
+[4.668627] (-) TimerEvent: {}
+[4.750646] (quadruped_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[4.768837] (-) TimerEvent: {}
+[4.814579] (quadruped_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[4.868975] (-) TimerEvent: {}
+[4.919236] (quadruped_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.971384] (-) TimerEvent: {}
+[5.055805] (quadruped_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.071506] (-) TimerEvent: {}
+[5.171967] (-) TimerEvent: {}
+[5.247064] (Servo) StdoutLine: {'line': b'running egg_info\n'}
+[5.251641] (Servo) StdoutLine: {'line': b'creating ../../build/Servo/Servo.egg-info\n'}
+[5.252988] (Servo) StdoutLine: {'line': b'writing ../../build/Servo/Servo.egg-info/PKG-INFO\n'}
+[5.253444] (Servo) StdoutLine: {'line': b'writing dependency_links to ../../build/Servo/Servo.egg-info/dependency_links.txt\n'}
+[5.256111] (Servo) StdoutLine: {'line': b'writing entry points to ../../build/Servo/Servo.egg-info/entry_points.txt\n'}
+[5.256486] (Servo) StdoutLine: {'line': b'writing requirements to ../../build/Servo/Servo.egg-info/requires.txt\n'}
+[5.256654] (Servo) StdoutLine: {'line': b'writing top-level names to ../../build/Servo/Servo.egg-info/top_level.txt\n'}
+[5.256879] (Servo) StdoutLine: {'line': b"writing manifest file '../../build/Servo/Servo.egg-info/SOURCES.txt'\n"}
+[5.257809] (Servo) StdoutLine: {'line': b"reading manifest file '../../build/Servo/Servo.egg-info/SOURCES.txt'\n"}
+[5.259441] (Servo) StdoutLine: {'line': b"writing manifest file '../../build/Servo/Servo.egg-info/SOURCES.txt'\n"}
+[5.259781] (Servo) StdoutLine: {'line': b'running build\n'}
+[5.259952] (Servo) StdoutLine: {'line': b'running install\n'}
+[5.260229] (Servo) StdoutLine: {'line': b'running install_data\n'}
+[5.260506] (Servo) StdoutLine: {'line': b'creating /home/jonnydang2004/QUADRAPED/install/Servo/share/ament_index\n'}
+[5.260727] (Servo) StdoutLine: {'line': b'creating /home/jonnydang2004/QUADRAPED/install/Servo/share/ament_index/resource_index\n'}
+[5.260956] (Servo) StdoutLine: {'line': b'creating /home/jonnydang2004/QUADRAPED/install/Servo/share/ament_index/resource_index/packages\n'}
+[5.261147] (Servo) StdoutLine: {'line': b'copying resource/Servo -> /home/jonnydang2004/QUADRAPED/install/Servo/share/ament_index/resource_index/packages\n'}
+[5.261476] (Servo) StdoutLine: {'line': b'copying package.xml -> /home/jonnydang2004/QUADRAPED/install/Servo/share/Servo\n'}
+[5.261636] (Servo) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.270644] (Servo) StdoutLine: {'line': b'Copying ../../build/Servo/Servo.egg-info to /home/jonnydang2004/QUADRAPED/install/Servo/lib/python3.10/site-packages/Servo-0.0.0-py3.10.egg-info\n'}
+[5.272071] (-) TimerEvent: {}
+[5.272587] (Servo) StdoutLine: {'line': b'running install_scripts\n'}
+[5.333572] (Servo) StdoutLine: {'line': b"writing list of installed files to '/home/jonnydang2004/QUADRAPED/build/Servo/install.log'\n"}
+[5.372267] (-) TimerEvent: {}
+[5.440942] (Servo) CommandEnded: {'returncode': 0}
+[5.451310] (Servo) JobEnded: {'identifier': 'Servo', 'rc': 0}
+[5.472467] (-) TimerEvent: {}
+[5.572978] (-) TimerEvent: {}
+[5.620976] (quadruped_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[5.639798] (quadruped_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.673135] (-) TimerEvent: {}
+[5.773641] (-) TimerEvent: {}
+[5.874133] (-) TimerEvent: {}
+[5.974661] (-) TimerEvent: {}
+[6.075147] (-) TimerEvent: {}
+[6.175619] (-) TimerEvent: {}
+[6.276188] (-) TimerEvent: {}
+[6.376680] (-) TimerEvent: {}
+[6.477221] (-) TimerEvent: {}
+[6.577808] (-) TimerEvent: {}
+[6.678377] (-) TimerEvent: {}
+[6.778926] (-) TimerEvent: {}
+[6.879503] (-) TimerEvent: {}
+[6.980076] (-) TimerEvent: {}
+[7.080682] (-) TimerEvent: {}
+[7.181227] (-) TimerEvent: {}
+[7.281832] (-) TimerEvent: {}
+[7.382320] (-) TimerEvent: {}
+[7.482889] (-) TimerEvent: {}
+[7.583435] (-) TimerEvent: {}
+[7.684048] (-) TimerEvent: {}
+[7.784595] (-) TimerEvent: {}
+[7.885213] (-) TimerEvent: {}
+[7.985817] (-) TimerEvent: {}
+[8.086319] (-) TimerEvent: {}
+[8.186825] (-) TimerEvent: {}
+[8.287357] (-) TimerEvent: {}
+[8.387899] (-) TimerEvent: {}
+[8.488373] (-) TimerEvent: {}
+[8.588893] (-) TimerEvent: {}
+[8.689406] (-) TimerEvent: {}
+[8.789850] (-) TimerEvent: {}
+[8.890258] (-) TimerEvent: {}
+[8.990735] (-) TimerEvent: {}
+[9.091300] (-) TimerEvent: {}
+[9.191854] (-) TimerEvent: {}
+[9.292427] (-) TimerEvent: {}
+[9.392918] (-) TimerEvent: {}
+[9.493471] (-) TimerEvent: {}
+[9.593989] (-) TimerEvent: {}
+[9.694602] (-) TimerEvent: {}
+[9.795178] (-) TimerEvent: {}
+[9.895725] (-) TimerEvent: {}
+[9.996347] (-) TimerEvent: {}
+[10.096887] (-) TimerEvent: {}
+[10.197569] (-) TimerEvent: {}
+[10.298121] (-) TimerEvent: {}
+[10.398796] (-) TimerEvent: {}
+[10.499385] (-) TimerEvent: {}
+[10.599924] (-) TimerEvent: {}
+[10.700504] (-) TimerEvent: {}
+[10.801117] (-) TimerEvent: {}
+[10.901666] (-) TimerEvent: {}
+[11.002187] (-) TimerEvent: {}
+[11.102711] (-) TimerEvent: {}
+[11.203329] (-) TimerEvent: {}
+[11.303878] (-) TimerEvent: {}
+[11.404432] (-) TimerEvent: {}
+[11.504921] (-) TimerEvent: {}
+[11.605364] (-) TimerEvent: {}
+[11.705898] (-) TimerEvent: {}
+[11.806445] (-) TimerEvent: {}
+[11.906914] (-) TimerEvent: {}
+[12.007489] (-) TimerEvent: {}
+[12.107968] (-) TimerEvent: {}
+[12.208471] (-) TimerEvent: {}
+[12.309168] (-) TimerEvent: {}
+[12.409632] (-) TimerEvent: {}
+[12.510150] (-) TimerEvent: {}
+[12.610703] (-) TimerEvent: {}
+[12.711254] (-) TimerEvent: {}
+[12.811849] (-) TimerEvent: {}
+[12.912479] (-) TimerEvent: {}
+[13.013179] (-) TimerEvent: {}
+[13.114024] (-) TimerEvent: {}
+[13.214822] (-) TimerEvent: {}
+[13.315398] (-) TimerEvent: {}
+[13.416046] (-) TimerEvent: {}
+[13.516759] (-) TimerEvent: {}
+[13.617423] (-) TimerEvent: {}
+[13.717965] (-) TimerEvent: {}
+[13.818558] (-) TimerEvent: {}
+[13.919101] (-) TimerEvent: {}
+[14.019571] (-) TimerEvent: {}
+[14.120071] (-) TimerEvent: {}
+[14.220536] (-) TimerEvent: {}
+[14.321014] (-) TimerEvent: {}
+[14.421574] (-) TimerEvent: {}
+[14.522603] (-) TimerEvent: {}
+[14.623935] (-) TimerEvent: {}
+[14.724536] (-) TimerEvent: {}
+[14.825141] (-) TimerEvent: {}
+[14.925726] (-) TimerEvent: {}
+[15.026311] (-) TimerEvent: {}
+[15.126789] (-) TimerEvent: {}
+[15.227420] (-) TimerEvent: {}
+[15.328038] (-) TimerEvent: {}
+[15.428637] (-) TimerEvent: {}
+[15.529181] (-) TimerEvent: {}
+[15.629768] (-) TimerEvent: {}
+[15.730399] (-) TimerEvent: {}
+[15.830993] (-) TimerEvent: {}
+[15.931758] (-) TimerEvent: {}
+[16.032336] (-) TimerEvent: {}
+[16.132984] (-) TimerEvent: {}
+[16.233615] (-) TimerEvent: {}
+[16.334241] (-) TimerEvent: {}
+[16.434768] (-) TimerEvent: {}
+[16.535337] (-) TimerEvent: {}
+[16.635891] (-) TimerEvent: {}
+[16.736419] (-) TimerEvent: {}
+[16.837037] (-) TimerEvent: {}
+[16.918617] (quadruped_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.937222] (-) TimerEvent: {}
+[17.037801] (-) TimerEvent: {}
+[17.138283] (-) TimerEvent: {}
+[17.238863] (-) TimerEvent: {}
+[17.276507] (quadruped_control) StdoutLine: {'line': b'-- Found rclpy: 4.1.5 (/opt/ros/iron/share/rclpy/cmake)\n'}
+[17.277293] (quadruped_control) StdoutLine: {'line': b'-- Found quadruped_interfaces: 0.0.0 (/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake)\n'}
+[17.307216] (quadruped_control) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:35 (ament_python_install_packages):\n'}
+[17.307565] (quadruped_control) StderrLine: {'line': b'  Unknown CMake command "ament_python_install_packages".\n'}
+[17.307709] (quadruped_control) StderrLine: {'line': b'\n'}
+[17.307798] (quadruped_control) StderrLine: {'line': b'\x1b[0m\n'}
+[17.307876] (quadruped_control) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[17.307965] (quadruped_control) StdoutLine: {'line': b'See also "/home/jonnydang2004/QUADRAPED/build/quadruped_control/CMakeFiles/CMakeOutput.log".\n'}
+[17.317670] (quadruped_control) StderrLine: {'line': b'gmake: *** [Makefile:308: cmake_check_build_system] Error 1\n'}
+[17.321987] (quadruped_control) CommandEnded: {'returncode': 2}
+[17.323142] (quadruped_control) JobEnded: {'identifier': 'quadruped_control', 'rc': 2}
+[17.333987] (-) EventReactorShutdown: {}

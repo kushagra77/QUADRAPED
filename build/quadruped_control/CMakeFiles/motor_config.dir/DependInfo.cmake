@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.cpp" "CMakeFiles/motor_config.dir/src/Servo.cpp.o" "gcc" "CMakeFiles/motor_config.dir/src/Servo.cpp.o.d"
   "/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp" "CMakeFiles/motor_config.dir/src/motor_config.cpp.o" "gcc" "CMakeFiles/motor_config.dir/src/motor_config.cpp.o.d"
   )
 

@@ -4,7 +4,7 @@
 #include <array>
 #include <iostream>
 #include "quadruped_interfaces/msg/pos.hpp"
-#include "Servo.h"
+#include "Servo.py"
 #include <pigpio.h>
 // Then manually modify servo values using PWM.
 // Use the changeDutyCycle feature

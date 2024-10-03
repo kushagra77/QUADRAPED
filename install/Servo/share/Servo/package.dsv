@@ -1,0 +1,6 @@
+source;share/Servo/hook/pythonpath.ps1
+source;share/Servo/hook/pythonpath.dsv
+source;share/Servo/hook/pythonpath.sh
+source;share/Servo/hook/ament_prefix_path.ps1
+source;share/Servo/hook/ament_prefix_path.dsv
+source;share/Servo/hook/ament_prefix_path.sh

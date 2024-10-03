@@ -1,0 +1,191 @@
+In file included from [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7[m[K:
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:5:3:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Define; did you mean #define?
+    5 | # [01;31m[KDefine[m[K constants
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kdefine[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:6:20:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+    6 | ROTATE_0 = 700     [01;31m[K#[m[K 0° position in microseconds
+      |                    [01;31m[K^[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:6:22:[m[K [01;31m[Kerror: [m[Kextended character ° is not valid in an identifier
+    6 | ROTATE_0 = 700     # [01;31m[K0[m[K° position in microseconds
+      |                      [01;31m[K^[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:7:20:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+    7 | ROTATE_180 = 2300  [01;31m[K#[m[K 180° position in microseconds
+      |                    [01;31m[K^[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:7:22:[m[K [01;31m[Kerror: [m[Kextended character ° is not valid in an identifier
+    7 | ROTATE_180 = 2300  # [01;31m[K1[m[K80° position in microseconds
+      |                      [01;31m[K^[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:11:26:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   11 |         super().__init__([01;35m[K'servo_controller_node'[m[K)
+      |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:13:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Initialize
+   13 |         # [01;31m[KInitialize[m[K the ServoKit instance for 16-channel PCA9685
+      |           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:16:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Set
+   16 |         # [01;31m[KSet[m[K the servo channel (e.g., 0)
+      |           [01;31m[K^~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:19:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Initialize
+   19 |         # [01;31m[KInitialize[m[K servo to 0 degrees
+      |           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:27:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Calculate
+   27 |         # [01;31m[KCalculate[m[K the duty cycle equivalent for the given degree
+      |           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:30:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Convert
+   30 |         # [01;31m[KConvert[m[K microseconds to a percentage for the PCA9685
+      |           [01;31m[K^~~~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:33:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Set
+   33 |         # [01;31m[KSet[m[K the angle using the Adafruit PCA9685 library
+      |           [01;31m[K^~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:37:3:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #def; did you mean #ifdef?
+   37 | # [01;31m[Kdef[m[K main(args=None):
+      |   [01;31m[K^~~[m[K
+      |   [32m[Kifdef[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:38:7:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #rclpy
+   38 | #     [01;31m[Krclpy[m[K.init(args=args)
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:39:7:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #node
+   39 | #     [01;31m[Knode[m[K = ServoController()
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:40:7:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #rclpy
+   40 | #     [01;31m[Krclpy[m[K.spin(node)
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:41:7:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #node
+   41 | #     [01;31m[Knode[m[K.destroy_node()
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:42:7:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #rclpy
+   42 | #     [01;31m[Krclpy[m[K.shutdown()
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:44:18:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   44 | # if __name__ == [01;35m[K'__main__'[m[K:
+      |                  [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:44:28:[m[K [01;31m[Kerror: [m[K ':' without preceding '?'
+   44 | # if __name__ == '__main__'[01;31m[K:[m[K
+      |                            [01;31m[K^[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:44:[m[K [01;31m[Kerror: [m[Kunterminated #if
+   44 | # if __name__ == '__main__':
+      | 
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kimport[m[K’ does not name a type
+    1 | [01;31m[Kimport[m[K rclpy
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/Servo.py:1:1:[m[K [01;36m[Knote: [m[KC++20 ‘[01m[Kimport[m[K’ only available with ‘[01m[K-fmodules-ts[m[K’
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:105:25:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ has not been declared
+  105 |     void move_abs_angle([01;31m[KServo[m[K servo, float angle)
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:174:5:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ does not name a type
+  174 |     [01;31m[KServo[m[K front_left_upper_servo, front_left_lower_servo;
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:175:5:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ does not name a type
+  175 |     [01;31m[KServo[m[K front_right_upper_servo, front_right_lower_servo;
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:176:5:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ does not name a type
+  176 |     [01;31m[KServo[m[K back_left_upper_servo, back_left_lower_servo;
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:177:5:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ does not name a type
+  177 |     [01;31m[KServo[m[K back_right_upper_servo, back_right_lower_servo;
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:182:17:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ was not declared in this scope
+  182 |     std::vector<[01;31m[KServo[m[K> right_leg_servo_list;
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:182:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  182 |     std::vector<Servo[01;31m[K>[m[K right_leg_servo_list;
+      |                      [01;31m[K^[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:182:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:183:17:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ was not declared in this scope
+  183 |     std::vector<[01;31m[KServo[m[K> left_leg_servos_list;
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:183:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  183 |     std::vector<Servo[01;31m[K>[m[K left_leg_servos_list;
+      |                      [01;31m[K^[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:183:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:185:17:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ was not declared in this scope
+  185 |     std::vector<[01;31m[KServo[m[K> upper_servos;
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:185:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  185 |     std::vector<Servo[01;31m[K>[m[K upper_servos;
+      |                      [01;31m[K^[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:185:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:186:17:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ was not declared in this scope
+  186 |     std::vector<[01;31m[KServo[m[K> lower_servos;
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:186:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  186 |     std::vector<Servo[01;31m[K>[m[K lower_servos;
+      |                      [01;31m[K^[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:186:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:199:26:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ has not been declared
+  199 |     void set_servo_angle([01;31m[KServo[m[K servo, float angle)
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:[m[K In constructor ‘[01m[KMotorConfig::MotorConfig()[m[K’:
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:47:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfront_left_upper_servo[m[K’ was not declared in this scope; did you mean ‘[01m[Kfront_left_upper[m[K’?
+   47 |         [01;31m[Kfront_left_upper_servo[m[K = Servo(front_left_upper);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kfront_left_upper[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:47:34:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ was not declared in this scope
+   47 |         front_left_upper_servo = [01;31m[KServo[m[K(front_left_upper);
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:48:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfront_left_lower_servo[m[K’ was not declared in this scope; did you mean ‘[01m[Kfront_left_lower[m[K’?
+   48 |         [01;31m[Kfront_left_lower_servo[m[K = Servo(front_left_lower);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kfront_left_lower[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:50:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfront_right_upper_servo[m[K’ was not declared in this scope; did you mean ‘[01m[Kfront_right_upper[m[K’?
+   50 |         [01;31m[Kfront_right_upper_servo[m[K = Servo(front_right_upper);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kfront_right_upper[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfront_right_lower_servo[m[K’ was not declared in this scope; did you mean ‘[01m[Kfront_right_lower[m[K’?
+   51 |         [01;31m[Kfront_right_lower_servo[m[K = Servo(front_right_lower);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kfront_right_lower[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:53:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kback_left_upper_servo[m[K’ was not declared in this scope; did you mean ‘[01m[Kback_left_upper[m[K’?
+   53 |         [01;31m[Kback_left_upper_servo[m[K = Servo(back_left_upper);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kback_left_upper[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:54:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kback_left_lower_servo[m[K’ was not declared in this scope; did you mean ‘[01m[Kback_left_lower[m[K’?
+   54 |         [01;31m[Kback_left_lower_servo[m[K = Servo(back_left_lower);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kback_left_lower[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:56:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kback_right_upper_servo[m[K’ was not declared in this scope; did you mean ‘[01m[Kback_right_upper[m[K’?
+   56 |         [01;31m[Kback_right_upper_servo[m[K = Servo(back_right_upper);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kback_right_upper[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kback_right_lower_servo[m[K’ was not declared in this scope; did you mean ‘[01m[Kback_right_lower[m[K’?
+   57 |         [01;31m[Kback_right_lower_servo[m[K = Servo(back_right_lower);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kback_right_lower[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:59:129:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kint[m[K’ in assignment
+   59 |         right_leg_servo_list = {front_right_upper_servo, front_right_lower_servo, back_right_upper_servo, back_right_lower_servo[01;31m[K}[m[K;
+      |                                                                                                                                 [01;31m[K^[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:60:125:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kint[m[K’ in assignment
+   60 |         left_leg_servos_list = {front_left_upper_servo, front_left_lower_servo, back_left_upper_servo, back_left_lower_servo[01;31m[K}[m[K;
+      |                                                                                                                             [01;31m[K^[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:62:119:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kint[m[K’ in assignment
+   62 |         upper_servos = {front_left_upper_servo, front_right_upper_servo, back_left_upper_servo, back_right_upper_servo[01;31m[K}[m[K;
+      |                                                                                                                       [01;31m[K^[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:63:119:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kint[m[K’ in assignment
+   63 |         lower_servos = {front_left_lower_servo, front_right_lower_servo, back_left_lower_servo, back_right_lower_servo[01;31m[K}[m[K;
+      |                                                                                                                       [01;31m[K^[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:[m[K In member function ‘[01m[Kvoid MotorConfig::move_abs_angle(int, float)[m[K’:
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:109:44:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kbegin[m[K’ in ‘[01m[K((MotorConfig*)this)->MotorConfig::left_leg_servos_list[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  109 |         if (std::find(left_leg_servos_list.[01;31m[Kbegin[m[K(), left_leg_servos_list.end(), servo) != left_leg_servos_list.end())
+      |                                            [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:109:74:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[K((MotorConfig*)this)->MotorConfig::left_leg_servos_list[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  109 |         if (std::find(left_leg_servos_list.begin(), left_leg_servos_list.[01;31m[Kend[m[K(), servo) != left_leg_servos_list.end())
+      |                                                                          [01;31m[K^~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:109:112:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[K((MotorConfig*)this)->MotorConfig::left_leg_servos_list[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  109 |         if (std::find(left_leg_servos_list.begin(), left_leg_servos_list.end(), servo) != left_leg_servos_list.[01;31m[Kend[m[K())
+      |                                                                                                                [01;31m[K^~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:[m[K In member function ‘[01m[Kvoid MotorConfig::set_servo_angle(int, float)[m[K’:
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:204:19:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgoDegree[m[K’ in ‘[01m[Kservo[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  204 |             servo.[01;31m[KgoDegree[m[K(0);
+      |                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:208:19:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgoDegree[m[K’ in ‘[01m[Kservo[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  208 |             servo.[01;31m[KgoDegree[m[K(angle);
+      |                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:[m[K In member function ‘[01m[Kvoid MotorConfig::gait_callback(quadruped_interfaces::msg::Pos_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:231:36:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+  231 |         move_abs_angle(upper_servos[01;31m[K[[m[Kleg_num/2], angle1);
+      |                                    [01;31m[K^[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:232:36:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+  232 |         move_abs_angle(lower_servos[01;31m[K[[m[Kleg_num/2], angle2);
+      |                                    [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/motor_config.dir/build.make:76: CMakeFiles/motor_config.dir/src/motor_config.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/motor_config.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

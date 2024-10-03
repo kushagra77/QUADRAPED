@@ -1,0 +1,24 @@
+[3.422s] Invoking command in '/home/jonnydang2004/QUADRAPED/src/Servo': PYTHONPATH=/home/jonnydang2004/QUADRAPED/build/Servo/prefix_override:/home/jonnydang2004/QUADRAPED/install/Servo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Servo build --build-base /home/jonnydang2004/QUADRAPED/build/Servo/build install --record /home/jonnydang2004/QUADRAPED/build/Servo/install.log --single-version-externally-managed install_data
+[5.235s] running egg_info
+[5.239s] creating ../../build/Servo/Servo.egg-info
+[5.240s] writing ../../build/Servo/Servo.egg-info/PKG-INFO
+[5.241s] writing dependency_links to ../../build/Servo/Servo.egg-info/dependency_links.txt
+[5.244s] writing entry points to ../../build/Servo/Servo.egg-info/entry_points.txt
+[5.244s] writing requirements to ../../build/Servo/Servo.egg-info/requires.txt
+[5.244s] writing top-level names to ../../build/Servo/Servo.egg-info/top_level.txt
+[5.244s] writing manifest file '../../build/Servo/Servo.egg-info/SOURCES.txt'
+[5.245s] reading manifest file '../../build/Servo/Servo.egg-info/SOURCES.txt'
+[5.247s] writing manifest file '../../build/Servo/Servo.egg-info/SOURCES.txt'
+[5.247s] running build
+[5.247s] running install
+[5.248s] running install_data
+[5.248s] creating /home/jonnydang2004/QUADRAPED/install/Servo/share/ament_index
+[5.248s] creating /home/jonnydang2004/QUADRAPED/install/Servo/share/ament_index/resource_index
+[5.248s] creating /home/jonnydang2004/QUADRAPED/install/Servo/share/ament_index/resource_index/packages
+[5.249s] copying resource/Servo -> /home/jonnydang2004/QUADRAPED/install/Servo/share/ament_index/resource_index/packages
+[5.249s] copying package.xml -> /home/jonnydang2004/QUADRAPED/install/Servo/share/Servo
+[5.249s] running install_egg_info
+[5.258s] Copying ../../build/Servo/Servo.egg-info to /home/jonnydang2004/QUADRAPED/install/Servo/lib/python3.10/site-packages/Servo-0.0.0-py3.10.egg-info
+[5.260s] running install_scripts
+[5.321s] writing list of installed files to '/home/jonnydang2004/QUADRAPED/build/Servo/install.log'
+[5.429s] Invoked command in '/home/jonnydang2004/QUADRAPED/src/Servo' returned '0': PYTHONPATH=/home/jonnydang2004/QUADRAPED/build/Servo/prefix_override:/home/jonnydang2004/QUADRAPED/install/Servo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Servo build --build-base /home/jonnydang2004/QUADRAPED/build/Servo/build install --record /home/jonnydang2004/QUADRAPED/build/Servo/install.log --single-version-externally-managed install_data

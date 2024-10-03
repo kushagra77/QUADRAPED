@@ -1,1 +1,1 @@
-quadruped_interfaces:rclcpp
+adafruit-circuitpython-servokit:ament_python:quadruped_interfaces:rclcpp:rclpy
