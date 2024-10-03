@@ -1,0 +1,21 @@
+/usr/bin/ld: CMakeFiles/motor_config.dir/src/motor_config.cpp.o: in function `MotorConfig::MotorConfig()':
+motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x132): undefined reference to `Servo::Servo()'
+/usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x147): undefined reference to `Servo::Servo()'
+/usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x15c): undefined reference to `Servo::Servo()'
+/usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x171): undefined reference to `Servo::Servo()'
+/usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x186): undefined reference to `Servo::Servo()'
+/usr/bin/ld: CMakeFiles/motor_config.dir/src/motor_config.cpp.o:motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x19b): more undefined references to `Servo::Servo()' follow
+/usr/bin/ld: CMakeFiles/motor_config.dir/src/motor_config.cpp.o: in function `MotorConfig::MotorConfig()':
+motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x49c): undefined reference to `Servo::Servo(unsigned char)'
+/usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x4d1): undefined reference to `Servo::Servo(unsigned char)'
+/usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x506): undefined reference to `Servo::Servo(unsigned char)'
+/usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x53b): undefined reference to `Servo::Servo(unsigned char)'
+/usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x570): undefined reference to `Servo::Servo(unsigned char)'
+/usr/bin/ld: CMakeFiles/motor_config.dir/src/motor_config.cpp.o:motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x5a5): more undefined references to `Servo::Servo(unsigned char)' follow
+/usr/bin/ld: CMakeFiles/motor_config.dir/src/motor_config.cpp.o: in function `MotorConfig::set_servo_angle(Servo, float)':
+motor_config.cpp:(.text._ZN11MotorConfig15set_servo_angleE5Servof[_ZN11MotorConfig15set_servo_angleE5Servof]+0x49): undefined reference to `Servo::goDegree(double)'
+/usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfig15set_servo_angleE5Servof[_ZN11MotorConfig15set_servo_angleE5Servof]+0x6a): undefined reference to `Servo::goDegree(double)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/motor_config.dir/build.make:174: motor_config] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/motor_config.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

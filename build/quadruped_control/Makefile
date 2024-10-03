@@ -223,6 +223,30 @@ motor_config/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_config.dir/build.make CMakeFiles/motor_config.dir/build
 .PHONY : motor_config/fast
 
+src/Servo.o: src/Servo.cpp.o
+.PHONY : src/Servo.o
+
+# target to build an object file
+src/Servo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_config.dir/build.make CMakeFiles/motor_config.dir/src/Servo.cpp.o
+.PHONY : src/Servo.cpp.o
+
+src/Servo.i: src/Servo.cpp.i
+.PHONY : src/Servo.i
+
+# target to preprocess a source file
+src/Servo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_config.dir/build.make CMakeFiles/motor_config.dir/src/Servo.cpp.i
+.PHONY : src/Servo.cpp.i
+
+src/Servo.s: src/Servo.cpp.s
+.PHONY : src/Servo.s
+
+# target to generate assembly for a file
+src/Servo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_config.dir/build.make CMakeFiles/motor_config.dir/src/Servo.cpp.s
+.PHONY : src/Servo.cpp.s
+
 src/inverse_kinematics.o: src/inverse_kinematics.cpp.o
 .PHONY : src/inverse_kinematics.o
 
@@ -288,6 +312,9 @@ help:
 	@echo "... uninstall"
 	@echo "... inverse_kinematics"
 	@echo "... motor_config"
+	@echo "... src/Servo.o"
+	@echo "... src/Servo.i"
+	@echo "... src/Servo.s"
 	@echo "... src/inverse_kinematics.o"
 	@echo "... src/inverse_kinematics.i"
 	@echo "... src/inverse_kinematics.s"

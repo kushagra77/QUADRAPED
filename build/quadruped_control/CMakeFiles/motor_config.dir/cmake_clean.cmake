@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/motor_config.dir/src/Servo.cpp.o"
+  "CMakeFiles/motor_config.dir/src/Servo.cpp.o.d"
   "CMakeFiles/motor_config.dir/src/motor_config.cpp.o"
   "CMakeFiles/motor_config.dir/src/motor_config.cpp.o.d"
   "motor_config"

@@ -1,0 +1,197 @@
+[2.440s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.442s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fb600a17cd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb600a17460>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb600a17460>>, mixin_verb=('build',))
+[4.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.096s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jonnydang2004/QUADRAPED'
+[4.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.227s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.228s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.229s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.231s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.243s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.243s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_control) by extensions ['ignore', 'ignore_ament_install']
+[4.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_control) by extension 'ignore'
+[4.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_control) by extension 'ignore_ament_install'
+[4.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_control) by extensions ['colcon_pkg']
+[4.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_control) by extension 'colcon_pkg'
+[4.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_control) by extensions ['colcon_meta']
+[4.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_control) by extension 'colcon_meta'
+[4.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_control) by extensions ['ros']
+[4.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_control) by extension 'ros'
+[4.294s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadruped_control' with type 'ros.ament_cmake' and name 'quadruped_control'
+[4.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[4.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_interfaces) by extension 'ignore'
+[4.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_interfaces) by extension 'ignore_ament_install'
+[4.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_interfaces) by extensions ['colcon_pkg']
+[4.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_interfaces) by extension 'colcon_pkg'
+[4.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_interfaces) by extensions ['colcon_meta']
+[4.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_interfaces) by extension 'colcon_meta'
+[4.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_interfaces) by extensions ['ros']
+[4.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_interfaces) by extension 'ros'
+[4.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadruped_interfaces' with type 'ros.ament_cmake' and name 'quadruped_interfaces'
+[4.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.487s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 333 installed packages in /opt/ros/iron
+[4.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.714s] Level 5:colcon.colcon_core.verb:set package 'quadruped_interfaces' build argument 'cmake_args' from command line to 'None'
+[4.715s] Level 5:colcon.colcon_core.verb:set package 'quadruped_interfaces' build argument 'cmake_target' from command line to 'None'
+[4.715s] Level 5:colcon.colcon_core.verb:set package 'quadruped_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.715s] Level 5:colcon.colcon_core.verb:set package 'quadruped_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[4.715s] Level 5:colcon.colcon_core.verb:set package 'quadruped_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[4.716s] Level 5:colcon.colcon_core.verb:set package 'quadruped_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[4.716s] Level 5:colcon.colcon_core.verb:set package 'quadruped_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[4.716s] Level 5:colcon.colcon_core.verb:set package 'quadruped_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[4.716s] Level 5:colcon.colcon_core.verb:set package 'quadruped_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.716s] DEBUG:colcon.colcon_core.verb:Building package 'quadruped_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces', 'merge_install': False, 'path': '/home/jonnydang2004/QUADRAPED/src/quadruped_interfaces', 'symlink_install': False, 'test_result_base': None}
+[4.718s] Level 5:colcon.colcon_core.verb:set package 'quadruped_control' build argument 'cmake_args' from command line to 'None'
+[4.718s] Level 5:colcon.colcon_core.verb:set package 'quadruped_control' build argument 'cmake_target' from command line to 'None'
+[4.718s] Level 5:colcon.colcon_core.verb:set package 'quadruped_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.718s] Level 5:colcon.colcon_core.verb:set package 'quadruped_control' build argument 'cmake_clean_cache' from command line to 'False'
+[4.718s] Level 5:colcon.colcon_core.verb:set package 'quadruped_control' build argument 'cmake_clean_first' from command line to 'False'
+[4.719s] Level 5:colcon.colcon_core.verb:set package 'quadruped_control' build argument 'cmake_force_configure' from command line to 'False'
+[4.719s] Level 5:colcon.colcon_core.verb:set package 'quadruped_control' build argument 'ament_cmake_args' from command line to 'None'
+[4.723s] Level 5:colcon.colcon_core.verb:set package 'quadruped_control' build argument 'catkin_cmake_args' from command line to 'None'
+[4.723s] Level 5:colcon.colcon_core.verb:set package 'quadruped_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.724s] DEBUG:colcon.colcon_core.verb:Building package 'quadruped_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jonnydang2004/QUADRAPED/build/quadruped_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jonnydang2004/QUADRAPED/install/quadruped_control', 'merge_install': False, 'path': '/home/jonnydang2004/QUADRAPED/src/quadruped_control', 'symlink_install': False, 'test_result_base': None}
+[4.725s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.730s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.731s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jonnydang2004/QUADRAPED/src/quadruped_interfaces' with build type 'ament_cmake'
+[4.732s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jonnydang2004/QUADRAPED/src/quadruped_interfaces'
+[4.770s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.771s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_interfaces -- -j4 -l4
+[7.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_interfaces -- -j4 -l4
+[7.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/jonnydang2004/QUADRAPED/build/quadruped_interfaces
+[8.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_interfaces)
+[8.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/jonnydang2004/QUADRAPED/build/quadruped_interfaces
+[8.291s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces' for CMake module files
+[8.294s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces' for CMake config files
+[8.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_interfaces', 'cmake_prefix_path')
+[8.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/cmake_prefix_path.ps1'
+[8.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/cmake_prefix_path.dsv'
+[8.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/cmake_prefix_path.sh'
+[8.327s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib'
+[8.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_interfaces', 'ld_library_path_lib')
+[8.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/ld_library_path_lib.ps1'
+[8.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/ld_library_path_lib.dsv'
+[8.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/ld_library_path_lib.sh'
+[8.333s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/bin'
+[8.341s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/pkgconfig/quadruped_interfaces.pc'
+[8.342s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages'
+[8.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_interfaces', 'pythonpath')
+[8.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/pythonpath.ps1'
+[8.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/pythonpath.dsv'
+[8.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/pythonpath.sh'
+[8.350s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/bin'
+[8.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/package.ps1'
+[8.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/package.dsv'
+[8.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/package.sh'
+[8.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/package.bash'
+[8.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/package.zsh'
+[8.395s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/colcon-core/packages/quadruped_interfaces)
+[8.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_interfaces)
+[8.884s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces' for CMake module files
+[8.887s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces' for CMake config files
+[8.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_interfaces', 'cmake_prefix_path')
+[8.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/cmake_prefix_path.ps1'
+[8.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/cmake_prefix_path.dsv'
+[8.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/cmake_prefix_path.sh'
+[8.906s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib'
+[8.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_interfaces', 'ld_library_path_lib')
+[8.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/ld_library_path_lib.ps1'
+[8.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/ld_library_path_lib.dsv'
+[8.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/ld_library_path_lib.sh'
+[8.926s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/bin'
+[8.926s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/pkgconfig/quadruped_interfaces.pc'
+[8.927s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages'
+[8.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_interfaces', 'pythonpath')
+[8.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/pythonpath.ps1'
+[8.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/pythonpath.dsv'
+[8.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/hook/pythonpath.sh'
+[8.938s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/bin'
+[8.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/package.ps1'
+[8.945s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/package.dsv'
+[8.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/package.sh'
+[8.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/package.bash'
+[8.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/package.zsh'
+[8.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/colcon-core/packages/quadruped_interfaces)
+[8.967s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jonnydang2004/QUADRAPED/src/quadruped_control' with build type 'ament_cmake'
+[8.967s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jonnydang2004/QUADRAPED/src/quadruped_control'
+[8.972s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.973s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4
+[71.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control' returned '2': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4
+[71.447s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_control)
+[71.448s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_control' for CMake module files
+[71.449s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_control' for CMake config files
+[71.450s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_control/bin'
+[71.451s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_control/lib/pkgconfig/quadruped_control.pc'
+[71.451s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_control/lib/python3.10/site-packages'
+[71.452s] Level 1:colcon.colcon_core.environment:checking '/home/jonnydang2004/QUADRAPED/install/quadruped_control/bin'
+[71.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/package.ps1'
+[71.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/package.dsv'
+[71.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/package.sh'
+[71.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/package.bash'
+[71.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/package.zsh'
+[71.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jonnydang2004/QUADRAPED/install/quadruped_control/share/colcon-core/packages/quadruped_control)
+[71.478s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[71.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[71.480s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[71.480s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[71.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[71.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[71.791s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[71.791s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[71.795s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[71.795s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[71.796s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jonnydang2004/QUADRAPED/install/local_setup.ps1'
+[71.799s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jonnydang2004/QUADRAPED/install/_local_setup_util_ps1.py'
+[71.803s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jonnydang2004/QUADRAPED/install/setup.ps1'
+[71.807s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jonnydang2004/QUADRAPED/install/local_setup.sh'
+[71.811s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jonnydang2004/QUADRAPED/install/_local_setup_util_sh.py'
+[71.817s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jonnydang2004/QUADRAPED/install/setup.sh'
+[71.821s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jonnydang2004/QUADRAPED/install/local_setup.bash'
+[71.832s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jonnydang2004/QUADRAPED/install/setup.bash'
+[71.837s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jonnydang2004/QUADRAPED/install/local_setup.zsh'
+[71.841s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jonnydang2004/QUADRAPED/install/setup.zsh'

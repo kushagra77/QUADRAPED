@@ -1,0 +1,28 @@
+[0.506s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4
+[0.763s] [35m[1mConsolidate compiler generated dependencies of target inverse_kinematics[0m
+[0.809s] [35m[1mConsolidate compiler generated dependencies of target motor_config[0m
+[0.958s] [ 25%] [32mBuilding CXX object CMakeFiles/motor_config.dir/src/motor_config.cpp.o[0m
+[0.980s] [ 75%] Built target inverse_kinematics
+[36.144s] [100%] [32m[1mLinking CXX executable motor_config[0m
+[37.988s] /usr/bin/ld: CMakeFiles/motor_config.dir/src/motor_config.cpp.o: in function `MotorConfig::MotorConfig()':
+[37.988s] motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x132): undefined reference to `Servo::Servo()'
+[37.989s] /usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x147): undefined reference to `Servo::Servo()'
+[37.989s] /usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x15c): undefined reference to `Servo::Servo()'
+[37.990s] /usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x171): undefined reference to `Servo::Servo()'
+[37.992s] /usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x186): undefined reference to `Servo::Servo()'
+[37.996s] /usr/bin/ld: CMakeFiles/motor_config.dir/src/motor_config.cpp.o:motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x19b): more undefined references to `Servo::Servo()' follow
+[38.001s] /usr/bin/ld: CMakeFiles/motor_config.dir/src/motor_config.cpp.o: in function `MotorConfig::MotorConfig()':
+[38.002s] motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x49c): undefined reference to `Servo::Servo(unsigned char)'
+[38.008s] /usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x4d1): undefined reference to `Servo::Servo(unsigned char)'
+[38.008s] /usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x506): undefined reference to `Servo::Servo(unsigned char)'
+[38.008s] /usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x53b): undefined reference to `Servo::Servo(unsigned char)'
+[38.009s] /usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x570): undefined reference to `Servo::Servo(unsigned char)'
+[38.022s] /usr/bin/ld: CMakeFiles/motor_config.dir/src/motor_config.cpp.o:motor_config.cpp:(.text._ZN11MotorConfigC2Ev[_ZN11MotorConfigC5Ev]+0x5a5): more undefined references to `Servo::Servo(unsigned char)' follow
+[38.022s] /usr/bin/ld: CMakeFiles/motor_config.dir/src/motor_config.cpp.o: in function `MotorConfig::set_servo_angle(Servo, float)':
+[38.023s] motor_config.cpp:(.text._ZN11MotorConfig15set_servo_angleE5Servof[_ZN11MotorConfig15set_servo_angleE5Servof]+0x49): undefined reference to `Servo::goDegree(double)'
+[38.023s] /usr/bin/ld: motor_config.cpp:(.text._ZN11MotorConfig15set_servo_angleE5Servof[_ZN11MotorConfig15set_servo_angleE5Servof]+0x6a): undefined reference to `Servo::goDegree(double)'
+[38.180s] collect2: error: ld returned 1 exit status
+[38.197s] gmake[2]: *** [CMakeFiles/motor_config.dir/build.make:174: motor_config] Error 1
+[38.198s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/motor_config.dir/all] Error 2
+[38.198s] gmake: *** [Makefile:146: all] Error 2
+[38.204s] Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control' returned '2': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4

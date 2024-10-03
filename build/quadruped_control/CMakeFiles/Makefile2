@@ -163,12 +163,12 @@ CMakeFiles/inverse_kinematics.dir/clean:
 CMakeFiles/motor_config.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_config.dir/build.make CMakeFiles/motor_config.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_config.dir/build.make CMakeFiles/motor_config.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonnydang2004/QUADRAPED/build/quadruped_control/CMakeFiles --progress-num=3,4 "Built target motor_config"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonnydang2004/QUADRAPED/build/quadruped_control/CMakeFiles --progress-num=3,4,5 "Built target motor_config"
 .PHONY : CMakeFiles/motor_config.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/motor_config.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonnydang2004/QUADRAPED/build/quadruped_control/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonnydang2004/QUADRAPED/build/quadruped_control/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/motor_config.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonnydang2004/QUADRAPED/build/quadruped_control/CMakeFiles 0
 .PHONY : CMakeFiles/motor_config.dir/rule
