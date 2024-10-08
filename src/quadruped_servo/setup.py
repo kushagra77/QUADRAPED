@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'servo_node = servo_control.servo_node:main'
+            'servo_node = quadruped_servo.servo_node:main'
         ],
     },
 )
