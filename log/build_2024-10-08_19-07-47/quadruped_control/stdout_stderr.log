@@ -1,0 +1,45 @@
+-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 4.1.5 (/opt/ros/iron/share/rclpy/cmake)
+-- Found quadruped_interfaces: 0.0.0 (/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake)
+-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/jonnydang2004/QUADRAPED/src/quadruped_control/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jonnydang2004/QUADRAPED/build/quadruped_control
+[35m[1mConsolidate compiler generated dependencies of target inverse_kinematics[0m
+[35m[1mConsolidate compiler generated dependencies of target motor_config[0m
+[ 50%] Built target inverse_kinematics
+[ 75%] [32mBuilding CXX object CMakeFiles/motor_config.dir/src/motor_config.cpp.o[0m
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:141:5:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ does not name a type
+  141 |     [01;31m[KServo[m[K front_left_upper_servo, front_left_lower_servo;
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:142:5:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ does not name a type
+  142 |     [01;31m[KServo[m[K front_right_upper_servo, front_right_lower_servo;
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:143:5:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ does not name a type
+  143 |     [01;31m[KServo[m[K back_left_upper_servo, back_left_lower_servo;
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:144:5:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ does not name a type
+  144 |     [01;31m[KServo[m[K back_right_upper_servo, back_right_lower_servo;
+      |     [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/motor_config.dir/build.make:76: CMakeFiles/motor_config.dir/src/motor_config.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/motor_config.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

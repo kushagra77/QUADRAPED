@@ -1,0 +1,31 @@
+[0.287s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4
+[0.389s] [35m[1mConsolidate compiler generated dependencies of target motor_config[0m
+[0.479s] [ 50%] Built target inverse_kinematics
+[0.479s] [ 75%] [32mBuilding CXX object CMakeFiles/motor_config.dir/src/motor_config.cpp.o[0m
+[27.324s] [100%] [32m[1mLinking CXX executable motor_config[0m
+[28.632s] [100%] Built target motor_config
+[28.661s] Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control' returned '0': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4
+[28.744s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jonnydang2004/QUADRAPED/build/quadruped_control
+[28.777s] -- Install configuration: ""
+[28.780s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/lib/quadruped_control/inverse_kinematics
+[28.824s] -- Set runtime path of "/home/jonnydang2004/QUADRAPED/install/quadruped_control/lib/quadruped_control/inverse_kinematics" to ""
+[28.824s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/lib/quadruped_control/motor_config
+[28.840s] -- Set runtime path of "/home/jonnydang2004/QUADRAPED/install/quadruped_control/lib/quadruped_control/motor_config" to ""
+[28.840s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/launch
+[28.840s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/launch/launch.py
+[28.852s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/ament_index/resource_index/package_run_dependencies/quadruped_control
+[28.855s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/ament_index/resource_index/parent_prefix_path/quadruped_control
+[28.855s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/environment/ament_prefix_path.sh
+[28.855s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/environment/ament_prefix_path.dsv
+[28.856s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/environment/path.sh
+[28.856s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/environment/path.dsv
+[28.856s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/local_setup.bash
+[28.856s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/local_setup.sh
+[28.856s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/local_setup.zsh
+[28.857s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/local_setup.dsv
+[28.857s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/package.dsv
+[28.857s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/ament_index/resource_index/packages/quadruped_control
+[28.857s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/cmake/quadruped_controlConfig.cmake
+[28.858s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/cmake/quadruped_controlConfig-version.cmake
+[28.858s] -- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/package.xml
+[28.883s] Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control' returned '0': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jonnydang2004/QUADRAPED/build/quadruped_control

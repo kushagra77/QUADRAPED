@@ -1,0 +1,15 @@
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:141:5:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ does not name a type
+  141 |     [01;31m[KServo[m[K front_left_upper_servo, front_left_lower_servo;
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:142:5:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ does not name a type
+  142 |     [01;31m[KServo[m[K front_right_upper_servo, front_right_lower_servo;
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:143:5:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ does not name a type
+  143 |     [01;31m[KServo[m[K back_left_upper_servo, back_left_lower_servo;
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:144:5:[m[K [01;31m[Kerror: [m[K‘[01m[KServo[m[K’ does not name a type
+  144 |     [01;31m[KServo[m[K back_right_upper_servo, back_right_lower_servo;
+      |     [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/motor_config.dir/build.make:76: CMakeFiles/motor_config.dir/src/motor_config.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/motor_config.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -7,7 +7,7 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(ament_cmake_python REQUIRED)
+# find_package(ament_cmake_python REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -15,14 +15,16 @@ find_package(ament_cmake_python REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(quadruped_interfaces REQUIRED)
+# find_package(quadruped_servo REQUIRED)
+find_package(std_msgs REQUIRED)
 
 include_directories(include)
 
 add_executable(inverse_kinematics src/inverse_kinematics.cpp)
 ament_target_dependencies(inverse_kinematics rclcpp quadruped_interfaces)
 
-add_executable(motor_config src/motor_config.cpp src/Servo.py)
-ament_target_dependencies(motor_config rclcpp quadruped_interfaces)
+add_executable(motor_config src/motor_config.cpp)
+ament_target_dependencies(motor_config rclcpp quadruped_interfaces std_msgs)
 
 # target_link_libraries(motor_config pigpio rclcpp quadruped_interfaces)
 # target_link_libraries(motor_config /usr/lib/libpigpio.so rclcpp quadruped_interfaces)
@@ -32,11 +34,11 @@ install(TARGETS
   motor_config
   DESTINATION lib/${PROJECT_NAME})
 
-ament_python_install_package(${PROJECT_NAME})
+# ament_python_install_package(${PROJECT_NAME})
 
-install(PROGRAMS
-  scripts/Servo.py
-  DESTINATION lib/${PROJECT_NAME})
+# install(PROGRAMS
+#   scripts/Servo.py
+#   DESTINATION lib/${PROJECT_NAME})
 
   #install launch directory
 install(DIRECTORY

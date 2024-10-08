@@ -8,28 +8,30 @@
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-  <buildtool_depend>ament_cmake_python</buildtool_depend>
+  <!-- <buildtool_depend>ament_cmake_python</buildtool_depend> -->
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
   <depend>rclcpp</depend>
-  <depend>rclpy</depend>
   <depend>quadruped_interfaces</depend>
+  <depend>std_msgs</depend>
+
+  <!-- <depend>quadruped_servo</depend> -->
 
   <!-- <launch>
   <node pkg="quadruped_control" exec="motor_config" name="servos"/>
   <node pkg="quadruped_control" exec="inverse_kinematics" name="inverse_kinematics"/>
   </launch> -->
 
-  <exec_depend>rclpy</exec_depend>
+  <!-- <exec_depend>rclpy</exec_depend> -->
 
   <!-- Python dependency for servo control -->
-  <exec_depend>adafruit-circuitpython-servokit</exec_depend>
+  <!-- <exec_depend>adafruit-circuitpython-servokit</exec_depend> -->
 
   <!-- Ensure the installation of your script -->
-  <build_depend>ament_cmake_python</build_depend>
-  <exec_depend>ament_python</exec_depend>
+  <!-- <build_depend>ament_cmake_python</build_depend>
+  <exec_depend>ament_python</exec_depend> -->
 
   <export>
     <build_type>ament_cmake</build_type>

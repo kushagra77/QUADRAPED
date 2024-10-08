@@ -1,0 +1,45 @@
+[0.309s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4
+[0.369s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.786s] -- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)
+[1.304s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.387s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.503s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.583s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.159s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.162s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[10.769s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.047s] -- Found rclpy: 4.1.5 (/opt/ros/iron/share/rclpy/cmake)
+[11.047s] -- Found quadruped_interfaces: 0.0.0 (/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake)
+[11.078s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[11.190s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.190s] -- Configured cppcheck include dirs: /home/jonnydang2004/QUADRAPED/src/quadruped_control/include
+[11.190s] -- Configured cppcheck exclude dirs and/or files: 
+[11.191s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.191s] -- Configured 'flake8' exclude dirs and/or files: 
+[11.192s] -- Added test 'lint_cmake' to check CMake code style
+[11.193s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.194s] -- Added test 'uncrustify' to check C / C++ code style
+[11.195s] -- Configured uncrustify additional arguments: 
+[11.195s] -- Added test 'xmllint' to check XML markup files
+[11.197s] -- Configuring done
+[11.276s] -- Generating done
+[11.283s] -- Build files have been written to: /home/jonnydang2004/QUADRAPED/build/quadruped_control
+[11.336s] [35m[1mConsolidate compiler generated dependencies of target motor_config[0m
+[11.337s] [35m[1mConsolidate compiler generated dependencies of target inverse_kinematics[0m
+[11.728s] [ 25%] [32mBuilding CXX object CMakeFiles/motor_config.dir/src/motor_config.cpp.o[0m
+[11.736s] [ 50%] [32mBuilding CXX object CMakeFiles/inverse_kinematics.dir/src/inverse_kinematics.cpp.o[0m
+[13.102s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/motor_config.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kquadruped_servo/quadruped_servo/servo.py: No such file or directory
+[13.102s]     7 | #include [01;31m[K"quadruped_servo/quadruped_servo/servo.py"[m[K
+[13.102s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.102s] compilation terminated.
+[13.109s] gmake[2]: *** [CMakeFiles/motor_config.dir/build.make:76: CMakeFiles/motor_config.dir/src/motor_config.cpp.o] Error 1
+[13.109s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/motor_config.dir/all] Error 2
+[13.109s] gmake[1]: *** Waiting for unfinished jobs....
+[17.908s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:[m[K In member function ‘[01m[KInverseKinematics::pos InverseKinematics::getCoords(InverseKinematics::pos)[m[K’:
+[17.908s] [01m[K/home/jonnydang2004/QUADRAPED/src/quadruped_control/src/inverse_kinematics.cpp:83:39:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kbeta2[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[17.908s]    83 |         double theta1, theta2, beta1, [01;35m[Kbeta2[m[K;
+[17.908s]       |                                       [01;35m[K^~~~~[m[K
+[28.367s] [ 75%] [32m[1mLinking CXX executable inverse_kinematics[0m
+[29.631s] [ 75%] Built target inverse_kinematics
+[29.634s] gmake: *** [Makefile:146: all] Error 2
+[29.638s] Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control' returned '2': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4

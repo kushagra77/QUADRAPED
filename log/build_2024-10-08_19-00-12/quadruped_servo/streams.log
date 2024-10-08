@@ -1,0 +1,38 @@
+[3.482s] Invoking command in '/home/jonnydang2004/QUADRAPED/src/quadruped_servo': PYTHONPATH=/home/jonnydang2004/QUADRAPED/build/quadruped_servo/prefix_override:/home/jonnydang2004/QUADRAPED/install/quadruped_servo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/quadruped_servo build --build-base /home/jonnydang2004/QUADRAPED/build/quadruped_servo/build install --record /home/jonnydang2004/QUADRAPED/build/quadruped_servo/install.log --single-version-externally-managed install_data
+[4.905s] running egg_info
+[4.907s] creating ../../build/quadruped_servo/quadruped_servo.egg-info
+[4.912s] writing ../../build/quadruped_servo/quadruped_servo.egg-info/PKG-INFO
+[4.914s] writing dependency_links to ../../build/quadruped_servo/quadruped_servo.egg-info/dependency_links.txt
+[4.914s] writing entry points to ../../build/quadruped_servo/quadruped_servo.egg-info/entry_points.txt
+[4.914s] writing requirements to ../../build/quadruped_servo/quadruped_servo.egg-info/requires.txt
+[4.914s] writing top-level names to ../../build/quadruped_servo/quadruped_servo.egg-info/top_level.txt
+[4.915s] writing manifest file '../../build/quadruped_servo/quadruped_servo.egg-info/SOURCES.txt'
+[4.922s] reading manifest file '../../build/quadruped_servo/quadruped_servo.egg-info/SOURCES.txt'
+[4.922s] adding license file 'LICENSE'
+[4.927s] writing manifest file '../../build/quadruped_servo/quadruped_servo.egg-info/SOURCES.txt'
+[4.929s] running build
+[4.935s] running build_py
+[4.935s] creating /home/jonnydang2004/QUADRAPED/build/quadruped_servo/build
+[4.936s] creating /home/jonnydang2004/QUADRAPED/build/quadruped_servo/build/lib
+[4.936s] creating /home/jonnydang2004/QUADRAPED/build/quadruped_servo/build/lib/quadruped_servo
+[4.936s] copying quadruped_servo/servo.py -> /home/jonnydang2004/QUADRAPED/build/quadruped_servo/build/lib/quadruped_servo
+[4.937s] copying quadruped_servo/__init__.py -> /home/jonnydang2004/QUADRAPED/build/quadruped_servo/build/lib/quadruped_servo
+[4.937s] running install
+[4.937s] running install_lib
+[4.938s] creating /home/jonnydang2004/QUADRAPED/install/quadruped_servo/lib/python3.10/site-packages/quadruped_servo
+[4.949s] copying /home/jonnydang2004/QUADRAPED/build/quadruped_servo/build/lib/quadruped_servo/servo.py -> /home/jonnydang2004/QUADRAPED/install/quadruped_servo/lib/python3.10/site-packages/quadruped_servo
+[4.950s] copying /home/jonnydang2004/QUADRAPED/build/quadruped_servo/build/lib/quadruped_servo/__init__.py -> /home/jonnydang2004/QUADRAPED/install/quadruped_servo/lib/python3.10/site-packages/quadruped_servo
+[4.950s] byte-compiling /home/jonnydang2004/QUADRAPED/install/quadruped_servo/lib/python3.10/site-packages/quadruped_servo/servo.py to servo.cpython-310.pyc
+[4.960s] byte-compiling /home/jonnydang2004/QUADRAPED/install/quadruped_servo/lib/python3.10/site-packages/quadruped_servo/__init__.py to __init__.cpython-310.pyc
+[4.960s] running install_data
+[4.961s] creating /home/jonnydang2004/QUADRAPED/install/quadruped_servo/share/ament_index
+[4.961s] creating /home/jonnydang2004/QUADRAPED/install/quadruped_servo/share/ament_index/resource_index
+[4.961s] creating /home/jonnydang2004/QUADRAPED/install/quadruped_servo/share/ament_index/resource_index/packages
+[4.961s] copying resource/quadruped_servo -> /home/jonnydang2004/QUADRAPED/install/quadruped_servo/share/ament_index/resource_index/packages
+[4.962s] copying package.xml -> /home/jonnydang2004/QUADRAPED/install/quadruped_servo/share/quadruped_servo
+[4.962s] running install_egg_info
+[4.981s] Copying ../../build/quadruped_servo/quadruped_servo.egg-info to /home/jonnydang2004/QUADRAPED/install/quadruped_servo/lib/python3.10/site-packages/quadruped_servo-0.0.0-py3.10.egg-info
+[4.982s] running install_scripts
+[5.138s] Installing servo_node script to /home/jonnydang2004/QUADRAPED/install/quadruped_servo/lib/quadruped_servo
+[5.146s] writing list of installed files to '/home/jonnydang2004/QUADRAPED/build/quadruped_servo/install.log'
+[5.288s] Invoked command in '/home/jonnydang2004/QUADRAPED/src/quadruped_servo' returned '0': PYTHONPATH=/home/jonnydang2004/QUADRAPED/build/quadruped_servo/prefix_override:/home/jonnydang2004/QUADRAPED/install/quadruped_servo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/quadruped_servo build --build-base /home/jonnydang2004/QUADRAPED/build/quadruped_servo/build install --record /home/jonnydang2004/QUADRAPED/build/quadruped_servo/install.log --single-version-externally-managed install_data

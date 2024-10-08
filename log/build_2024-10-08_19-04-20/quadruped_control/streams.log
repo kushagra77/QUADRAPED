@@ -1,0 +1,40 @@
+[0.279s] Invoking command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4
+[0.331s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.854s] -- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)
+[1.287s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.311s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.359s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.948s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.952s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[11.596s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.867s] -- Found rclpy: 4.1.5 (/opt/ros/iron/share/rclpy/cmake)
+[11.868s] -- Found quadruped_interfaces: 0.0.0 (/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/share/quadruped_interfaces/cmake)
+[11.906s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[12.048s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.048s] -- Configured cppcheck include dirs: /home/jonnydang2004/QUADRAPED/src/quadruped_control/include
+[12.048s] -- Configured cppcheck exclude dirs and/or files: 
+[12.050s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.050s] -- Configured 'flake8' exclude dirs and/or files: 
+[12.052s] -- Added test 'lint_cmake' to check CMake code style
+[12.053s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[12.055s] -- Added test 'uncrustify' to check C / C++ code style
+[12.055s] -- Configured uncrustify additional arguments: 
+[12.056s] -- Added test 'xmllint' to check XML markup files
+[12.061s] -- Configuring done
+[12.076s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[12.076s]   Cannot find source file:
+[12.076s] 
+[12.076s]     src/Servo.py
+[12.076s] 
+[12.077s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[12.077s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[12.077s] 
+[12.077s] [0m
+[12.078s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[12.078s]   No SOURCES given to target: motor_config
+[12.078s] 
+[12.078s] [0m
+[12.078s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[12.090s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[12.094s] Invoked command in '/home/jonnydang2004/QUADRAPED/build/quadruped_control' returned '2': AMENT_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jonnydang2004/QUADRAPED/install/quadruped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jonnydang2004/QUADRAPED/build/quadruped_control -- -j4 -l4
