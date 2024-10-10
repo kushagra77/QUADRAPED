@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target motor_config[0m
+[ 50%] Built target inverse_kinematics
+[ 75%] [32mBuilding CXX object CMakeFiles/motor_config.dir/src/motor_config.cpp.o[0m
+[100%] [32m[1mLinking CXX executable motor_config[0m
+[100%] Built target motor_config
+-- Install configuration: ""
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/lib/quadruped_control/inverse_kinematics
+-- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/lib/quadruped_control/motor_config
+-- Set runtime path of "/home/jonnydang2004/QUADRAPED/install/quadruped_control/lib/quadruped_control/motor_config" to ""
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/launch
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/launch/launch.py
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/ament_index/resource_index/package_run_dependencies/quadruped_control
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/ament_index/resource_index/parent_prefix_path/quadruped_control
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/environment/path.sh
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/environment/path.dsv
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/local_setup.bash
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/local_setup.sh
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/local_setup.zsh
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/local_setup.dsv
+-- Installing: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/package.dsv
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/ament_index/resource_index/packages/quadruped_control
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/cmake/quadruped_controlConfig.cmake
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/cmake/quadruped_controlConfig-version.cmake
+-- Up-to-date: /home/jonnydang2004/QUADRAPED/install/quadruped_control/share/quadruped_control/package.xml
